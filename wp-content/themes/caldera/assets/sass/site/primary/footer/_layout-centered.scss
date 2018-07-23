@@ -1,0 +1,38 @@
+.site-footer.centered {
+	.footer {
+		&-copyright {
+			display: block;
+			vertical-align: middle;
+		}
+		&-menu {
+			display: block;
+			vertical-align: middle;
+			@include media-breakpoint-up(xl) {
+			}
+		}
+	}
+	.widget {
+		margin-bottom: 0;
+		border-bottom: none;
+		@media (max-width: 768px) {
+			margin-bottom: 30px;
+		}
+	}
+	.follow-block {
+		border-bottom: none;
+		padding: 0;
+		@media (max-width: 768px) {
+			text-align: center;
+		}
+	}
+	.subscribe-block {
+		padding-left: 0;
+		padding-right: 0;
+		border-top: none;
+	}
+	.widget-subscribe {
+		&:after {
+			display: none;
+		}
+	}
+}

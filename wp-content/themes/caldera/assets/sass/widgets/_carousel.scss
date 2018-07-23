@@ -1,0 +1,87 @@
+.swiper {
+	&-carousel-container {
+		position: relative;
+		.swiper_btns {
+			position: absolute;
+			top: -90px;
+			right: 0;
+		}
+	}
+	&-slide {
+		&:hover {
+			background: none;
+
+			@include border-radius;
+		}
+		.widget-carousel & {
+			display: flex;
+			height: auto;
+		}
+		.inner {
+			display: flex;
+			overflow: hidden;
+			flex-direction: column;
+			width: 100%;
+
+			@include border-radius;
+			justify-content: space-between;
+			align-self: stretch;
+		}
+		.entry {
+			&-content {
+				margin: 0;
+				padding: 0;
+			}
+			&-footer {
+				margin: 1.5em 0;
+				padding: 0;
+			}
+		}
+		.post-thumbnail__link {
+			display: block;
+			overflow: hidden;
+			margin-bottom: 13px;
+		}
+		.post-thumbnail__img {
+			display: block;
+			width: 100%;
+			@include transition(all 1s ease);
+		}
+		.post__excerpt {
+			padding-bottom: 20px;
+		}
+		.post__cats {
+			position: absolute;
+			top: 0 !important;
+			left: 0 !important;
+		}
+	}
+	&-pagination {
+		position: static;
+	}
+	&-button-next,
+	&-button-prev {
+		top: 50%;
+		display: none;
+		width: 58px;
+		height: 58px;
+		margin: -29px 0 0 0;
+		background: none;
+		opacity: 0.35;
+		.fa,
+		.material-icons {
+			margin: 17px;
+		}
+	}
+	&-button-next {
+		right: 0;
+
+		@include border-left-radius($border__radius);
+	}
+	&-button-prev {
+		left: 0;
+
+		@include border-right-radius($border__radius);
+	}
+
+}

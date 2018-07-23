@@ -1,0 +1,23 @@
+html {
+	@include font-size(1);
+}
+
+button,
+input,
+select,
+textarea {
+}
+
+.page .entry-content #tm_builder_outer_content .tm_pb_module > img {
+	margin-top: 10px;
+	@media (max-width: 767px) {
+		margin-top: 0;
+	}
+}
+
+.single .entry-content p > img {
+	margin-bottom: 28px;
+}
+
+@import "headings";
+@import "copy";

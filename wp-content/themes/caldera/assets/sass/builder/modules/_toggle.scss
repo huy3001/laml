@@ -1,0 +1,64 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_toggle {
+		padding: 2px 0;
+		background: none;
+		border: none;
+		.tm_pb_toggle_title {
+			cursor: pointer;
+			position: relative;
+			padding: 0 0 0 20px;
+			font-size: 22px;
+			&:before {
+				position: relative;
+				left: 0;
+				font-size: 16px;
+				color: $color__not-available;
+				top: auto;
+				margin-top: 0;
+				margin-right: 9px;
+			}
+		}
+		&.tm_pb_toggle_close {
+			background: none;
+			.tm_pb_toggle_title {
+				padding-left: 0;
+				display: block;
+				&:before {
+					font-family: 'Material Icons';
+					font-weight: 400;
+					font-style: normal;
+					content: '\e315';
+					font-size: 32px;
+					line-height: 1em;
+					vertical-align: middle;
+					float: left;
+				}
+			}
+			.tm_pb_toggle_content {
+				display: none;
+			}
+		}
+		&.tm_pb_toggle_open {
+			background: none;
+			.tm_pb_toggle_title {
+				padding-left: 0;
+				&:before {
+					font-family: 'Material Icons';
+					font-weight: 400;
+					font-style: normal;
+					content: '\e313';
+					font-size: 32px;
+					line-height: 1em;
+					vertical-align: middle;
+				}
+			}
+		}
+		.tm_pb_toggle_content {
+			padding-top: 5px;
+			padding-right: 30px;
+			p:last-of-type {
+				padding-bottom: 0;
+			}
+		}
+	}
+}

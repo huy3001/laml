@@ -1,0 +1,29 @@
+.top-panel__menu {
+	display: none;
+	@include media-breakpoint-up(sm) {
+		display: block;
+	}
+	@include media-breakpoint-up(md) {
+		float: left;
+	}
+	&-list {
+		text-align: center;
+		.menu-item {
+			margin: 0 22px 0 0;
+			font-size: .9rem;
+			letter-spacing: -.8px;
+			a {
+				text-decoration: none;
+				&:focus {
+					outline: none;
+				}
+			}
+			&.current-menu-item,
+			&.current_page_item {
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

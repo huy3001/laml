@@ -1,0 +1,341 @@
+.tm_pb_builder #tm_builder_outer_content {
+
+	.tm_pb_audio_module button {
+		box-shadow: none;
+		text-shadow: none;
+		min-height: 0;
+	}
+
+	.tm_pb_audio_module_content h2 {
+		padding-bottom: 26px;
+		line-height: 1em;
+		font-size: 22px;
+	}
+
+	.tm_pb_column_1_2,
+	.tm_pb_column_1_3,
+	.tm_pb_column_1_4,
+	.tm_pb_column_2_3,
+	.tm_pb_column_3_4 {
+		.tm_pb_audio_module_content {
+			padding: 65px 40px 103px 60px;
+			@media (max-width: 991px) {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+		}
+	}
+	.tm_pb_audio_module_content {
+		padding: 65px 40px 103px 60px;
+		@media (max-width: 991px) {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	.tm_audio_container {
+		.mejs-mediaelement {
+			background: transparent;
+		}
+
+		.mejs-time-handle,
+		.mejs-volume-slider,
+		.mejs-clear {
+			display: block !important;
+		}
+
+		.mejs-controls {
+			box-shadow: none;
+			bottom: auto !important;
+			margin-left: -10px;
+		}
+
+		span.mejs-currenttime {
+			font-size: 15px;
+			text-shadow: none;
+			font-weight: 400;
+		}
+
+		p.tm_audio_module_meta {
+			margin-bottom: 17px;
+			font-size: 13px;
+			font-weight: 400;
+			strong {
+				font-weight: 400;
+			}
+		}
+
+		.mejs-button {
+			&.mejs-playpause-button,
+			&.mejs-volume-button,
+			&.mejs-playpause-button button,
+			&.mejs-volume-button button {
+				border: none;
+				box-shadow: none;
+				background: none;
+			}
+		}
+	}
+
+	.mejs-volume-button button::after,
+	.mejs-pause button::after {
+		display: none !important;
+	}
+
+	.tm_audio_container {
+		span.mejs-offscreen {
+			display: none;
+		}
+
+		.mejs-controls .mejs-horizontal-volume-slider {
+			width: 50px;
+		}
+
+		.mejs-controls .mejs-button button:focus {
+			text-decoration: none !important;
+		}
+
+		.mejs-controls .mejs-time-rail .mejs-time-float {
+			border: none !important;
+		}
+
+		button:focus {
+			box-shadow: none;
+		}
+
+		span.mejs-time-float-current {
+			min-width: 30px;
+		}
+	}
+
+	.tm_audio_container {
+		.mejs-container {
+			background: none;
+			height: auto;
+			margin-top: -6px;
+		}
+
+		.mejs-embed {
+			background: none;
+			height: auto;
+
+			body {
+				background: none;
+				height: auto;
+			}
+		}
+
+		.mejs-container .mejs-controls {
+			background: none;
+			height: auto;
+		}
+
+		.mejs-time.mejs-currenttime-container,
+		.mejs-controls .mejs-time-rail .mejs-time-loaded {
+			display: none !important;
+		}
+
+		.mejs-time.mejs-currenttime-container.custom {
+			display: block !important;
+			padding: 0;
+			margin-left: -45px;
+			height: 30px;
+			line-height: inherit;
+			margin-top: 15px;
+			z-index: 1;
+			position: relative;
+		}
+
+		.mejs-controls {
+			.mejs-time-rail .mejs-time-total {
+				height: 30px;
+				margin: 12px 0;
+				width: 100% !important;
+				top: 0;
+			}
+			.mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+				height: 11px;
+				margin: 22px 0;
+				width: 118px;
+				top: 0;
+			}
+		}
+	}
+
+	.tm_audio_container {
+		span.mejs-time-total.mejs-time-slider {
+			display: block !important;
+			position: relative !important;
+			max-width: 100%;
+		}
+	}
+
+	.tm_audio_container {
+		.mejs-controls {
+
+			div.mejs-time-rail {
+				padding-top: 0;
+				position: relative;
+				display: block !important;
+
+			}
+
+			.mejs-time-rail .mejs-time-current {
+				height: 30px;
+			}
+			.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+				height: 11px;
+			}
+
+			.mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+				top: 22px;
+			}
+
+			.mejs-time-rail .mejs-time-handle {
+				display: none !important;
+				top: -5px;
+				border: none;
+				width: 24px;
+				height: 24px;
+				border-radius: 15px;
+			}
+
+			.mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+				display: none !important;
+				top: -5px;
+				border: none;
+				border-radius: 15px;
+				width: 24px;
+				height: 24px;
+				position: absolute;
+				top: 7px;
+			}
+
+			a.mejs-horizontal-volume-slider {
+				height: 30px;
+				margin-left: 5px;
+				display: block !important;
+				float: left;
+				margin-top: 10px;
+			}
+
+			div.mejs-horizontal-volume-slider {
+				height: 4px;
+			}
+
+			div.mejs-time-rail {
+				width: calc(100% - 40px) !important;
+			}
+
+			.mejs-time-rail {
+				span,
+				a {
+					width: auto;
+				}
+			}
+
+			.mejs-playpause-button {
+				width: 30px;
+				height: 30px;
+				margin-right: 10px;
+				button {
+					width: inherit;
+					height: inherit;
+					margin: 0;
+					margin: 9px 0 0;
+					&:before {
+						font-family: 'Material Icons';
+						font-weight: 400;
+						font-style: normal;
+						content: '\e037';
+						font-size: 33px;
+						vertical-align: middle;
+					}
+				}
+				&.mejs-pause {
+					button {
+						&:before {
+							content: '\e034';
+						}
+					}
+				}
+			}
+
+			.mejs-volume-button {
+				margin-left: 0;
+				margin-right: 10px;
+				margin-top: 17px;
+				clear: both;
+				button {
+					&:before {
+						font-family: 'Material Icons';
+						font-weight: 400;
+						font-style: normal;
+						font-size: 25px;
+						vertical-align: middle;
+						content: '\e050';
+					}
+				}
+				&.mejs-unmute {
+					button {
+						&:before {
+							content: '\e04f';
+						}
+					}
+				}
+				&.mejs-mute {
+					button {
+						&:before {
+							content: "\e050";
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.tm_pb_audio_module {
+		position: relative;
+	}
+
+	.tm_pb_audio_cover_art {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		@media (max-width: 991px) {
+			position: relative;
+			width: 100%;
+			height: 200px;
+		}
+	}
+
+	.tm_pb_audio_module_content {
+		margin-left: 400px;
+		text-align: left;
+		@media (max-width: 991px) {
+			margin-left: 0;
+		}
+		h2 {
+			margin-bottom: -5px;
+		}
+	}
+
+	.tm_audio_module_meta {
+		margin-bottom: 17px;
+	}
+
+	.tm_pb_audio_no_image .tm_pb_audio_module_content {
+		margin-left: 0;
+	}
+}
+
+.cherry-projects-audio-list .mejs-controls .mejs-time-total.mejs-time-slider {
+	.mejs-time-loaded,
+	.mejs-time-current {
+		height: 100%;
+	}
+}

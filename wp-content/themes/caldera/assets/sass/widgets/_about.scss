@@ -1,0 +1,43 @@
+.widget-about {
+	&__logo {
+		padding-bottom: 10px;
+	}
+	&__logo-img {
+		vertical-align: top;
+	}
+	&__content {
+	}
+}
+
+.site-footer {
+	.widget-about {
+		&__logo {
+			display: block;
+			float: none;
+		}
+		&__tagline {
+			font-size: 13px;
+			display: block;
+			float: none;
+			margin: 6px 0 0 5px;
+			p {
+				margin: 0;
+			}
+		}
+		&__content {
+			@include font-size(0.88);
+			max-width: 300px;
+			line-height: 1.75;
+		}
+		@include media-breakpoint-up(lg) {
+			&__logo,
+			&__tagline,
+			&__content {
+				text-align: center;
+			}
+			&__content {
+				margin: 0 auto;
+			}
+		}
+	}
+}

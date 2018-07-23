@@ -1,0 +1,21 @@
+#tm_builder_outer_content .tm_pb_video_play:before{
+	color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_light + .tm_pb_carousel .tm-pb-arrow-prev,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_light + .tm_pb_carousel .tm-pb-arrow-next,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_light + .tm_pb_carousel .tm_pb_video_play,
+#tm_builder_outer_content .tm_pb_video_play {
+	color: $invert_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_dark + .tm_pb_carousel .tm-pb-arrow-prev,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_dark + .tm_pb_carousel .tm-pb-arrow-next,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_slider_carousel.tm_pb_controls_dark + .tm_pb_carousel .tm_pb_video_play,
+#tm_builder_outer_content .tm_pb_bg_layout_light .tm_pb_video_play {
+	color: $regular_accent_color_2;
+}
+#tm_builder_outer_content .tm_pb_video_slider .tm_pb_slider_dots.tm_pb_controls_light + .tm-pb-controllers .tm-pb-active-control {
+	background-color: $invert_accent_color_1;
+}
+#tm_builder_outer_content .tm_pb_video_slider .tm_pb_slider_dots .tm_pb_controls_dark + .tm-pb-controllers .tm-pb-active-control {
+	background-color: $regular_accent_color_2;
+}

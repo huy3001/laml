@@ -1,0 +1,71 @@
+.entry-content #tm_builder_outer_content .tm_pb_module {
+	ul, ol {
+		margin: 0 0 23px;
+		padding: 0;
+		li {
+			margin: 0 0 14px;
+		}
+	}
+	* + ul, * + ol {
+		margin-top: 40px;
+	}
+	li > ul, li > ol {
+		margin-top: 14px;
+	}
+
+	ul {
+		list-style: none;
+		> li {
+			position: relative;
+			padding-left: 25px;
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 10px;
+				width: 6px;
+				height: 6px;
+				border: 2px solid;
+				background-color: transparent;
+			}
+		}
+	}
+
+	ol {
+		list-style: decimal;
+		counter-reset: li;
+		> li {
+			&:before {
+				content: counter(li) ".";
+				counter-increment: li;
+				font-weight: 700;
+				min-width: 15px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	li > ul,
+	li > ol {
+		margin-bottom: 0;
+		margin-left: 1.5em;
+	}
+
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		margin: 0 1.5em 1.5em;
+	}
+}
+
+/* Inline list */
+.inline-list {
+	@include reset-list;
+	li {
+		display: inline-block;
+		vertical-align: top;
+	}
+}

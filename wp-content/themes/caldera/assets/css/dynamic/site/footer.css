@@ -1,0 +1,19 @@
+/* #Footer */
+.site-footer {
+	background-color: $footer_bg;
+}
+.footer-area-wrap {
+	background-color: $footer_widgets_bg;
+}
+.site-info a:hover {
+	color: $regular_text_color;
+}
+.site-footer .widget-about__tagline {
+	color: $invert_accent_color_1;
+}
+.site-footer .footer-copyright {
+	color: @darken( $invert_text_color, 29% );
+}
+.site-footer.default .footer-container {
+	border-color: $regular_accent_color_2;
+}

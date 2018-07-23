@@ -1,0 +1,20 @@
+/*Map*/
+.tm_pb_builder #tm_builder_outer_content .gm-style-iw,
+.tm_pb_builder #tm_builder_outer_content .gm-style-iw h3{
+	color: $invert_text_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .gm-style-iw .infowindow p strong{
+	color: $invert_text_color !important;
+}
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:last-child > div:last-child > div > div:first-child > div:first-child + div + div > div:first-child > div,
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:nth-last-child(2) > div:last-child > div > div:first-child > div:first-child + div + div > div:first-child > div,
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:last-child > div:last-child > div > div:first-child > div:first-child + div + div > div:first-child + div > div,
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:nth-last-child(2) > div:last-child > div > div:first-child > div:first-child + div + div > div:first-child + div > div{
+	background: $invert_accent_color_2 !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:nth-last-child(2) > div:last-child > div > div:first-child > div:last-child,
+.tm_pb_builder #tm_builder_outer_content .gm-style > div:first-child > div:last-child > div:last-child > div > div:first-child > div:last-child {
+	background: $invert_accent_color_2 !important;
+}

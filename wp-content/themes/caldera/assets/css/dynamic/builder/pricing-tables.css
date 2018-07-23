@@ -1,0 +1,29 @@
+#tm_builder_outer_content .tm_pb_pricing_heading {
+	  background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_featured_table .tm_pb_pricing_heading {
+	background-color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing li:before {
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing .tm_pb_dollar_sign {
+	color: $invert_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_pricing_table > div {
+	background: $regular_accent_color_2;
+	color: $invert_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_pricing_heading h2,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_best_value,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_frequency,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_sum {
+	color: $invert_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_best_value {
+	border-color: $invert_accent_color_1;
+}

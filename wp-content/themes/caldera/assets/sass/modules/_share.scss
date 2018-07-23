@@ -1,0 +1,22 @@
+.share-btns {
+	&__list {
+		padding-top: 26px;
+		.hentry & {
+			float: left;
+
+		}
+	}
+	&__item {
+		display: inline-block;
+		vertical-align: top;
+	}
+	&__link {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+		margin-right: 26px;
+		@include transition(all 0.3s ease-out);
+		@include font-size(1);
+	}
+}

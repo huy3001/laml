@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Tables 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ninja-tables\n"
+"POT-Creation-Date: 2017-12-09 10:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-13 19:56+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: sk_SK\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/NinjaTablesAdmin.php:59 admin/NinjaTablesAdmin.php:68
+#: admin/NinjaTablesAdmin.php:70 admin/NinjaTablesAdmin.php:99
+#: admin/NinjaTablesAdmin.php:100
+msgid "Ninja Tables"
+msgstr "Tabuľky"
+
+#: admin/NinjaTablesAdmin.php:69
+msgid "Table"
+msgstr "Tabuľka"
+
+#: admin/NinjaTablesAdmin.php:71
+msgid "Add Table"
+msgstr "Pridať tabuľku"
+
+#: admin/NinjaTablesAdmin.php:72
+msgid "Add New Table"
+msgstr "Pridať novú tabuľku"
+
+#: admin/NinjaTablesAdmin.php:73
+msgid "Edit"
+msgstr "Zmeniť"
+
+#: admin/NinjaTablesAdmin.php:74
+msgid "Edit Table"
+msgstr "Zmeniť tabuľku"
+
+#: admin/NinjaTablesAdmin.php:75
+msgid "New Table"
+msgstr "Nová tabuľka"
+
+#: admin/NinjaTablesAdmin.php:76 admin/NinjaTablesAdmin.php:77
+msgid "View Table"
+msgstr "Zobraziť tabuľku"
+
+#: admin/NinjaTablesAdmin.php:78
+msgid "Search Table"
+msgstr "Vyhľadať tabuľku"
+
+#: admin/NinjaTablesAdmin.php:79
+msgid "No Table Found"
+msgstr "Nenašli sa tabuľky"
+
+#: admin/NinjaTablesAdmin.php:80
+msgid "No Table Found in Trash"
+msgstr "V koši sa nenašla žiadna tabuľka"
+
+#: admin/NinjaTablesAdmin.php:82
+msgid "Parent Table"
+msgstr "Nadriadená tabuľka"
+
+#: admin/NinjaTablesAdmin.php:107
+msgid "All Tables"
+msgstr "Všetky tabuľky"
+
+#: admin/NinjaTablesAdmin.php:112
+msgid "Tools"
+msgstr "Nástroje"
+
+#: admin/NinjaTablesAdmin.php:117
+msgid "Import a Table"
+msgstr "Import tabuľky"
+
+#: admin/NinjaTablesAdmin.php:122
+msgid "Help"
+msgstr "Pomoc"
+
+#: admin/NinjaTablesAdmin.php:242
+msgid "The name field is required."
+msgstr "Názov tabuľky sa musí zapísať."
+
+#: admin/NinjaTablesAdmin.php:259
+msgid "Successfully added table."
+msgstr "Tabuľka bola úspešne pridaná."
+
+#: admin/NinjaTablesAdmin.php:266
+msgid "Successfully updated table."
+msgstr "Tabuľka bola úspešne aktualizovaná."
+
+#: admin/NinjaTablesAdmin.php:285
+msgid "No appropriate driver found for the import format."
+msgstr "Formát zdrojového súboru nie je kompatibilný."
+
+#: admin/NinjaTablesAdmin.php:343
+msgid "Sorry, we could not import the table."
+msgstr "Tabuľku nie je možné načítať."
+
+#: admin/NinjaTablesAdmin.php:415 admin/NinjaTablesAdmin.php:434
+#: admin/NinjaTablesAdmin.php:478
+msgid "Successfully added a table."
+msgstr "Tabuľka bola úspešne pridaná."
+
+#: admin/NinjaTablesAdmin.php:449
+msgid "You have a faulty JSON file. Please export a new one."
+msgstr "Váš súbor JSON je poškodený. Spravte nový export."
+
+#: admin/NinjaTablesAdmin.php:487
+msgid "Temporary table name"
+msgstr "Dočasný názov tabuľky"
+
+#: admin/NinjaTablesAdmin.php:488
+msgid "Temporary table description"
+msgstr "Dočasný popis tabuľky"
+
+#: admin/NinjaTablesAdmin.php:608
+msgid "Successfully updated configuration."
+msgstr "Nastavenia boli úspešne uložené."
+
+#: admin/NinjaTablesAdmin.php:629
+msgid "Invalid Table to Delete"
+msgstr "Nesprávna tabuľka na vymazanie"
+
+#: admin/NinjaTablesAdmin.php:647
+msgid "Successfully deleted the table."
+msgstr "Tabuľka bola vymazaná."
+
+#: admin/NinjaTablesAdmin.php:725
+msgid "Successfully saved the data."
+msgstr "Dáta boli úspešne uložené."
+
+#: admin/NinjaTablesAdmin.php:749
+msgid "Successfully deleted data."
+msgstr "Dáta boli úspešne vymazané."
+
+#: admin/NinjaTablesAdmin.php:767
+msgid "Please set table configuration."
+msgstr "Prosím, tabuľku musíte nakonfigurovať."
+
+#: admin/NinjaTablesAdmin.php:785
+msgid "Please use the provided CSV header structure."
+msgstr "Prosím, v CSV súbore použite danú štruktúru dát."
+
+#: admin/NinjaTablesAdmin.php:807
+msgid "Successfully uploaded data."
+msgstr "Dáta boli úspešne načítané."
+
+#: admin/NinjaTablesAdmin.php:910
+msgid "Select a Table to insert"
+msgstr "Zvoľte tabuľku na pridanie"
+
+#: admin/NinjaTablesAdmin.php:911
+msgid "Insert Ninja Tables Shortcode"
+msgstr "Vložiť krátky kód tabuľky"
+
+#: admin/NinjaTablesAdmin.php:913
+msgid "Insert Shortcode"
+msgstr "Vložiť krátky kód"
+
+#: admin/NinjaTablesAdmin.php:932
+msgid "Select a Table"
+msgstr "Zvoliť tabuľku"
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:33
+msgid "Search in"
+msgstr "Hľadať v"
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:34
+msgid "Search"
+msgstr "Hľadať"
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:35
+msgid "No Result Found"
+msgstr "Nenašiel sa žiadny výsledok"
+
+#. Description of the plugin
+msgid ""
+"The Easiest & Fastest Responsive Table Plugin on WordPress. Multiple "
+"templates, drag-&-drop live table builder, multiple color scheme, and styles."
+msgstr ""
+"Najjednoduchší a najrýchlejší WordPress plugin pre vytváranie tabuliek. "
+"Plugin obsahuje niekoľko príkladov tabuliek, jednoduchý editor tabuliek. "
+"niekoľko farebných schém a štýlov."
+
+#. URI of the plugin
+msgid "https://wpmanageninja.com/plugins/ninja-tables/"
+msgstr "https://wpmanageninja.com/plugins/ninja-tables/"
+
+#. Author of the plugin/theme
+msgid "WPManageNinja"
+msgstr "WPManageNinja"
+
+#. Author URI of the plugin
+msgid "https://wpmanageninja.com/"
+msgstr "https://wpmanageninja.com/"

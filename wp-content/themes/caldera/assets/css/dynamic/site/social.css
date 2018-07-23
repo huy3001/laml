@@ -1,0 +1,25 @@
+/* #Social */
+.social-list a,
+.share-btns__link,
+.share-btns__link:hover {
+	color: $regular_text_color;
+}
+.social-list a:hover {
+	color: $regular_accent_color_1;
+}
+.social-list--header .menu-item a,
+.social-list--footer .menu-item a {
+	color: $regular_accent_color_1;
+}
+.social-list--header .menu-item a:hover,
+.social-list--footer .menu-item a:hover{
+	color: $invert_link_color;
+}
+
+/* #Social (invert scheme) */
+.invert .social-list a {
+	color: $invert_link_color;
+}
+.invert .social-list a:hover {
+	color: $regular_accent_color_2;
+}

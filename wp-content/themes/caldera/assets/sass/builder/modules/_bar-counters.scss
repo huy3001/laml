@@ -1,0 +1,58 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_counters {
+		list-style: none !important;
+		padding: 0 !important;
+		line-height: inherit !important;
+		> div {
+			margin-bottom: 25px;
+		}
+	}
+
+	.tm_pb_counter_title {
+		font-size: 22px;
+		line-height: 1.6em;
+		display: block;
+		font-weight: 700;
+		margin-bottom: 19px;
+		word-wrap: break-word;
+	}
+
+	.tm_pb_counter_container {
+		margin-bottom: 10px;
+		overflow: hidden;
+		position: relative;
+		display: block;
+	}
+
+	.tm_pb_counter_amount {
+		opacity: 0;
+		float: left;
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 1.7em;
+		text-align: left;
+		padding: 1px 3% 1px 1px;
+		display: block;
+		min-height: 6px;
+		position: relative;
+		.tm_pb_counter_amount_number {
+			margin-left: 10px;
+		}
+		&:before {
+			content: '';
+			display: inline-block;
+			border: 15px solid transparent;
+			border-left: 15px solid;
+			border-top: 15px solid;
+			position: absolute;
+			top: 0;
+			right: -30px;
+			z-index: 0;
+		}
+	}
+
+	.tm-animated .tm_pb_counter_amount {
+		opacity: 1;
+		animation: slideWidth 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	}
+}

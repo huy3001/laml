@@ -1,0 +1,73 @@
+.not-found.error-404 {
+	margin-bottom: 1em;
+	text-align: left;
+
+	@include card;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 2em
+	}
+	.page-title {
+		margin: 25px 0;
+	}
+	.page-title {
+
+	}
+	h4 {
+		margin: 0 0 25px;
+	}
+	.btn {
+		padding-right: 28px;
+		padding-left: 28px;
+		letter-spacing: .5px;
+		width: auto;
+		margin: 0;
+		flex-basis: 100px;
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: 700;
+		i {
+			font-family: inherit;
+			margin: 0;
+			display: inline-block;
+			font-size: inherit;
+			text-transform: inherit;
+			font-weight: inherit;
+			color: inherit;
+		}
+	}
+	.search-form {
+		padding-top: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		label {
+			flex-basis: 100%;
+			flex-grow: 1;
+		}
+		&__submit {
+			&.btn-primary {
+				margin-top: 15px;
+			}
+		}
+		@include media-breakpoint-up(sm) {
+			max-width: 418px;
+
+			label {
+				flex-basis: auto;
+			}
+			&__submit {
+				&.btn-primary {
+					margin-left: 15px;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.caption {
+		margin: 87px 0 0;
+		padding: 82px 0;
+		border-top: 1px solid #353535;
+	}
+	h2 + p {
+		margin-top: 50px;
+	}
+}

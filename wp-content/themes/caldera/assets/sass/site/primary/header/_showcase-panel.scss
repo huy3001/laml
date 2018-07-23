@@ -1,0 +1,72 @@
+.showcase-active {
+	.header-wrapper {
+		position: relative;
+		background-size: cover;
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+		}
+		@include media-breakpoint-up(xl) {
+			min-height: 100vh;
+		}
+	}
+}
+
+.showcase-panel{
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px 15px 55px;
+
+	&__title {
+		margin-bottom: 25px;
+	}
+	&__subtitle{
+		margin-bottom: 29px;
+		letter-spacing: 3px;
+	}
+	&__description{
+		margin-bottom: 51px;
+		max-width: 600px;
+		display: none;
+	}
+	&__btn {
+		padding: 20px 28px;
+		@include font-size(0.9);
+		text-transform: uppercase;
+		font-weight: 700;
+		background: transparent;
+	}
+	@include media-breakpoint-up(md) {
+		max-width: 760px;
+		padding: 80px 15px 55px;
+
+		&__subtitle{
+			margin-bottom: 48px;
+		}
+
+		&__description{
+			display: block;
+		}
+	}
+	@include media-breakpoint-up(lg) {
+		max-width: 940px;
+	}
+	@include media-breakpoint-up(xl) {
+		max-width: 1000px;
+		padding: 167px 15px 100px;
+
+		&__btn {
+			padding: 26px 48px;
+		}
+	}
+}
+.btn.showcase-panel__btn {
+	background: transparent;
+}

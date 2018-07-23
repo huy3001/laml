@@ -1,0 +1,198 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Tables 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ninja-tables\n"
+"POT-Creation-Date: 2017-12-09 10:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. #-#-#-#-#  ninja-tables.pot (Ninja Tables 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/NinjaTablesAdmin.php:59 admin/NinjaTablesAdmin.php:68
+#: admin/NinjaTablesAdmin.php:70 admin/NinjaTablesAdmin.php:99
+#: admin/NinjaTablesAdmin.php:100
+msgid "Ninja Tables"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:69
+msgid "Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:71
+msgid "Add Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:72
+msgid "Add New Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:73
+msgid "Edit"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:74
+msgid "Edit Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:75
+msgid "New Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:76 admin/NinjaTablesAdmin.php:77
+msgid "View Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:78
+msgid "Search Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:79
+msgid "No Table Found"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:80
+msgid "No Table Found in Trash"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:82
+msgid "Parent Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:107
+msgid "All Tables"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:112
+msgid "Tools"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:117
+msgid "Import a Table"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:122
+msgid "Help"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:242
+msgid "The name field is required."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:259
+msgid "Successfully added table."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:266
+msgid "Successfully updated table."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:285
+msgid "No appropriate driver found for the import format."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:343
+msgid "Sorry, we could not import the table."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:415 admin/NinjaTablesAdmin.php:434
+#: admin/NinjaTablesAdmin.php:478
+msgid "Successfully added a table."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:449
+msgid "You have a faulty JSON file. Please export a new one."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:487
+msgid "Temporary table name"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:488
+msgid "Temporary table description"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:608
+msgid "Successfully updated configuration."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:629
+msgid "Invalid Table to Delete"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:647
+msgid "Successfully deleted the table."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:725
+msgid "Successfully saved the data."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:749
+msgid "Successfully deleted data."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:767
+msgid "Please set table configuration."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:785
+msgid "Please use the provided CSV header structure."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:807
+msgid "Successfully uploaded data."
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:910
+msgid "Select a Table to insert"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:911
+msgid "Insert Ninja Tables Shortcode"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:913
+msgid "Insert Shortcode"
+msgstr ""
+
+#: admin/NinjaTablesAdmin.php:932
+msgid "Select a Table"
+msgstr ""
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:33
+msgid "Search in"
+msgstr ""
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:34
+msgid "Search"
+msgstr ""
+
+#: includes/libs/TableDrivers/NinjaFooTable.php:35
+msgid "No Result Found"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The Easiest & Fastest Responsive Table Plugin on WordPress. Multiple "
+"templates, drag-&-drop live table builder, multiple color scheme, and styles."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpmanageninja.com/plugins/ninja-tables/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPManageNinja"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpmanageninja.com/"
+msgstr ""

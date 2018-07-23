@@ -1,0 +1,132 @@
+.site-header.default {
+	.site-branding {
+		padding: 0;
+		order: 0;
+		flex: 1 0 auto;
+		text-align: center;
+		@include media-breakpoint-up(md) {
+			order: 0;
+			flex: 0 1 auto;
+			text-align: left;
+			padding: 0 0 20px;
+		}
+		.site-description {
+			@media (max-width: 767px) {
+				margin-top: -3px;
+			}
+		}
+	}
+	.main-navigation {
+		order: 2;
+		align-self: center;
+		@include media-breakpoint-up(md) {
+			order: 1;
+		}
+		@include media-breakpoint-only(md) {
+			order: 3;
+		}
+
+		> .menu {
+			justify-content: flex-start;
+			@media (max-width: 767px) {
+				margin-top: 19px;
+				padding-top: 43px;
+				padding-bottom: 43px;
+				position: absolute;
+				width: 100%;
+			}
+			@media (max-width: 500px) {
+				width: calc(100% - 50px);
+			}
+			@media (max-width: 480px) {
+				width: 100%;
+				left: 0;
+			}
+			> .menu-item > a {
+				padding: 16px 23px 39px;
+				border-bottom: none;
+
+				@media (max-width: 767px) {
+					padding: 12px 30px;
+					text-transform: uppercase;
+					font-weight: 700;
+				}
+				@include media-breakpoint-up(md) {
+					margin: 16px 23px 39px;
+					padding: 0;
+				}
+			}
+		}
+		.menu > li::after {
+			right: 6px;
+			margin-top: 0;
+		}
+
+		.menu-toggle {
+			@media (max-width: 767px) {
+				margin-top: 6px;
+			}
+		}
+	}
+	.header-container_wrap {
+		@media (max-width: 767px) {
+			width: 100%;
+		}
+	}
+
+	.header__search {
+		.search-form__toggle {
+			top: 2px;
+		}
+		@media (min-width: 992px) {
+			margin: -34px 0 0;
+		}
+		@media (max-width: 767px) {
+			.search-form__toggle {
+				top: -6px;
+			}
+		}
+	}
+
+	.header-container {
+		padding-top: 48px;
+		@media (max-width: 767px) {
+			display: flex;
+			padding-top: 52px;
+			padding-bottom: 10px;
+		}
+	}
+	.header-container__flex {
+		flex-direction: column;
+		@media (min-width: 767px) {
+			display: block;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.isStuck {
+			.main-navigation {
+				> .menu > .menu-item > a {
+					padding: 22px 23px;
+				}
+			}
+		}
+	}
+}
+
+.header_caption {
+	position: relative;
+	align-self: center;
+	&.isStuck {
+		&:after {
+			@media (min-width: 767px) {
+				z-index: 0;
+			}
+		}
+	}
+	@media (max-width: 767px) {
+		position: relative !important;
+		top: 0 !important;
+		min-height: 45px;
+	}
+}

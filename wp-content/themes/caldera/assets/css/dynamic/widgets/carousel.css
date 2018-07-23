@@ -1,0 +1,100 @@
+/* #Carousel */
+.swiper-pagination-bullet {
+	background-color: $regular_accent_color_1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	color: $invert_link_color;
+}
+.swiper-button-prev:not(.swiper-button-disabled):hover,
+.swiper-button-next:not(.swiper-button-disabled):hover,
+.swiper-navigation .swiper-button-prev:not(.swiper-button-disabled):hover,
+.swiper-navigation .swiper-button-next:not(.swiper-button-disabled):hover,
+.swiper-carousel-container .swiper-button-prev:not(.swiper-button-disabled):hover,
+.swiper-carousel-container .swiper-button-next:not(.swiper-button-disabled):hover
+ {
+	opacity: 1;
+}
+.swiper-slide h6 {
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+	font-size: @font_size($h5_font_size, multiple, ceil,1)px;
+	line-height: $h5_line_height;
+	font-family: @font_family( $h5_font_family );
+	letter-spacing: $h5_letter_spacing{px};
+	text-align: $h5_text_align;
+	color: $regular_h5_color;
+}
+.swiper-wrapper .swiper-slide span .post-date .post__date-link, .swiper-wrapper .swiper-slide span .post-comments .post__comments-link {
+	color: $regular_text_color;
+}
+.swiper-wrapper .swiper-slide span .post-date .post__date-link:hover, .swiper-wrapper .swiper-slide span .post-comments .post__comments-link:hover {
+	color: $regular_link_color;
+}
+.swiper-slide .post__date, .swiper-slide .post__comments {
+	color: $regular_text_color;
+}
+.swiper-slide .post__date:hover, .swiper-slide .post__comments:hover {
+	color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper > .btn{
+	color: $invert_accent_color_1;
+	background: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper > .btn .btn__text {
+	color: $invert_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper > .btn:hover{
+	color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper > .btn:hover .btn__text {
+	color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper .btn:hover {
+	border-color: $regular_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper .entry-footer .btn {
+	color: $regular_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper .entry-footer .btn:hover {
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .swiper-navigation .swiper-button-prev,
+.tm_pb_builder #tm_builder_outer_content .swiper-navigation .swiper-button-next {
+	color: $regular_accent_color_2;
+	border-color: $regular_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper .swiper-pagination-bullet-active {
+	background: $regular_accent_color_2;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_swiper .swiper-pagination-bullet {
+	border-color: $regular_accent_color_2;
+}
+#tm_builder_outer_content .tm_pb_taxonomy .post-count {
+	color: $invert_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev, .tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next {
+	background: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover, .tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover {
+	background: $regular_accent_color_2;
+}
+#tm_builder_outer_content .tm_pb_module .swiper-slide h6 a,
+#tm_builder_outer_content .tm_pb_module .swiper-slide .post-meta a{
+	color: $regular_accent_color_1;
+}
+#tm_builder_outer_content .tm_pb_module .swiper-slide h6 a:hover,
+#tm_builder_outer_content .tm_pb_module .swiper-slide .post-meta a:hover{
+	color: $regular_link_hover_color;
+}
+#tm_builder_outer_content .tm_pb_slider .tm-pb-controllers a.tm-pb-active-control, #tm_builder_outer_content .tm_pb_slider .tm-pb-controllers a:hover {
+	background: $invert_accent_color_1;
+}
+.tm_pb_builder #tm_builder_outer_content .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.tm_pb_builder #tm_builder_outer_content .swiper-pagination .swiper-pagination-bullet:hover {
+	background: $invert_accent_color_1;
+}

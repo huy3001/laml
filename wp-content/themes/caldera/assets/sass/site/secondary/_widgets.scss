@@ -1,0 +1,38 @@
+.widget {
+	margin-bottom: 86px;
+	padding-bottom: 90px;
+	border-bottom: 1px solid;
+	&:last-child {
+		border-bottom: none;
+		&:after {
+			display: none;
+		}
+	}
+	&-title {
+		margin: 0 0 36px;
+	}
+	& + .widget {
+		margin-top: 0;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+	}
+	.sidebar-primary &,
+	.sidebar-secondary &,
+	.footer-area & {
+		margin-top: 0;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+	}
+	&:last-child {
+		.widget-area & {
+			margin-bottom: 30px;
+		}
+	}
+	select {
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,7 @@
+.invert .widget-image-grid__content::before{
+	background: $regular_accent_color_2;
+}
+.invert .widget-image-grid__title a:hover,
+.invert .widget-image-grid__link:hover {
+	color: $regular_accent_color_1;
+}

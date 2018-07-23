@@ -1,0 +1,74 @@
+/*!
+Theme Name: Caldera
+Theme URI: http://www.templatemonster.com/
+Author: Template Monster
+Author URI: http://www.templatemonster.com/
+Description: Your theme description.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: caldera
+Tags: blue, white, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+blank is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+	## Social List
+# Accessibility
+# Alignments
+# Clearings
+# Grid
+# Widgets
+# Content
+	## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "main";
+@import "modules/accordion";
+@import "modules/audio";
+@import "modules/bar-counters";
+@import "modules/blog";
+@import "modules/blurb";
+@import "modules/button";
+@import "modules/brands-showcase";
+@import "modules/call-to-action";
+@import "modules/carousel";
+@import "modules/circle-counter";
+@import "modules/contact-form";
+@import "modules/countdown-timer";
+@import "modules/number-counter";
+@import "modules/person";
+@import "modules/posts";
+@import "modules/pricing-tables";
+@import "modules/projects";
+@import "modules/projects-terms";
+@import "modules/slider";
+@import "modules/social-media-follow";
+@import "modules/testimonial";
+@import "modules/toggle";
+@import "modules/tabs";
+@import "modules/taxonomy";
+@import "modules/map";
+@import "modules/video-slider";

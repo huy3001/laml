@@ -1,0 +1,15 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_number_counter .percent {
+	color: $invert_link_color;
+	background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_module .tm_pb_number_counter .percent + * {
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_number_counter h3 {
+	color: $regular_text_color;
+}
+#tm_builder_outer_content .tm_pb_module.tm_pb_number_counter span.percent-value {
+	color: $invert_text_color;
+}

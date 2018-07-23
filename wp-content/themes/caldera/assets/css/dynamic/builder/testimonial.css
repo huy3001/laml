@@ -1,0 +1,26 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_testimonial::before {
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_testimonial .tm_pb_testimonial_author {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_testimonial .tm_pb_testimonial_meta {
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_testimonial .tm_pb_testimonial_meta a {
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_testimonial .tm_pb_testimonial_meta a:hover {
+	color: $regular_link_hover_color;
+}
+
+#tm_builder_outer_content .tm_pb_testimonial_description:before {
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_testimonial_meta {
+	color: $invert_accent_color_1;
+}

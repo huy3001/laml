@@ -1,0 +1,193 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_countdown_timer_container {
+		word-wrap: break-word;
+		text-align: left !important;
+	}
+
+	.tm_pb_countdown_timer .section {
+		width: auto;
+	}
+
+	.tm_pb_column_1_4 .tm_pb_countdown_timer .section {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.tm_pb_column_1_2 .tm_pb_countdown_timer {
+		.section {
+			font-size: 38px;
+			line-height: 38px;
+
+			&.label {
+				font-size: 12px;
+				line-height: 20px;
+			}
+		}
+
+		.sep {
+			top: -22px;
+		}
+	}
+
+	.tm_pb_column_3_8 .tm_pb_countdown_timer .sep,
+	.tm_pb_column_1_3 .tm_pb_countdown_timer .sep,
+	.tm_pb_column_1_4 .tm_pb_countdown_timer .sep {
+		top: -22px;
+	}
+
+	.tm_pb_column_1_3 .tm_pb_countdown_timer .title,
+	.tm_pb_column_1_4 .tm_pb_countdown_timer .title {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.tm_pb_column_3_8 .tm_pb_countdown_timer .section,
+	.tm_pb_column_1_3 .tm_pb_countdown_timer .section,
+	.tm_pb_column_1_4 .tm_pb_countdown_timer .section {
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	.tm_pb_column_3_8 .tm_pb_countdown_timer .section .label,
+	.tm_pb_column_1_3 .tm_pb_countdown_timer .section .label,
+	.tm_pb_column_1_4 .tm_pb_countdown_timer .section .label {
+		font-size: 11px;
+		line-height: 19px;
+	}
+
+	.tm_vertical_nav {
+		.tm_pb_column_3_8 .tm_pb_countdown_timer {
+			.section .value,
+			.sep {
+				font-size: 20px;
+				line-height: 20px;
+			}
+		}
+
+		.tm_pb_column_1_3 .tm_pb_countdown_timer {
+			.section .value,
+			.sep {
+				font-size: 20px;
+				line-height: 20px;
+			}
+		}
+
+		.tm_pb_column_1_4 .tm_pb_countdown_timer {
+			.section .value,
+			.sep {
+				font-size: 20px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	.countdown-sep {
+		&:before {
+			content: ":";
+		}
+	}
+
+	.tm_pb_countdown_timer {
+		padding: 0;
+		background-size: cover;
+		background-position: 50% 0%;
+		.tm_pb_countdown_timer_container {
+			width: 100%;
+
+		}
+
+		.title {
+			font-size: 26px;
+			font-weight: 700;
+			margin: 0 0 30px;
+			padding: 0;
+			text-align: center;
+		}
+
+		.section {
+			display: inline-block;
+
+			&.values {
+				width: auto;
+				padding: 53px 0;
+				margin-bottom: 50px;
+				box-sizing: border-box;
+				width: 185px;
+				@media (max-width: 1199px) {
+					width: 175px;
+				}
+				@media (max-width: 991px) {
+					width: 125px;
+				}
+				@media (max-width: 767px) {
+					width: 175px;
+				}
+				@media (max-width: 500px) {
+					width: 200px;
+				}
+				@media (max-width: 320px) {
+					width: 100%;
+					margin-bottom: 30px;
+				}
+			}
+
+			.value {
+				font-size: 80px;
+				line-height: 1em;
+				font-weight: 700;
+				padding-bottom: 8px;
+				text-align: center;
+				display: block;
+				@media (max-width: 991px) {
+					font-size: 50px;
+				}
+			}
+
+			&.zero span {
+				opacity: 1;
+			}
+
+			.label {
+				text-align: center;
+				font-size: 17px;
+				line-height: 25px;
+				display: block;
+				font-weight: 700;
+			}
+		}
+
+		.sep {
+			position: relative;
+			top: -28px;
+			margin: 0 18px;
+			opacity: 0;
+			@media (max-width: 320px) {
+				display: none
+			}
+		}
+	}
+
+	.tm_pb_countdown_timer_circle_layout {
+		.section {
+			&.values {
+				display: inline-flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				span {
+					display: block;
+					order: 0;
+					flex: 1 1 100%;
+					align-self: auto;
+					text-align: center;
+				}
+			}
+			&.sep {
+				top: 0;
+			}
+		}
+	}
+
+}

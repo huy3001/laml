@@ -1,0 +1,28 @@
+$color__background-screen: #f1f1f1;
+$color__background-hr: #e0e0e8;
+$color__background-input: #ffffff;
+$color__background-white: #ffffff;
+$color__background-black: #000000;
+$color__background-pre: #eee;
+$color__background-slider-dark: #eb6f31;
+$color__background-slider-light: #f5f5f5;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-white: #fff;
+$color__text-black: #000;
+
+$color__border-white: #fff;
+$color__border-swiper: #eaeaea;
+$color__border-posts: #cecece;
+$color__border-button: #ccc;
+$color__border-input: #cecece;
+$color__border-showcase: #3c3c3c;
+$color__showcase-divider: #ddd;
+$color__border-abbr: #666;
+$color__border-table: $color__background-hr;
+$color__border-pre: darken( $color__background-pre, 10% );
+
+$color__not-valid: #f94545;
+$color__valid: #398f14;
+$color__not-available: #ccc;

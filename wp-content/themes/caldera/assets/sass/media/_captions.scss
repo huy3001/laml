@@ -1,0 +1,22 @@
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+		@include center-block;
+	}
+
+	.wp-caption-text {
+		margin: 0.8075em 0;
+		@include font-size(.75);
+	}
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+#tm_builder_outer_content .layout-grid .caption .btn-wrap a.more-link,
+#tm_builder_outer_content .layout-grid .caption .btn-wrap a.more-link:hover {
+	background: transparent;
+}

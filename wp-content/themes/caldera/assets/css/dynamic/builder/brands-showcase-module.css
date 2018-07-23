@@ -1,0 +1,35 @@
+#tm_builder_outer_content .tm_pb_brands_showcase_module__super-title {
+font-size: $h3_font_size{px};
+line-height: $h3_line_height;
+letter-spacing: $h3_letter_spacing{px};
+}
+#tm_builder_outer_content .tm_pb_brands_showcase_module__title {
+font-size: $h2_font_size{px};
+line-height: $h2_line_height;
+letter-spacing: $h2_letter_spacing{px};
+}
+#tm_builder_outer_content .tm_pb_brands_showcase_module__sub-title {
+font-size: $h5_font_size{px};
+line-height: $h5_line_height;
+letter-spacing: $h5_letter_spacing{px};
+}
+#tm_builder_outer_content .tm_pb_brands_showcase_module__brands .tm_pb_brands_showcase_module__item__title {
+font-size: $h5_font_size{px};
+line-height: $h5_line_height;
+letter-spacing: $h5_letter_spacing{px};
+}
+#tm_builder_outer_content .tm_pb_brands_showcase_module__brands .tm_pb_brands_showcase_module__item__title {
+	color: $regular_text_color;
+}
+#tm_builder_outer_content .tm_pb_brands_showcase_module__brands .tm_pb_brands_showcase_module__item__description {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+font-size: $body_font_size{px};
+line-height: $body_line_height;
+font-family: @font_family( $body_font_family );
+letter-spacing: $body_letter_spacing{px};
+color: $regular_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_brands_showcase_module__divider {
+
+}

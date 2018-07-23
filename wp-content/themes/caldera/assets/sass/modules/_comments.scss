@@ -1,0 +1,106 @@
+.comments {
+	&-area {
+		position: relative;
+		margin-bottom: 1em;
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 2em;
+		}
+	}
+}
+
+.comment {
+	&-list {
+		margin: 0;
+		padding: 0 0 20px;
+		list-style: none;
+		.children {
+			margin-left: 0;
+			padding-left: 10px;
+			list-style: none;
+
+			@include media-breakpoint-up(lg) {
+				padding-left: 30px;
+			}
+		}
+		> .comment,
+		> .ping {
+			margin-bottom: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+
+			@include media-breakpoint-up(lg) {
+				padding-right: 30px;
+				padding-left: 30px;
+			}
+		}
+	}
+	&-content {
+		a {
+			word-wrap: break-word;
+		}
+	}
+	&-body {
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		@include media-breakpoint-up(lg) {
+			padding-top: 30px;
+			padding-bottom: 15px;
+		}
+		&__holder {
+			position: relative;
+			padding-right: 18px;
+		}
+		.avatar {
+			float: left;
+			width: 40px;
+			margin: 0 15px 10px 0;
+			border-radius: 50%;
+
+			@include media-breakpoint-up(lg) {
+				width: auto;
+				margin: 0 30px 15px 0;
+			}
+		}
+		.fn {
+			margin-right: 0;
+			font-size: 13px;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+		.reply {
+			position: absolute;
+			z-index: 9;
+			top: 0;
+			right: 0;
+		}
+	}
+	&-reply-link {
+		transition: all 0.25s ease;
+		.material-icons {
+			font-size: 26px;
+		}
+	}
+	&-date {
+		display: inline-block;
+		&__time {
+			display: inline-block;
+			font-size: 13px;
+		}
+	}
+	.posted-by {
+		font-size: 13px;
+	}
+	.comment-metadata {
+		padding-bottom: 12px;
+	}
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-respond {
+	border-top: 1px solid;
+	padding-top: 70px;
+}

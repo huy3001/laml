@@ -1,0 +1,36 @@
+.tm_pb_builder #tm_builder_outer_content {
+
+	.tm_pb_number_counter {
+		margin: 0 auto 30px;
+		position: relative;
+		text-align: center;
+		word-wrap: break-word;
+		background-size: cover;
+		background-position: 50% 0%;
+
+		h3 {
+			padding: 17px 0 0;
+			font-size: 22px;
+		}
+
+		width: auto;
+
+		canvas {
+			display: none;
+			visibility: hidden;
+		}
+
+		.percent {
+			height: 169px;
+			position: relative;
+			z-index: 2;
+			visibility: hidden;
+			line-height: 169px;
+			font-weight: 700;
+			width: 169px;
+			border-radius: 50%;
+			display: inline-block;
+			font-size: 42px;
+		}
+	}
+}

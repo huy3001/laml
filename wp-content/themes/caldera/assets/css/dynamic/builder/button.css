@@ -1,0 +1,125 @@
+#tm_builder_outer_content .tm_pb_button{
+	background: $regular_link_color;
+	color: $invert_text_color;
+	border-color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_pb_button:hover{
+	background: $invert_text_color;
+	color: $regular_link_color;
+	border-color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button,
+#tm_builder_outer_content .tm_builder_inner_content .more-button {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_ajax_more:hover {
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_button,
+#tm_builder_outer_content .tm_pb_promo .tm_pb_newsletter_button,
+#tm_builder_outer_content .more-button {
+	background: $regular_link_color;
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_promo .tm_pb_newsletter_button:hover,
+#tm_builder_outer_content .more-button:hover {
+	background: $invert_accent_color_1;
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_slide_description .tm_pb_button{
+	background: $invert_accent_color_1;
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_slide_description .tm_pb_button:hover{
+	background: $regular_link_color !important;
+	border-color: $regular_link_color;
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover{
+	border-color: $regular_link_color;
+	background: $invert_accent_color_1;
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover:after{
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_button:after{
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small, .tm_pb_button.custom_btn_small {
+	background: $regular_link_color;
+	color: $invert_accent_color_1;
+	border-color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small:hover, .tm_pb_button.custom_btn_small:hover {
+	color: $regular_accent_color_1;
+}
+
+.about-author_btn_box .about-author_btn {
+	background: $regular_link_color;
+	border-color: $regular_link_color;
+	color: $invert_link_color;
+}
+
+.about-author_btn_box .about-author_btn:hover {
+	background: $invert_accent_color_1;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .download_btn {
+	background: $regular_link_color;
+	color: $invert_link_color;
+	border-color: $regular_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .download_btn:hover {
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .more-button {
+	border-color: $regular_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_contact_bottom_container .tm_pb_contact_submit {
+	background: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_contact_bottom_container .tm_pb_contact_submit:hover {
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_social_media_follow li a.icon:hover {
+	color: $regular_link_color;
+}
+.search-form__submit.btn-primary {
+	color: $regular_text_color;
+}
+.search-form__submit.btn-primary:hover {
+	color: $regular_link_color;
+}
+.subscribe-block__submit {
+	background: $regular_link_color;
+	color: $invert_link_color;
+	border-color: $regular_link_color;
+}
+.error-404 .search-form__submit.btn-primary {
+	color: $invert_accent_color_1;
+	box-shadow: inset 0 0 0 2px $regular_link_color;
+}
+.error-404 .search-form__submit.btn-primary:hover {
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small.custom_icon:before,
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .more-button.custom_btn_small.custom_icon:before {
+	color: $invert_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .tm_pb_section_custom .tm_pb_button {
+	border-color: $regular_accent_color_1;
+}

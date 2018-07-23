@@ -1,0 +1,205 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_pricing {
+		margin: 0 -15px;
+		.tm_pb_featured_table {
+			z-index: 50;
+		}
+	}
+	.tm_pb_pricing_heading {
+		word-wrap: break-word;
+	}
+
+	.tm_pb_pricing_table {
+		float: left;
+		width: 33.33%;
+		padding: 0 15px;
+		text-align: center;
+		margin: 0 -1px 0 0;
+		background: none;
+		> div {
+			padding-bottom: 60px;
+		}
+	}
+
+	.tm_pb_featured_table {
+		margin-top: -63px;
+		position: relative;
+		z-index: 100;
+		box-shadow: none;
+	}
+
+	.tm_pb_centered_pricing_items .tm_pb_pricing {
+		text-align: center;
+	}
+
+	.tm_pb_column_4_4 {
+		.tm_pb_pricing_table {
+			width: 25%;
+		}
+
+		.tm_pb_pricing_3 .tm_pb_pricing_table {
+			width: 33.33%;
+		}
+	}
+
+	.tm_pb_pricing_2 .tm_pb_pricing_table,
+	.tm_pb_column_2_3 .tm_pb_pricing_table,
+	.tm_pb_column_1_2 .tm_pb_pricing_table {
+		width: 50%;
+	}
+
+	.tm_pb_pricing_1 .tm_pb_pricing_table,
+	.tm_pb_column_3_8 .tm_pb_pricing_table,
+	.tm_pb_column_1_3 .tm_pb_pricing_table,
+	.tm_pb_column_1_4 .tm_pb_pricing_table {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+
+	.tm_pb_pricing_1 .tm_pb_pricing_table:last-child,
+	.tm_pb_column_3_8 .tm_pb_pricing_table:last-child,
+	.tm_pb_column_1_3 .tm_pb_pricing_table:last-child,
+	.tm_pb_column_1_4 .tm_pb_pricing_table:last-child {
+		margin-bottom: 0;
+	}
+
+	.tm_pb_column_4_4 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(4n+1),
+	.tm_pb_column_3_4 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(3n+1),
+	.tm_pb_column_2_3 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(2n+1),
+	.tm_pb_column_1_2 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.tm_pb_column_4_4 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(n+5),
+	.tm_pb_column_3_4 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(n+4),
+	.tm_pb_column_2_3 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(n+3),
+	.tm_pb_column_1_2 > .tm_pb_pricing > .tm_pb_pricing_table:nth-child(n+3) {
+		margin-top: 50px;
+	}
+
+	.tm_pb_column_4_4 .tm_pb_pricing_table.tm_pb_featured_table:nth-child(n+5),
+	.tm_pb_column_3_4 .tm_pb_pricing_table.tm_pb_featured_table:nth-child(n+4),
+	.tm_pb_column_2_3 .tm_pb_pricing_table.tm_pb_featured_table:nth-child(n+3),
+	.tm_pb_column_1_2 .tm_pb_pricing_table.tm_pb_featured_table:nth-child(n+3) {
+		margin-top: 30px;
+	}
+
+	.tm_pb_pricing .tm_pb_pricing_table {
+		@media (max-width: 991px) {
+			width: 100%;
+			float: none;
+			margin: 0 0 30px;
+		}
+	}
+
+	.tm_pb_pricing_heading {
+		margin-bottom: 0;
+		padding: 52px 0 10px;
+
+		h2 {
+			padding-bottom: 0;
+			margin: 0 0 30px;
+			font-size: 22px;
+		}
+	}
+
+	.tm_pb_best_value {
+		font-size: 16px;
+		line-height: 22px;
+		text-transform: capitalize;
+		display: block;
+		font-weight: 700;
+		width: 85px;
+		height: 85px;
+		border-radius: 50%;
+		border: 2px solid;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		justify-content: center;
+		hyphens: none;
+	}
+
+	.tm_pb_pricing_content_top {
+		padding-bottom: 42px;
+	}
+
+	.tm_pb_tm_price {
+		font-size: 16px;
+	}
+
+	.tm_pb_dollar_sign {
+		position: absolute;
+		margin-left: -.7em;
+		font-size: 42px;
+		line-height: 1em;
+		font-weight: 700;
+	}
+	.tm_pb_frequency {
+		display: block;
+		clear: both;
+	}
+
+	.tm_pb_sum {
+		font-size: 42px;
+		line-height: 1em;
+		font-weight: 700;
+	}
+
+	.tm_pb_pricing_content {
+		padding: 50px 55px 45px;
+		text-align: left;
+	}
+
+	.tm_pb_featured_table .tm_pb_pricing_content {
+		padding-bottom: 50px;
+	}
+
+	.tm_pb_pricing li {
+		line-height: 1.6em;
+		padding: 0 0 7px 20px !important;
+		margin-bottom: 0 !important;
+		position: relative;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		&:before {
+			content: '\f111';
+			left: 4px;
+			position: absolute;
+			top: 7px;
+			font-size: 10px;
+
+		}
+
+		&.tm_pb_not_available {
+			color: $color__not-available;
+
+			span:before {
+				border-color: $color__not-available;
+			}
+		}
+
+		a {
+			font-weight: 700;
+			text-decoration: none;
+		}
+
+		span {
+			position: relative;
+		}
+	}
+
+	.tm_pb_centered_pricing_items .tm_pb_pricing li {
+		padding-left: 0;
+
+	}
+
+	.tm_pb_pricing_table_button {
+		display: inline-block;
+	}
+}

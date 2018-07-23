@@ -1,0 +1,6 @@
+#tm_builder_outer_content .tm_pb_toggle.tm_pb_toggle_close .tm_pb_toggle_title:before {
+	color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_pb_toggle.tm_pb_toggle_open .tm_pb_toggle_title:before {
+	color: $regular_link_color;
+}

@@ -1,0 +1,44 @@
+.breadcrumbs {
+	position: relative;
+	margin: 35px 0;
+	&__title {
+		float: left;
+		margin-right: 0;
+		padding-right: 0;
+		.page-title {
+			margin: 0;
+			font-size: 13px;
+			line-height: 1.6;
+			font-weight: 400;
+			&:after {
+				content: '-';
+				display: inline-block;
+				margin-left: 16px;
+				margin-right: 16px;
+			}
+		}
+	}
+	&__items {
+		float: left;
+	}
+	&__browse {
+		float: left;
+		margin-right: .5em;
+	}
+	&__wrap {
+		float: left;
+		margin: 0;
+		@include media-breakpoint-up(lg) {
+
+		}
+	}
+	&__item {
+		float: left;
+		&-sep {
+			margin: 0 13px;
+		}
+		&-link {
+			text-decoration: none;
+		}
+	}
+}

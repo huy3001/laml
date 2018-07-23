@@ -1,0 +1,37 @@
+.post {
+	&-author {
+		&-bio {
+			margin: 70px 0;
+			border-bottom: 1px solid;
+			padding-bottom: 83px;
+		}
+		&__holder {
+			padding: 0;
+
+			@include media-breakpoint-up(lg) {
+				padding: 0;
+			}
+		}
+		&__avatar {
+			float: left;
+			margin: 0 1em 1em 0;
+
+			@include media-breakpoint-up(lg) {
+				margin: 0 2em 1em 0;
+			}
+			.avatar {
+				width: 70px;
+				vertical-align: top;
+
+				@include media-breakpoint-up(lg) {
+					width: auto;
+				}
+			}
+		}
+		&__title {
+			a {
+				text-transform: capitalize;
+			}
+		}
+	}
+}

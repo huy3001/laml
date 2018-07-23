@@ -1,0 +1,38 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_accordion {
+		.tm_pb_toggle {
+			margin-bottom: 10px;
+			&.tm_pb_toggle_close, &.tm_pb_toggle_open {
+				.tm_pb_toggle_title {
+					&:before {
+						top: 50%;
+						margin-top: -0.5em;
+						left: auto;
+						right: 0;
+						float: none;
+						margin-right: 0;
+						position: absolute;
+					}
+				}
+			}
+			&.tm_pb_toggle_close {
+				.tm_pb_toggle_title {
+					&:before {
+						content: '\e148';
+					}
+				}
+			}
+			&.tm_pb_toggle_open {
+				.tm_pb_toggle_title {
+					&:before {
+						content: '\e15d';
+					}
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

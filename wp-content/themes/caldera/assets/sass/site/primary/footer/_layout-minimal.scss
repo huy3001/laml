@@ -1,0 +1,40 @@
+.site-footer.minimal {
+	.footer-container {
+		.site-info-wrapper, .site-info__bottom {
+			@media (max-width: 1199px) {
+				display: block;
+				text-align: center;
+				> * + * {
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+	.footer {
+		&-copyright {
+			display: block;
+			vertical-align: middle;
+
+			@include media-breakpoint-up(xl) {
+				float: left;
+			}
+		}
+		&-menu {
+			display: block;
+			vertical-align: middle;
+		}
+
+	}
+	.footer-container {
+		border-top: none;
+	}
+	.widget {
+		@media (max-width: 768px) {
+			margin-bottom: 30px;
+		}
+	}
+	.follow-block {
+		border-bottom: none;
+		padding: 0;
+	}
+}

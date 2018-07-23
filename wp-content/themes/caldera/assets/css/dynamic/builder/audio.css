@@ -1,0 +1,48 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module {
+	background: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_audio_module_content h2 {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-play button::before,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-pause button::before,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-volume-button button::before {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-total,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-total {
+	background: $invert_accent_color_3;
+}
+
+#tm_builder_outer_content .tm_audio_container span.mejs-currenttime {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .tm_audio_container .mejs-controls .mejs-playpause-button button:before {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-handle,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-handle {
+	background-color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_audio_module_meta {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-current,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-current {
+	background-color: $invert_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_audio_container .mejs-controls .mejs-time-rail span,
+.tm_pb_builder #tm_builder_outer_content .tm_audio_container .mejs-controls .mejs-time-rail a {
+	color: $invert_text_color;
+}
+#tm_builder_outer_content .tm_link_content h2,
+#tm_builder_outer_content .tm_audio_content h2{
+	line-height: $h2_line_height;
+}

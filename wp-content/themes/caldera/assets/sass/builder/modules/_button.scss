@@ -1,0 +1,126 @@
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content {
+	.tm_pb_button_module_wrapper {
+		&.tm_pb_button_alignment_right {
+			text-align: right;
+		}
+
+		&.tm_pb_button_alignment_center {
+			text-align: center;
+		}
+	}
+	.tm_pb_button, .more-button {
+		padding: 21px 32px 23px !important;
+		font-size: 14px;
+		white-space: normal;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .8px;
+
+		@include transition(all 0.3s ease-out);
+		@media (max-width: 980px) {
+			padding: 10px 20px !important;
+			font-size: 12px;
+		}
+		&:hover {
+			letter-spacing: .8px;
+		}
+
+		&:after {
+			margin-top: -.2em;
+		}
+		&.custom_btn_small {
+			font-size: 13px;
+			padding: 15px 30px !important;
+			&:hover {
+				background: transparent;
+			}
+			&.custom_icon {
+				&:before {
+					display: inline-block;
+					font-family: 'Material Icons';
+					font-weight: 400;
+					font-style: normal;
+					content: '\e415';
+					font-size: 26px;
+					margin-right: 10px;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+	.more-button {
+		margin-top: 10px;
+		display: inline-block;
+		border: 2px solid;
+		font-size: 13px;
+		padding: 15px 30px !important;
+		&:hover {
+			padding: 15px 30px !important;
+		}
+	}
+
+	.download_btn {
+		font-size: 13px;
+		line-height: 1em;
+		padding: 20px 30px;
+		white-space: normal;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .8px;
+		display: inline-block;
+		border: 2px solid;
+		&:before {
+			display: inline-block;
+			font-family: 'Material Icons';
+			font-weight: 400;
+			font-style: normal;
+			content: '\e415';
+			font-size: 26px;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+		&:hover {
+			background: transparent;
+		}
+	}
+}
+
+.tm_pb_button.custom_btn_small {
+	border: 2px solid;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 15px 30px !important;
+	display: inline-block;
+	&:hover {
+		background: transparent;
+	}
+}
+
+.btn {
+	&-default,
+	&-primary,
+	&-secondary {
+		&:focus {
+			box-shadow: none;
+		}
+		.invert &:focus {
+			box-shadow: none;
+		}
+	}
+}
+
+.btn-default {
+	border: none;
+}
+
+.btn {
+	&-default,
+	&-secondary,
+	&-primary{
+		&:hover {
+			background: transparent;
+		}
+	}
+}

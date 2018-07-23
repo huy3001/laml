@@ -1,0 +1,115 @@
+.tm_pb_builder #tm_builder_outer_content {
+	.tm_pb_testimonial {
+		position: relative;
+		padding: 30px;
+		&:before {
+			display: none;
+		}
+
+		&.tm_pb_testimonial_no_bg {
+			padding: 30px 0 0;
+		}
+
+		p:last-of-type {
+			padding-bottom: 0;
+		}
+		&.tm_pb_text_align_center {
+			.tm_pb_testimonial_description {
+				text-indent: 0;
+				&:before {
+					position: relative;
+				}
+			}
+		}
+	}
+
+	.tm_pb_testimonial_portrait {
+		border-radius: 50%;
+		margin: 0 29px 26px 0;
+		float: left;
+		position: relative;
+		display: inline-block;
+		width: 136px;
+		height: 136px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.tm_pb_column_1_3 .tm_pb_testimonial_portrait,
+	.tm_pb_column_1_4 .tm_pb_testimonial_portrait,
+	.tm_pb_column_3_8 .tm_pb_testimonial_portrait {
+		float: none;
+		display: block;
+	}
+
+	.tm_pb_testimonial_meta {
+		margin-top: 10px;
+		font-weight: 700;
+		display: block;
+		position: relative;
+		text-indent: 0;
+	}
+
+	.tm_pb_testimonial_description {
+		display: inline-block;
+		position: relative;
+		padding: 17px 0 10px 0;
+		text-indent: 55px;
+
+		&:before {
+			position: absolute;
+			line-height: 1em;
+			top: 0;
+			left: 0;
+			text-indent: 0;
+			font-weight: 400;
+			content: attr(data-icon);
+			font-family: 'FontAwesome';
+			font-size: 45px;
+		}
+	}
+
+	.tm_pb_testimonial_author {
+		margin-top: 23px;
+		font-weight: 700;
+		display: block;
+		position: relative;
+		text-indent: 0;
+		&:before {
+			content: '—';
+			display: inline-block;
+			margin-right: 6px;
+
+		}
+		a {
+			color: inherit;
+		}
+	}
+
+	.tm_pb_testimonial {
+		&.tm_pb_testimonial_no_bg:before {
+			background: inherit;
+		}
+
+		&.tm_pb_icon_off {
+			.tm_pb_testimonial_description {
+				text-indent: 0;
+				&:before {
+					display: none;
+				}
+			}
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	.tm_pb_testimonial_old_layout {
+		color: $color__text-input !important;
+
+		.tm_pb_testimonial_description a {
+			color: $color__text-input !important;
+		}
+	}
+}

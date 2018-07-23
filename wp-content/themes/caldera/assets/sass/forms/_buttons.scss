@@ -1,0 +1,31 @@
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.submit {
+	@include btn;
+}
+
+.post-password-form {
+	input[type='submit'] {
+		padding: 18px 28px 15px;
+	}
+}
+
+// General styles
+.btn {
+	text-decoration: none;
+
+	@include btn;
+	@include border-radius;
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+	&-fullwidth {
+		width: 100%;
+	}
+}

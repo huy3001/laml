@@ -1,0 +1,312 @@
+body {
+	background: $color__background-white;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0;
+	.home & {
+		margin-top: 0;
+	}
+}
+
+a, a:hover, a:focus, a:visited {
+	outline: none;
+}
+
+/*--------------------------------------------------------------
+### Hentry (WordPress native CSS-class for post/page article)
+--------------------------------------------------------------*/
+.hentry {
+	position: relative;
+	margin-top: 0;
+
+	@include card;
+	&:last-child {
+		.posts-list & {
+			margin-bottom: 3em;
+		}
+	}
+	.card-columns & {
+		margin-top: 0;
+		margin-bottom: 3em;
+	}
+}
+
+/*--------------------------------------------------------------
+### Entry (header, content, footer)
+--------------------------------------------------------------*/
+.entry {
+	&-title {
+		padding-top: 19px;
+		padding-bottom: 39px;
+		.blog & {
+			border-bottom: none;
+			padding: 0;
+		}
+
+		&:first-child {
+			.entry-header & {
+				margin: 0;
+			}
+		}
+		.posts-list--default & {
+		}
+	}
+	&-meta {
+		font-size: 13px;
+		padding-top: 0;
+		padding-bottom: 33px;
+		> div {
+			display: inline-block;
+		}
+		.entry-summary + &,
+		.entry-content + & {
+			margin-top: 1em;
+			float: left;
+		}
+	}
+	&-summary,
+	&-content {
+		.posts-list & {
+			display: none;
+
+			@include media-breakpoint-up(md) {
+				display: block;
+			}
+		}
+		.post-list__item & {
+			margin-top: 0;
+			p {
+				margin: 1em 0 0;
+			}
+		}
+	}
+	&-footer {
+		position: relative;
+		margin-top: 0;
+		.btn {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 13px;
+		}
+	}
+}
+
+.entry_info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 13px;
+	@media (max-width: 980px) {
+		flex-direction: column;
+	}
+	.blog-grid-2-cols &, .blog-grid-3-cols &, .blog-masonry-2-cols &, .blog-masonry-3-cols &, .blog-vertical-justify & {
+		display: block;
+	}
+}
+
+/*--------------------------------------------------------------
+### Post attributes (thumbnail, meta)
+--------------------------------------------------------------*/
+.entry-header {
+	.format-audio & {
+		padding-top: 30px;
+	}
+}
+
+.post {
+	border-bottom: 1px solid;
+	padding-bottom: 79px;
+	margin-bottom: 100px;
+	&-thumbnail {
+		&__link {
+			&.post-thumbnail--small {
+				display: block;
+				margin-bottom: 15px;
+				text-align: center;
+
+				@include media-breakpoint-up(lg) {
+					float: left;
+					margin-right: 30px;
+					text-align: left;
+				}
+			}
+		}
+		&__img {
+			display: inline-block;
+			vertical-align: top;
+			.entry-header + .post-thumbnail > & {
+				margin-top: 25px;
+			}
+		}
+		&--fullwidth {
+			.posts-list & {
+				display: block;
+				margin-bottom: 1em;
+
+				@include media-breakpoint-up(lg) {
+					margin-bottom: 1.5em;
+				}
+			}
+		}
+	}
+	.post__tags {
+		margin: 8px 0 0;
+		display: block;
+	}
+	.post__tags__header {
+		display: block;
+		overflow: hidden;
+		vertical-align: middle;
+		font-size: 13px;
+		margin: 8px 0 0;
+		.blog & {
+			display: block;
+			margin: 8px 0 0;
+		}
+	}
+	&__cats {
+		margin-bottom: 22px;
+		a {
+			line-height: 22px;
+			display: inline-block;
+			margin: 0;
+			padding: 10px 20px;
+			font-size: 13px;
+			font-weight: 700;
+			vertical-align: top;
+			text-decoration: none;
+			margin-bottom: 5px;
+			@include transition(all 0.3s ease-out);
+			@media (max-width: 980px) {
+				padding: 10px 20px;
+				font-size: 12px;
+			}
+		}
+		.post-thumbnail--fullwidth + & {
+			.has-post-thumbnail & {
+				position: absolute;
+				z-index: 99;
+				top: 0;
+				left: 0;
+			}
+		}
+		.post-format-wrap & {
+			position: absolute;
+			z-index: 99;
+			top: 10px;
+			left: 10px;
+
+			@include media-breakpoint-up(lg) {
+				top: 30px;
+				left: 30px;
+			}
+		}
+	}
+	&__date,
+	&__comments,
+	&__tags {
+		font-size: 13px;
+		.material-icons,
+		.fa {
+			font-size: 16px;
+			margin-right: 5px;
+			vertical-align: middle;
+			.invert & {
+				color: inherit;
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+	&__date,
+	&__comments {
+		margin-right: 15px;
+		display: inline-block;
+		.single & {
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+	&__comments {
+		.single & {
+			margin-right: 0;
+			margin-left: 23px;
+		}
+	}
+	&__tags {
+		margin-top: 0;
+	}
+	&ed-by__author {
+		text-decoration: none;
+		text-transform: capitalize;
+		&:hover {
+
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Read More button
+--------------------------------------------------------------*/
+.btn {
+	.posts-list__item & {
+		padding: $button__indents;
+		&__icon,
+		.material-icons,
+		.fa {
+			color: inherit;
+			display: none;
+		}
+	}
+	.posts-list__item & {
+		.posts-list--default:not(.two-sidebars) & {
+			@include media-breakpoint-up(lg) {
+				padding: $button__indents;
+			}
+			&__text {
+				@include media-breakpoint-up(lg) {
+					display: inline-block
+				}
+			}
+			&__icon,
+			.material-icons,
+			.fa {
+				@include media-breakpoint-up(lg) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.single iframe {
+	width: 100%;
+	margin-bottom: 43px;
+}
+
+.post-list__item-content {
+	overflow: hidden;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_social_media_follow li a.icon.rounded_rectangle {
+	background: none;
+}
+
+.textwidget {
+	.tm_pb_button {
+		margin-top: 18px;
+	}
+}
+
+.post_wrapper {
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+### Sticky Post
+--------------------------------------------------------------*/
+@import "sticky";

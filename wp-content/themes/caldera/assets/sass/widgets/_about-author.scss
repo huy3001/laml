@@ -1,0 +1,92 @@
+.widget-about-author {
+	text-align: left;
+	.full-width-header-area &,
+	.after-content-full-width-area & {
+		padding: 1em;
+		text-align: left;
+
+		@include media-breakpoint-up(lg) {
+			padding: 2em;
+		}
+	}
+	.before-content-area &,
+	.before-loop-area &,
+	.after-content-area &,
+	.after-loop-area & {
+		text-align: left;
+	}
+	.position-two-sidebars .before-loop-area &,
+	.position-two-sidebars .after-loop-area & {
+		text-align: center;
+	}
+}
+
+.about-author {
+	&:after {
+		display: block;
+		clear: both;
+		width: 100%;
+		content: '';
+	}
+	&_avatar {
+		text-align: center;
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.before-loop-area &,
+		.after-content-area &,
+		.after-loop-area & {
+			margin: 0 0 1em;
+			max-width: 100%;
+
+			@include media-breakpoint-up(sm) {
+				float: left;
+				max-width: 50%;
+				margin: 0 1.5em 0 0;
+			}
+		}
+		.position-two-sidebars .before-loop-area &,
+		.position-two-sidebars .after-loop-area & {
+			float: none;
+			margin: 0;
+		}
+	}
+	&_img {
+		border-radius: 0;
+	}
+	&_content {
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.before-loop-area &,
+		.after-content-area &,
+		.after-loop-area & {
+			overflow: hidden;
+		}
+		.position-two-sidebars .before-loop-area &,
+		.position-two-sidebars .after-loop-area & {
+			overflow: visible;
+		}
+	}
+	&_name {
+		margin: 0;
+		padding: 1em 0;
+		text-transform: capitalize;
+		font-size: 22px;
+	}
+	&_description {
+		padding: 0 0 1.5em;
+	}
+	&_btn_box {
+		padding-top: 10px;
+
+		.about-author_btn {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 13px;
+			letter-spacing: .5px;
+			box-shadow: none;
+			border: 2px solid;
+		}
+	}
+}
