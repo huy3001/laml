@@ -29,29 +29,29 @@
  * Ersetze datenbankname_hier_einfuegen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define('DB_NAME', 'loewenberg_aml_com_lionheartdb');
+define('DB_NAME', 'lionheartdb');
 
 /**
  * Ersetze benutzername_hier_einfuegen
  * mit deinem MySQL-Datenbank-Benutzernamen.
  */
-define('DB_USER', 'loewenberg_aml_com_lionheartdb');
+define('DB_USER', 'root');
 
 /**
  * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
  */
-define('DB_PASSWORD', 'vD{2mPKed2D293nLMsbWdvZVngPtj/9iAFoPqNp6[vsWRHZAA}LzE{7q6zPU2jtR');
+define('DB_PASSWORD', 'root');
 
 /**
  * Ersetze localhost mit der MySQL-Serveradresse.
  */
-define('DB_HOST', 'loewenberg-aml.com.mysql');
+define('DB_HOST', '127.0.0.1:3306');
 
 /**
  * Der Datenbankzeichensatz, der beim Erstellen der
  * Datenbanktabellen verwendet werden soll
  */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /**
  * Der Collate-Type sollte nicht geändert werden.
