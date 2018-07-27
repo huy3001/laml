@@ -1,1 +1,82 @@
+@charset "UTF-8";
+
 /* Custom styles for caldera theme */
+
+@font-face {
+  font-family: 'laml';
+  src: url("../fonts/laml/laml.eot?3y3usa");
+  src: url("../fonts/laml/laml.eot?3y3usa#iefix") format("embedded-opentype"), url("../fonts/laml/laml.ttf?3y3usa") format("truetype"), url("../fonts/laml/laml.woff?3y3usa") format("woff"), url("../fonts/laml/laml.svg?3y3usa#laml") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 14, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'laml' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 30, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-engage:before {
+  content: "";
+}
+
+/* line 35, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-lion:before {
+  content: "";
+}
+
+/* line 40, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-modesty:before {
+  content: "";
+}
+
+/* line 45, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-partner:before {
+  content: "";
+}
+
+/* line 50, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-reliable:before {
+  content: "";
+}
+
+/* line 55, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-respect:before {
+  content: "";
+}
+
+/* line 60, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-safety:before {
+  content: "";
+}
+
+/* line 65, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-sustain:before {
+  content: "";
+}
+
+/* line 70, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/vendor/_icon-style.scss */
+
+.icon-trust:before {
+  content: "";
+}

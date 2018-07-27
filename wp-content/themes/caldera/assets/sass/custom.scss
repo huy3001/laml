@@ -1,1 +1,13 @@
 /* Custom styles for caldera theme */
+
+// Variables //
+@import "variables-site/variables-site";
+
+// Mixins //
+@import "mixins/mixins-master";
+
+// Vendor //
+@import "custom/vendor/icon-style";
+
+// Custom pages //
+@import "custom/pages/home";

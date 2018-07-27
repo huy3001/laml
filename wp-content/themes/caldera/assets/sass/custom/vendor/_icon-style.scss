@@ -1,0 +1,74 @@
+@import "icon-variables";
+
+@font-face {
+  font-family: 'laml';
+  src:  url('#{$icomoon-font-path}/laml.eot?3y3usa');
+  src:  url('#{$icomoon-font-path}/laml.eot?3y3usa#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/laml.ttf?3y3usa') format('truetype'),
+    url('#{$icomoon-font-path}/laml.woff?3y3usa') format('woff'),
+    url('#{$icomoon-font-path}/laml.svg?3y3usa#laml') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'laml' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-engage {
+  &:before {
+    content: $icon-engage; 
+  }
+}
+.icon-lion {
+  &:before {
+    content: $icon-lion; 
+  }
+}
+.icon-modesty {
+  &:before {
+    content: $icon-modesty; 
+  }
+}
+.icon-partner {
+  &:before {
+    content: $icon-partner; 
+  }
+}
+.icon-reliable {
+  &:before {
+    content: $icon-reliable; 
+  }
+}
+.icon-respect {
+  &:before {
+    content: $icon-respect; 
+  }
+}
+.icon-safety {
+  &:before {
+    content: $icon-safety; 
+  }
+}
+.icon-sustain {
+  &:before {
+    content: $icon-sustain; 
+  }
+}
+.icon-trust {
+  &:before {
+    content: $icon-trust; 
+  }
+}
+
