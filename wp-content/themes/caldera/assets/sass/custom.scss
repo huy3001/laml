@@ -9,5 +9,12 @@
 // Vendor //
 @import "custom/vendor/icon-style";
 
+// Breakpoints //
+@import "grid/variables";
+@import "grid/breakpoints";
+
+// Custom layout //
+@import "custom/layout/header";
+
 // Custom pages //
 @import "custom/pages/home";

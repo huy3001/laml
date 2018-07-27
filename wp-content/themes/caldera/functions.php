@@ -528,6 +528,7 @@ if ( ! class_exists( 'Caldera_Theme_Setup' ) ) {
 			wp_register_style( 'magnific-popup', CALDERA_THEME_CSS . '/magnific-popup.min.css', array(), '1.0.1' );
 			wp_register_style( 'font-awesome', CALDERA_THEME_CSS . '/font-awesome.min.css', array(), '4.6.0' );
 			wp_register_style( 'material-icons', CALDERA_THEME_CSS . '/material-icons.min.css', array(), '2.2.0' );
+			wp_register_style( 'customize', CALDERA_THEME_CSS . '/custom.css', array(), '1.0.0' );
 		}
 
 		/**
@@ -537,7 +538,7 @@ if ( ! class_exists( 'Caldera_Theme_Setup' ) ) {
 		 */
 		public function enqueue_assets() {
 
-			wp_enqueue_style( 'caldera-theme-style', get_stylesheet_uri(), array( 'font-awesome', 'material-icons', 'magnific-popup' ), CALDERA_THEME_VERSION );
+			wp_enqueue_style( 'caldera-theme-style', get_stylesheet_uri(), array( 'font-awesome', 'material-icons', 'magnific-popup', 'customize' ), CALDERA_THEME_VERSION );
 
 			wp_add_inline_style( 'caldera-theme-style', caldera_inline_css() );
 

@@ -1,0 +1,31 @@
+.home {
+    .showcase-panel {
+        @include media-breakpoint-up(xl) {
+            padding: 145px 15px 100px;
+        }
+    }
+
+    .showcase-panel__subtitle {
+        font-weight: 700;
+
+        @include media-breakpoint-up(md) {
+            font-size: 85px;
+            letter-spacing: 0;
+            margin: 0 0 10px;
+        }
+    }
+
+    .showcase-panel__description {
+        font-size: 25px;
+        font-weight: 700;
+
+        @include media-breakpoint-up(xl) {
+            max-width: 1000px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .showcase-panel__btn {
+        font-size: 16px;
+    }
+}

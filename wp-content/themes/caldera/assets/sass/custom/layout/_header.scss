@@ -1,0 +1,54 @@
+header {
+    &.site-header {
+        &.centered {
+            .header-container {
+                padding-top: 70px;
+            }
+
+            .site-branding {
+                @include media-breakpoint-up(md) {
+                    padding: 0 0 45px;
+                }
+            }
+
+            .main-navigation {
+                > .menu {
+                    > .menu-item {
+                        > a {
+                            @include media-breakpoint-up(md) {
+                                margin: 20px 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .site-logo {
+        img {
+            display: block;
+        }
+    }
+
+    .main-navigation {
+        .menu {
+            > li {
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
+                    letter-spacing: 0;
+
+                    &:after {
+                        bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-container {
+    @include media-breakpoint-up(md) {
+        min-height: 330px;
+    }
+}
