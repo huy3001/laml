@@ -1,0 +1,18 @@
+.site-main {
+    .page {
+        .entry-content {
+            #tm_builder_outer_content {
+                .tm_pb_module {
+                    > img {
+                        margin: 0;
+
+                        @include media-breakpoint-up(xl) {
+                            width: auto;
+                            max-width: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

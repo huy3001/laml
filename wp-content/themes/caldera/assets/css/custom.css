@@ -2,6 +2,10 @@
 
 /* Custom styles for caldera theme */
 
+/* Background */
+
+/* Color */
+
 @font-face {
   font-family: 'laml';
   src: url("../fonts/laml/laml.eot?3y3usa");
@@ -81,6 +85,21 @@
   content: "";
 }
 
+/* line 6, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/component/_builder.scss */
+
+.site-main .page .entry-content #tm_builder_outer_content .tm_pb_module > img {
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 6, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/component/_builder.scss */
+
+  .site-main .page .entry-content #tm_builder_outer_content .tm_pb_module > img {
+    width: auto;
+    max-width: none;
+  }
+}
+
 /* line 4, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/layout/_header.scss */
 
 header.site-header.centered .header-container {
@@ -132,22 +151,30 @@ header .site-logo img {
   }
 }
 
+/* line 1, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home {
+  /* Banner */
+  /* Our mission */
+}
+
 @media (min-width: 1200px) {
-  /* line 2, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 3, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home .showcase-panel {
+    margin-bottom: -38px;
     padding: 145px 15px 100px;
   }
 }
 
-/* line 8, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 10, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .showcase-panel__subtitle {
   font-weight: 700;
 }
 
 @media (min-width: 768px) {
-  /* line 8, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 10, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home .showcase-panel__subtitle {
     font-size: 85px;
@@ -156,7 +183,7 @@ header .site-logo img {
   }
 }
 
-/* line 18, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 20, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .showcase-panel__description {
   font-size: 25px;
@@ -164,7 +191,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 18, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 20, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home .showcase-panel__description {
     max-width: 1000px;
@@ -172,8 +199,75 @@ header .site-logo img {
   }
 }
 
-/* line 28, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 30, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .showcase-panel__btn {
   font-size: 16px;
+}
+
+/* line 37, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-title h2 {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+/* line 44, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-title h2:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 78px;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  /* line 37, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home .our-mission-title h2 {
+    font-size: 80px;
+  }
+}
+
+/* line 60, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-subtitle h3 {
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin: 0 0 30px;
+}
+
+@media (min-width: 992px) {
+  /* line 60, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home .our-mission-subtitle h3 {
+    font-size: 40px;
+  }
+}
+
+/* line 74, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-text p {
+  font-size: 18px;
+  margin: 0 0 25px;
+}
+
+/* line 78, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-text p + p {
+  margin: 0;
+}
+
+/* line 85, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission-button a {
+  font-size: 16px;
+  padding: 20px 43px 20px !important;
 }

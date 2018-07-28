@@ -1,6 +1,8 @@
 .home {
+    /* Banner */
     .showcase-panel {
         @include media-breakpoint-up(xl) {
+            margin-bottom: -38px;
             padding: 145px 15px 100px;
         }
     }
@@ -27,5 +29,65 @@
 
     .showcase-panel__btn {
         font-size: 16px;
+    }
+
+    /* Our mission */
+    .our-mission {
+        &-title {
+            h2 {
+                color: $color-white;
+                font-weight: 700;
+                line-height: 1;
+                letter-spacing: 0;
+                margin: 0;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 78px;
+                    background: $color-white;
+                    margin-bottom: 30px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                }
+            }
+        }
+
+        &-subtitle {
+            h3 {
+                color: $color-white;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0;
+                margin: 0 0 30px;
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        &-text {
+            p {
+                font-size: 18px;
+                margin: 0 0 25px;
+
+                & + p {
+                    margin: 0;
+                }
+            }
+        }
+
+        &-button {
+            margin-top: 25px;
+            
+            a {
+                font-size: 16px;
+                padding: 20px 43px !important;
+            }
+        }
     }
 }
