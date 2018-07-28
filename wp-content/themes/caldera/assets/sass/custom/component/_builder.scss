@@ -5,7 +5,11 @@
                 .tm_pb_module {
                     > img {
                         margin: 0;
+                    }
+                }
 
+                .pattern-image {
+                    > img {
                         @include media-breakpoint-up(xl) {
                             width: auto;
                             max-width: none;

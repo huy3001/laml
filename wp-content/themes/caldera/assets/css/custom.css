@@ -92,9 +92,9 @@
 }
 
 @media (min-width: 1200px) {
-  /* line 6, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/component/_builder.scss */
+  /* line 12, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/component/_builder.scss */
 
-  .site-main .page .entry-content #tm_builder_outer_content .tm_pb_module > img {
+  .site-main .page .entry-content #tm_builder_outer_content .pattern-image > img {
     width: auto;
     max-width: none;
   }
@@ -207,7 +207,14 @@ header .site-logo img {
   font-size: 16px;
 }
 
-/* line 37, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 35, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .our-mission {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 40, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .our-mission-title h2 {
   color: #ffffff;
@@ -217,7 +224,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 44, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 47, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .our-mission-title h2:before {
   content: '';
@@ -229,14 +236,14 @@ header .site-logo img {
 }
 
 @media (min-width: 992px) {
-  /* line 37, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 40, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home .our-mission-title h2 {
     font-size: 80px;
   }
 }
 
-/* line 60, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 63, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .our-mission-subtitle h3 {
   color: #ffffff;
@@ -247,27 +254,27 @@ header .site-logo img {
 }
 
 @media (min-width: 992px) {
-  /* line 60, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 63, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home .our-mission-subtitle h3 {
     font-size: 40px;
   }
 }
 
-/* line 74, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 77, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .our-mission-text p {
   font-size: 18px;
   margin: 0 0 25px;
 }
 
-/* line 78, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 81, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home .our-mission-text p + p {
   margin: 0;
 }
 
-/* line 87, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 90, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .our-mission-button {
   font-size: 16px;
@@ -275,14 +282,14 @@ header .site-logo img {
   padding: 20px 43px !important;
 }
 
-/* line 99, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 102, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container.grid-layout {
   margin: 0;
 }
 
 @media (min-width: 992px) {
-  /* line 107, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 110, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-media:hover .term-permalink.simple-icon {
     -webkit-transform: translateY(calc(50% + 30px));
@@ -291,21 +298,21 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 116, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 119, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption {
     padding: 60px 40px;
   }
 }
 
-/* line 121, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 124, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
   font-weight: 300;
 }
 
 @media (min-width: 1200px) {
-  /* line 121, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 124, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
     font-size: 35px;
@@ -314,9 +321,90 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 130, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+  /* line 133, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption .term-permalink {
     margin: 0 0 30px 25px;
   }
+}
+
+/* line 147, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-image img {
+  width: 100%;
+}
+
+/* line 152, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-content {
+  max-width: 940px;
+  padding-top: 100px;
+}
+
+/* line 159, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-title h2 {
+  color: #000000;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0 0 70px;
+}
+
+/* line 166, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-title h2:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 78px;
+  background: #cf1d39;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  /* line 159, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home .about-us-title h2 {
+    font-size: 80px;
+  }
+}
+
+/* line 182, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-subtitle h3 {
+  color: #000000;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin: 0 0 30px;
+}
+
+@media (min-width: 992px) {
+  /* line 182, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home .about-us-subtitle h3 {
+    font-size: 40px;
+  }
+}
+
+/* line 196, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-text p {
+  font-size: 18px;
+  margin: 0 0 25px;
+}
+
+/* line 200, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home .about-us-text p:last-child {
+  margin: 0;
+}
+
+/* line 209, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home.tm_pb_builder #tm_builder_outer_content .about-us-button {
+  font-size: 16px;
+  margin-top: 65px;
+  padding: 20px 43px !important;
 }

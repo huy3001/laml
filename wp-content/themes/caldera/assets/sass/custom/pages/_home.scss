@@ -33,6 +33,9 @@
 
     /* Our mission */
     .our-mission {
+        padding-left: 60px;
+        padding-right: 60px;
+
         &-title {
             h2 {
                 color: $color-white;
@@ -139,5 +142,74 @@
     }
 
     /* About us */
-    
+    .about-us {
+        &-image {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-content {
+            max-width: 940px;
+            padding-top: 100px;
+        }
+
+        &-title {
+            h2 {
+                color: $color-black;
+                font-weight: 700;
+                line-height: 1;
+                letter-spacing: 0;
+                margin: 0 0 70px;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 78px;
+                    background: $color-red;
+                    margin-bottom: 30px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                }
+            }
+        }
+
+        &-subtitle {
+            h3 {
+                color: $color-black;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0;
+                margin: 0 0 30px;
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        &-text {
+            p {
+                font-size: 18px;
+                margin: 0 0 25px;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .about-us-button {
+                font-size: 16px;
+                margin-top: 65px;
+                padding: 20px 43px !important;
+            }
+        }
+    }
 }
