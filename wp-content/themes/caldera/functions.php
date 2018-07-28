@@ -538,7 +538,9 @@ if ( ! class_exists( 'Caldera_Theme_Setup' ) ) {
 		 */
 		public function enqueue_assets() {
 
-			wp_enqueue_style( 'caldera-theme-style', get_stylesheet_uri(), array( 'font-awesome', 'material-icons', 'magnific-popup', 'customize' ), CALDERA_THEME_VERSION );
+			wp_enqueue_style( 'caldera-theme-style', get_stylesheet_uri(), array( 'font-awesome', 'material-icons', 'magnific-popup' ), CALDERA_THEME_VERSION );
+			
+			wp_enqueue_style( 'customize-style', CALDERA_THEME_CSS . '/custom.css', array(), CALDERA_THEME_VERSION );
 
 			wp_add_inline_style( 'caldera-theme-style', caldera_inline_css() );
 

@@ -156,6 +156,8 @@ header .site-logo img {
 .home {
   /* Banner */
   /* Our mission */
+  /* Project terms */
+  /* About us */
 }
 
 @media (min-width: 1200px) {
@@ -265,9 +267,56 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 85, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+/* line 87, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
 
-.home .our-mission-button a {
+.home.tm_pb_builder #tm_builder_outer_content .our-mission-button {
   font-size: 16px;
-  padding: 20px 43px 20px !important;
+  margin-top: 45px;
+  padding: 20px 43px !important;
+}
+
+/* line 99, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home.tm_pb_builder #tm_builder_outer_content .projects-terms-container.grid-layout {
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  /* line 107, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-media:hover .term-permalink.simple-icon {
+    -webkit-transform: translateY(calc(50% + 30px));
+    transform: translateY(calc(50% + 30px));
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 116, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption {
+    padding: 60px 40px;
+  }
+}
+
+/* line 121, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+.home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
+  font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+  /* line 121, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
+    font-size: 35px;
+    line-height: 1.46;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 130, D:/xampp/htdocs/laml/wp-content/themes/caldera/assets/sass/custom/pages/_home.scss */
+
+  .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption .term-permalink {
+    margin: 0 0 30px 25px;
+  }
 }

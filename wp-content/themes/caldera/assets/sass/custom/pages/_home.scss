@@ -80,14 +80,64 @@
                 }
             }
         }
+    }
 
-        &-button {
-            margin-top: 25px;
-            
-            a {
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .our-mission-button {
                 font-size: 16px;
+                margin-top: 45px;
                 padding: 20px 43px !important;
             }
         }
     }
+
+    /* Project terms */
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .projects-terms-container {
+                &.grid-layout {
+                    margin: 0;
+                }
+        
+                .project-terms {
+                    &-media {
+                        &:hover {
+                            .term-permalink {
+                                &.simple-icon {
+                                    @include media-breakpoint-up(lg) {
+                                        transform: translateY(calc(50% + 30px));
+                                    }
+                                }
+                            }
+                        }
+                    }
+        
+                    &-caption {
+                        @include media-breakpoint-up(xl) {
+                            padding: 60px 40px;
+                        }
+            
+                        h5 {
+                            font-weight: 300;
+            
+                            @include media-breakpoint-up(xl) {
+                                font-size: 35px;
+                                line-height: 1.46;
+                            }
+                        }
+        
+                        .term-permalink {
+                            @include media-breakpoint-up(xl) {
+                                margin: 0 0 30px 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* About us */
+    
 }
