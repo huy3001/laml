@@ -78,7 +78,7 @@
                 font-size: 18px;
                 margin: 0 0 25px;
 
-                & + p {
+                &:last-child {
                     margin: 0;
                 }
             }
@@ -209,6 +209,118 @@
                 font-size: 16px;
                 margin-top: 65px;
                 padding: 20px 43px !important;
+            }
+        }
+    }
+
+    /* Why us */
+    .why-us {
+        &-title {
+            h2 {
+                color: $color-white;
+                font-weight: 700;
+                line-height: 1;
+                letter-spacing: 0;
+                margin: 0;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 78px;
+                    background: $color-red;
+                    margin: 0 auto 30px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                }
+            }
+        }
+
+        &-subtitle {
+            h3 {
+                display: inline-block;
+                vertical-align: top;
+                color: $color-blue;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0;
+                text-align: center;
+                max-width: 680px;
+                margin: 0;
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        &-text {
+            max-width: 680px;
+
+            p {
+                color: $color-white;
+                font-size: 18px;
+                margin: 0 0 25px;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    /* Find us */
+    .find-us {
+        &-title {
+            h2 {
+                color: $color-white;
+                font-weight: 700;
+                line-height: 1.2;
+                letter-spacing: 0;
+                margin: 0;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 78px;
+                    background: $color-white;
+                    margin-bottom: 30px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+
+    /* Contact us */
+    .contact-us {
+        padding: 135px 0 125px;
+
+        &-text {
+            p {
+                color: $color-blue;
+                font-weight: 300;
+                line-height: 1;
+                margin: 0;
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 80px;
+                    line-height: 0.9;
+                }
+            }
+        }
+    }
+
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .contact-us-button {
+                font-size: 16px;
+                padding: 20px 45px !important;
             }
         }
     }
