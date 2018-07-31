@@ -25,6 +25,14 @@ header {
         }
     }
 
+    .header_caption {
+        padding: 0;
+
+        @include bp(max-width, $xl) {
+            display: none;
+        }
+    }
+
     .site-logo {
         img {
             display: block;

@@ -10,7 +10,7 @@
 
                 .pattern-image {
                     > img {
-                        @include media-breakpoint-up(xl) {
+                        @include media-breakpoint-up(md) {
                             width: auto;
                             max-width: none;
                         }

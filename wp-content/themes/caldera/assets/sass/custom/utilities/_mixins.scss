@@ -1,0 +1,48 @@
+/* breakpoint */
+$mq-support: true !default;
+$mq-fixed-value: 1024px !default;
+
+@mixin bp($feature, $value) {
+    // Set global device param
+    $media: only screen;
+
+    // Media queries supported
+    @if $mq-support == true {
+
+        @media #{$media} and ($feature: $value) {
+            @content;
+        }
+
+        // Media queries not supported
+    } @else {
+
+        @if $feature == 'min-width' {
+            @if $value <= $mq-fixed-value {
+                @content;
+            }
+        } @else if $feature == 'max-width' {
+            @if $value >= $mq-fixed-value {
+                @content;
+            }
+        }
+
+    }
+}
+
+@mixin bw-bp($min-width, $max-width) {
+    // Set global device param
+    $media: only screen;
+    // Media queries supported
+    @if $mq-support == true {
+        @media #{$media} and ('min-width': $min-width) and ('max-width': $max-width) {
+            @content;
+        }
+    }
+}
+
+/* calc */
+@mixin calc($property, $expression) {
+    #{$property}: -moz-calc(#{$expression});
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: calc(#{$expression});
+}
