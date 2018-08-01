@@ -3,11 +3,19 @@ header {
         &.centered {
             .header-container {
                 padding-top: 70px;
+
+                @include bp(max-width, $md - 1) {
+                    padding-top: 20px;
+                }
             }
 
             .site-branding {
                 @include media-breakpoint-up(md) {
                     padding: 0 0 45px;
+                }
+
+                @include bp(max-width, $md - 1) {
+                    text-align: left;
                 }
             }
 
@@ -33,9 +41,20 @@ header {
         }
     }
 
+    .site-branding {
+        @include bp(max-width, $md - 1) {
+            @include align-self();
+            margin-left: 5%;
+        }
+    }
+
     .site-logo {
         img {
             display: block;
+        }
+
+        @include bp(max-width, $md - 1) {
+            max-width: 160px;
         }
     }
 

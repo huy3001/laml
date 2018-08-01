@@ -20,12 +20,13 @@
     }
 
     .showcase-panel__subtitle {
+        font-size: 40px;
         font-weight: 700;
+        letter-spacing: 0;
+        margin: 0 0 10px;
 
         @include media-breakpoint-up(md) {
             font-size: 65px;
-            letter-spacing: 0;
-            margin: 0 0 10px;
         }
 
         @include media-breakpoint-up(xl) {
