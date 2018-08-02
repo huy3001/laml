@@ -10,9 +10,11 @@
 
                 .pattern-image {
                     > img {
-                        @include media-breakpoint-up(md) {
-                            width: auto;
-                            max-width: none;
+                        width: auto;
+                        max-width: none;
+
+                        @include bp(max-width, $md - 1) {
+                            height: 19px;
                         }
                     }
                 }

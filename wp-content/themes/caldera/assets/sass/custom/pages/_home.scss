@@ -17,6 +17,10 @@
         @include media-breakpoint-up(xl) {
             padding: 145px 15px 100px;
         }
+
+        @include bp(max-width, $md - 1) {
+            margin-bottom: -19px;
+        }
     }
 
     .showcase-panel__subtitle {
@@ -83,6 +87,7 @@
         &-title {
             h2 {
                 color: $color-white;
+                font-size: 40px;
                 font-weight: 700;
                 line-height: 1;
                 letter-spacing: 0;
@@ -122,6 +127,7 @@
         &-subtitle {
             h3 {
                 color: $color-white;
+                font-size: 25px;
                 font-weight: 300;
                 line-height: 1.25;
                 letter-spacing: 0;
@@ -139,11 +145,15 @@
 
         &-text {
             p {
-                font-size: 18px;
+                font-size: 16px;
                 margin: 0 0 25px;
 
                 &:last-child {
                     margin: 0;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
                 }
             }
         }
@@ -227,8 +237,13 @@
         &-content {
             max-width: 940px;
             margin: 0 auto;
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            @include media-breakpoint-up(md) {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
 
             @include bp(max-width, $xl - 1) {
                 padding-left: 3.125rem;
@@ -239,6 +254,7 @@
         &-title {
             h2 {
                 color: $color-black;
+                font-size: 40px;
                 font-weight: 700;
                 line-height: 1;
                 letter-spacing: 0;
@@ -278,6 +294,7 @@
         &-subtitle {
             h3 {
                 color: $color-black;
+                font-size: 25px;
                 font-weight: 300;
                 line-height: 1.25;
                 letter-spacing: 0;
@@ -295,11 +312,15 @@
 
         &-text {
             p {
-                font-size: 18px;
+                font-size: 16px;
                 margin: 0 0 25px;
 
                 &:last-child {
                     margin: 0;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
                 }
             }
         }
@@ -331,8 +352,13 @@
                 padding-bottom: 50px;
             }
 
+            @include bp(max-width, $md - 1) {
+                padding-top: 50px;
+            }
+
             h2 {
                 color: $color-white;
+                font-size: 40px;
                 font-weight: 700;
                 line-height: 1;
                 letter-spacing: 0;
@@ -370,6 +396,7 @@
                 display: inline-block;
                 vertical-align: top;
                 color: $color-blue;
+                font-size: 25px;
                 font-weight: 300;
                 line-height: 1.25;
                 letter-spacing: 0;
@@ -401,11 +428,15 @@
 
             p {
                 color: $color-white;
-                font-size: 18px;
+                font-size: 16px;
                 margin: 0 0 25px;
 
                 &:last-child {
                     margin: 0;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
                 }
             }
         }
@@ -422,12 +453,18 @@
                     max-width: 100%;
                 }
             }
+
+            @include bp(max-width, $md - 1) {
+                padding-bottom: 50px;
+            }
         }
     }
 
     /* Find us */
     .find-us {
         &-title {
+            padding: 50px 0;
+
             @include media-breakpoint-up(md) {
                 padding: 80px 0;
             }
@@ -438,6 +475,7 @@
 
             h2 {
                 color: $color-white;
+                font-size: 40px;
                 font-weight: 700;
                 line-height: 1.2;
                 letter-spacing: 0;
@@ -467,8 +505,6 @@
                         margin-bottom: 30px;
                     }
                 }
-
-                
             }
         }
     }
@@ -484,7 +520,9 @@
         &-text {
             p {
                 color: $color-blue;
+                font-size: 25px;
                 font-weight: 300;
+                line-height: 1.25;
                 margin: 0;
 
                 @include media-breakpoint-up(md) {
@@ -509,6 +547,11 @@
 
                 @include bp(max-width, $xl - 1) {
                     padding: 15px 25px !important;
+                }
+
+                @include bp(max-width, $md - 1) {
+                    display: block;
+                    margin-top: 30px;
                 }
             }
         }
