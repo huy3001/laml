@@ -116,6 +116,184 @@
   }
 }
 
+/* line 1, assets/sass/custom/component/_our-mission.scss */
+
+body {
+  /* Our mission */
+}
+
+/* line 3, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission {
+  background: #cf1d39;
+  padding: 50px 1.5625rem;
+}
+
+@media (min-width: 768px) {
+  /* line 3, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 3, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  /* line 3, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission {
+    padding-left: calc((100% - 1800px)/2);
+    padding-right: calc((100% - 1800px)/2);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 25, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission .tm_pb_column {
+    -moz-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* line 32, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission-title h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+/* line 40, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission-title h2:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 78px;
+  background: #ffffff;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 32, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-title h2 {
+    font-size: 60px;
+  }
+
+  /* line 52, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-title h2::before {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 32, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-title h2 {
+    font-size: 80px;
+  }
+
+  /* line 60, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-title h2::before {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 32, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-title h2 {
+    margin: 0 0 50px;
+  }
+}
+
+/* line 72, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission-subtitle h3 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin: 0 0 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 72, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-subtitle h3 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 72, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-subtitle h3 {
+    font-size: 40px;
+  }
+}
+
+/* line 91, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission-text p {
+  font-size: 16px;
+  margin: 0 0 25px;
+}
+
+/* line 95, assets/sass/custom/component/_our-mission.scss */
+
+body .our-mission-text p:last-child {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 91, assets/sass/custom/component/_our-mission.scss */
+
+  body .our-mission-text p {
+    font-size: 18px;
+  }
+}
+
+/* line 109, assets/sass/custom/component/_our-mission.scss */
+
+body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-mission-button {
+  font-size: 16px;
+  margin-top: 45px;
+  padding: 20px 43px !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 109, assets/sass/custom/component/_our-mission.scss */
+
+  body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-mission-button {
+    padding: 15px 23px !important;
+  }
+}
+
+/* line 2, assets/sass/custom/layout/_general.scss */
+
+body .site-content_wrap {
+  padding-top: 0;
+}
+
 /* line 4, assets/sass/custom/layout/_header.scss */
 
 header.site-header.centered .header-container {
@@ -218,7 +396,6 @@ header .site-logo img {
 
 .home {
   /* Banner */
-  /* Our mission */
   /* Project terms */
   /* About us */
   /* Why us */
@@ -309,180 +486,14 @@ header .site-logo img {
   font-size: 16px;
 }
 
-/* line 59, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission {
-  background: #cf1d39;
-  padding: 50px 1.5625rem;
-}
-
-@media (min-width: 768px) {
-  /* line 59, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 59, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-}
-
-@media only screen and (min-width: 1921px) {
-  /* line 59, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission {
-    padding-left: calc((100% - 1800px)/2);
-    padding-right: calc((100% - 1800px)/2);
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  /* line 81, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission .tm_pb_column {
-    -moz-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-/* line 88, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission-title h2 {
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0;
-  margin: 0;
-}
-
-/* line 96, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission-title h2:before {
-  content: '';
-  display: block;
-  height: 5px;
-  width: 78px;
-  background: #ffffff;
-  margin-bottom: 10px;
-}
-
-@media (min-width: 768px) {
-  /* line 88, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-title h2 {
-    font-size: 60px;
-  }
-
-  /* line 108, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-title h2::before {
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 88, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-title h2 {
-    font-size: 80px;
-  }
-
-  /* line 116, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-title h2::before {
-    margin-bottom: 30px;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  /* line 88, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-title h2 {
-    margin: 0 0 50px;
-  }
-}
-
-/* line 128, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission-subtitle h3 {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 1.25;
-  letter-spacing: 0;
-  margin: 0 0 30px;
-}
-
-@media (min-width: 768px) {
-  /* line 128, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-subtitle h3 {
-    font-size: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 128, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-subtitle h3 {
-    font-size: 40px;
-  }
-}
-
-/* line 147, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission-text p {
-  font-size: 16px;
-  margin: 0 0 25px;
-}
-
-/* line 151, assets/sass/custom/pages/_home.scss */
-
-.home .our-mission-text p:last-child {
-  margin: 0;
-}
-
-@media (min-width: 768px) {
-  /* line 147, assets/sass/custom/pages/_home.scss */
-
-  .home .our-mission-text p {
-    font-size: 18px;
-  }
-}
-
-/* line 164, assets/sass/custom/pages/_home.scss */
-
-.home.tm_pb_builder #tm_builder_outer_content .our-mission-button {
-  font-size: 16px;
-  margin-top: 45px;
-  padding: 20px 43px !important;
-}
-
-@media only screen and (max-width: 1199px) {
-  /* line 164, assets/sass/custom/pages/_home.scss */
-
-  .home.tm_pb_builder #tm_builder_outer_content .our-mission-button {
-    padding: 15px 23px !important;
-  }
-}
-
-/* line 180, assets/sass/custom/pages/_home.scss */
+/* line 62, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container.grid-layout {
   margin: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 188, assets/sass/custom/pages/_home.scss */
+  /* line 70, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-media:hover .term-permalink.simple-icon {
     -webkit-transform: translateY(calc(50% + 30px));
@@ -491,21 +502,21 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 197, assets/sass/custom/pages/_home.scss */
+  /* line 79, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption {
     padding: 60px 40px;
   }
 }
 
-/* line 202, assets/sass/custom/pages/_home.scss */
+/* line 84, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
   font-weight: 300;
 }
 
 @media (min-width: 1200px) {
-  /* line 202, assets/sass/custom/pages/_home.scss */
+  /* line 84, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption h5 {
     font-size: 35px;
@@ -514,7 +525,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 211, assets/sass/custom/pages/_home.scss */
+  /* line 93, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption .term-permalink {
     margin: 0 0 30px 25px;
@@ -522,7 +533,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 225, assets/sass/custom/pages/_home.scss */
+  /* line 107, assets/sass/custom/pages/_home.scss */
 
   .home .about-us .tm_pb_column {
     -moz-flex: 0 0 100%;
@@ -531,13 +542,13 @@ header .site-logo img {
   }
 }
 
-/* line 232, assets/sass/custom/pages/_home.scss */
+/* line 114, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-image img {
   width: 100%;
 }
 
-/* line 237, assets/sass/custom/pages/_home.scss */
+/* line 119, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-content {
   max-width: 940px;
@@ -547,7 +558,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 237, assets/sass/custom/pages/_home.scss */
+  /* line 119, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-content {
     padding-top: 100px;
@@ -556,7 +567,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 237, assets/sass/custom/pages/_home.scss */
+  /* line 119, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-content {
     padding-left: 3.125rem;
@@ -564,7 +575,7 @@ header .site-logo img {
   }
 }
 
-/* line 255, assets/sass/custom/pages/_home.scss */
+/* line 137, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-title h2 {
   color: #000000;
@@ -575,7 +586,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 263, assets/sass/custom/pages/_home.scss */
+/* line 145, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-title h2:before {
   content: '';
@@ -587,13 +598,13 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 255, assets/sass/custom/pages/_home.scss */
+  /* line 137, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 275, assets/sass/custom/pages/_home.scss */
+  /* line 157, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2::before {
     margin-bottom: 20px;
@@ -601,13 +612,14 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 255, assets/sass/custom/pages/_home.scss */
+  /* line 137, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     font-size: 80px;
+    margin: 0 0 60px;
   }
 
-  /* line 283, assets/sass/custom/pages/_home.scss */
+  /* line 166, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2::before {
     margin-bottom: 30px;
@@ -615,14 +627,14 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 255, assets/sass/custom/pages/_home.scss */
+  /* line 137, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     margin: 0 0 50px;
   }
 }
 
-/* line 295, assets/sass/custom/pages/_home.scss */
+/* line 178, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-subtitle h3 {
   color: #000000;
@@ -634,7 +646,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 295, assets/sass/custom/pages/_home.scss */
+  /* line 178, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-subtitle h3 {
     font-size: 30px;
@@ -642,35 +654,35 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 295, assets/sass/custom/pages/_home.scss */
+  /* line 178, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-subtitle h3 {
     font-size: 40px;
   }
 }
 
-/* line 314, assets/sass/custom/pages/_home.scss */
+/* line 197, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-text p {
   font-size: 16px;
   margin: 0 0 25px;
 }
 
-/* line 318, assets/sass/custom/pages/_home.scss */
+/* line 201, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-text p:last-child {
   margin: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 314, assets/sass/custom/pages/_home.scss */
+  /* line 197, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-text p {
     font-size: 18px;
   }
 }
 
-/* line 331, assets/sass/custom/pages/_home.scss */
+/* line 214, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .about-us-button {
   font-size: 16px;
@@ -679,7 +691,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 331, assets/sass/custom/pages/_home.scss */
+  /* line 214, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .about-us-button {
     margin-top: 45px;
@@ -687,20 +699,20 @@ header .site-logo img {
   }
 }
 
-/* line 345, assets/sass/custom/pages/_home.scss */
+/* line 228, assets/sass/custom/pages/_home.scss */
 
 .home .why-us {
   background: #313131;
 }
 
-/* line 348, assets/sass/custom/pages/_home.scss */
+/* line 231, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title {
   padding: 85px 0 70px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 348, assets/sass/custom/pages/_home.scss */
+  /* line 231, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title {
     padding-bottom: 50px;
@@ -708,14 +720,14 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 348, assets/sass/custom/pages/_home.scss */
+  /* line 231, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title {
     padding-top: 50px;
   }
 }
 
-/* line 359, assets/sass/custom/pages/_home.scss */
+/* line 242, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title h2 {
   color: #ffffff;
@@ -726,7 +738,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 367, assets/sass/custom/pages/_home.scss */
+/* line 250, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title h2:before {
   content: '';
@@ -738,13 +750,13 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 359, assets/sass/custom/pages/_home.scss */
+  /* line 242, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 379, assets/sass/custom/pages/_home.scss */
+  /* line 262, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2::before {
     margin-bottom: 20px;
@@ -752,20 +764,28 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 359, assets/sass/custom/pages/_home.scss */
+  /* line 242, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 387, assets/sass/custom/pages/_home.scss */
+  /* line 270, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2::before {
     margin-bottom: 30px;
   }
 }
 
-/* line 395, assets/sass/custom/pages/_home.scss */
+@media (min-width: 1200px) {
+  /* line 277, assets/sass/custom/pages/_home.scss */
+
+  .home .why-us-subtitle {
+    padding-top: 20px;
+  }
+}
+
+/* line 282, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-subtitle h3 {
   display: inline-block;
@@ -781,7 +801,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 395, assets/sass/custom/pages/_home.scss */
+  /* line 282, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     font-size: 30px;
@@ -789,7 +809,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 395, assets/sass/custom/pages/_home.scss */
+  /* line 282, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     font-size: 40px;
@@ -797,7 +817,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 395, assets/sass/custom/pages/_home.scss */
+  /* line 282, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     display: block;
@@ -805,21 +825,21 @@ header .site-logo img {
   }
 }
 
-/* line 422, assets/sass/custom/pages/_home.scss */
+/* line 309, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text {
   max-width: 680px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 422, assets/sass/custom/pages/_home.scss */
+  /* line 309, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-text {
     margin: 0 auto;
   }
 }
 
-/* line 429, assets/sass/custom/pages/_home.scss */
+/* line 316, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text p {
   color: #ffffff;
@@ -827,35 +847,35 @@ header .site-logo img {
   margin: 0 0 25px;
 }
 
-/* line 434, assets/sass/custom/pages/_home.scss */
+/* line 321, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text p:last-child {
   margin: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 429, assets/sass/custom/pages/_home.scss */
+  /* line 316, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-text p {
     font-size: 18px;
   }
 }
 
-/* line 444, assets/sass/custom/pages/_home.scss */
+/* line 331, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-content {
   padding-bottom: 110px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 444, assets/sass/custom/pages/_home.scss */
+  /* line 331, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content {
     padding-left: 1.5625rem;
     padding-right: 1.5625rem;
   }
 
-  /* line 451, assets/sass/custom/pages/_home.scss */
+  /* line 338, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content .tm_pb_column {
     -moz-flex: 0 0 100%;
@@ -865,21 +885,21 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 444, assets/sass/custom/pages/_home.scss */
+  /* line 331, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content {
     padding-bottom: 50px;
   }
 }
 
-/* line 465, assets/sass/custom/pages/_home.scss */
+/* line 352, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title {
   padding: 50px 0;
 }
 
 @media (min-width: 768px) {
-  /* line 465, assets/sass/custom/pages/_home.scss */
+  /* line 352, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 80px 0;
@@ -887,14 +907,14 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 465, assets/sass/custom/pages/_home.scss */
+  /* line 352, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 100px 0 460px;
   }
 }
 
-/* line 476, assets/sass/custom/pages/_home.scss */
+/* line 363, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2 {
   color: #ffffff;
@@ -905,7 +925,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 484, assets/sass/custom/pages/_home.scss */
+/* line 371, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2:before {
   content: '';
@@ -917,13 +937,13 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 476, assets/sass/custom/pages/_home.scss */
+  /* line 363, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 496, assets/sass/custom/pages/_home.scss */
+  /* line 383, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 20px;
@@ -931,34 +951,34 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 476, assets/sass/custom/pages/_home.scss */
+  /* line 363, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 504, assets/sass/custom/pages/_home.scss */
+  /* line 391, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 30px;
   }
 }
 
-/* line 513, assets/sass/custom/pages/_home.scss */
+/* line 400, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us {
   padding: 65px 0 55px;
 }
 
 @media (min-width: 1200px) {
-  /* line 513, assets/sass/custom/pages/_home.scss */
+  /* line 400, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us {
     padding: 135px 0 125px;
   }
 }
 
-/* line 521, assets/sass/custom/pages/_home.scss */
+/* line 408, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us-text p {
   color: #78bee0;
@@ -969,7 +989,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 521, assets/sass/custom/pages/_home.scss */
+  /* line 408, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 36px;
@@ -978,7 +998,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 521, assets/sass/custom/pages/_home.scss */
+  /* line 408, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 80px;
@@ -986,7 +1006,7 @@ header .site-logo img {
   }
 }
 
-/* line 543, assets/sass/custom/pages/_home.scss */
+/* line 430, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
   font-size: 16px;
@@ -995,7 +1015,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 543, assets/sass/custom/pages/_home.scss */
+  /* line 430, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     padding: 15px 25px !important;
@@ -1003,10 +1023,12 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 543, assets/sass/custom/pages/_home.scss */
+  /* line 430, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     display: block;
     margin-top: 30px;
   }
 }
+
+/* About us */

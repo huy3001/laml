@@ -55,124 +55,6 @@
         font-size: 16px;
     }
 
-    /* Our mission */
-    .our-mission {
-        $our-mission-width: 1800px;
-
-        background: $color-red;
-        padding: 50px 1.5625rem;
-
-        @include media-breakpoint-up(md) {
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        @include media-breakpoint-up(xl) {
-            padding-left: 60px;
-            padding-right: 60px;
-        }
-
-        @include bp(min-width, $hd + 1) {
-            @include calc(padding-left, '(100% - #{$our-mission-width})/2');
-            @include calc(padding-right, '(100% - #{$our-mission-width})/2');
-        }
-
-        @include bp(max-width, $xl - 1) {
-            .tm_pb_column {
-                @include flex(0, 0 , 100%);
-                max-width: 100%;
-            }
-        }
-
-        &-title {
-            h2 {
-                color: $color-white;
-                font-size: 40px;
-                font-weight: 700;
-                line-height: 1;
-                letter-spacing: 0;
-                margin: 0;
-
-                &:before {
-                    content: '';
-                    display: block;
-                    height: 5px;
-                    width: 78px;
-                    background: $color-white;
-                    margin-bottom: 10px;
-                }
-
-                @include media-breakpoint-up(md) {
-                    font-size: 60px;
-
-                    &::before {
-                        margin-bottom: 20px;
-                    }
-                }
-
-                @include media-breakpoint-up(xl) {
-                    font-size: 80px;
-
-                    &::before {
-                        margin-bottom: 30px;
-                    }
-                }
-
-                @include bp(max-width, $xl - 1) {
-                    margin: 0 0 50px;
-                }
-            }
-        }
-
-        &-subtitle {
-            h3 {
-                color: $color-white;
-                font-size: 25px;
-                font-weight: 300;
-                line-height: 1.25;
-                letter-spacing: 0;
-                margin: 0 0 30px;
-
-                @include media-breakpoint-up(md) {
-                    font-size: 30px;
-                }
-
-                @include media-breakpoint-up(xl) {
-                    font-size: 40px;
-                }
-            }
-        }
-
-        &-text {
-            p {
-                font-size: 16px;
-                margin: 0 0 25px;
-
-                &:last-child {
-                    margin: 0;
-                }
-
-                @include media-breakpoint-up(md) {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-
-    &.tm_pb_builder {
-        #tm_builder_outer_content {
-            .our-mission-button {
-                font-size: 16px;
-                margin-top: 45px;
-                padding: 20px 43px !important;
-
-                @include bp(max-width, $xl - 1) {
-                    padding: 15px 23px !important;
-                }
-            }
-        }
-    }
-
     /* Project terms */
     &.tm_pb_builder {
         #tm_builder_outer_content {
@@ -279,6 +161,7 @@
 
                 @include media-breakpoint-up(xl) {
                     font-size: 80px;
+                    margin: 0 0 60px;
 
                     &::before {
                         margin-bottom: 30px;
@@ -392,6 +275,10 @@
         }
 
         &-subtitle {
+            @include media-breakpoint-up(xl) {
+                padding-top: 20px;
+            }
+
             h3 {
                 display: inline-block;
                 vertical-align: top;
