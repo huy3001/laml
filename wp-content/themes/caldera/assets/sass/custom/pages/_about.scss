@@ -1,6 +1,107 @@
 /* About us */
 .about {
-    &-us-block {
-        
+    &-us {
+        &-block {
+            $about-block-width: 1800px;
+
+            padding: 50px 1.5625rem;
+
+            @include media-breakpoint-up(md) {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+
+            @include bp(min-width, $hd + 1) {
+                @include calc(padding-left, '(100% - #{$about-block-width})/2');
+                @include calc(padding-right, '(100% - #{$about-block-width})/2');
+            }
+
+            @include bp(max-width, $xl - 1) {
+                .tm_pb_column {
+                    @include flex(0, 0 , 100%);
+                    max-width: 100%;
+                }
+            }
+        }
+
+        &-title {
+            h2 {
+                color: $color-red;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1;
+                letter-spacing: 0;
+                text-align: right;
+                margin: 0;
+
+                &:before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 78px;
+                    background: $color-red;
+                    margin-bottom: 10px;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 60px;
+
+                    &::before {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                @include media-breakpoint-up(xl) {
+                    font-size: 80px;
+
+                    &::before {
+                        margin-bottom: 30px;
+                    }
+                }
+
+                @include bp(max-width, $xl - 1) {
+                    margin: 0 0 50px;
+                }
+            }
+        }
+
+        &-subtitle {
+            h3 {
+                color: $color-black;
+                font-size: 25px;
+                font-weight: 300;
+                line-height: 1.25;
+                letter-spacing: 0;
+                margin: 0 0 30px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 30px;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        &-text {
+            p {
+                font-size: 16px;
+                margin: 0 0 25px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
