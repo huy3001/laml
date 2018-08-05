@@ -1033,14 +1033,14 @@ header .site-logo img {
 
 /* About us */
 
-/* line 4, assets/sass/custom/pages/_about.scss */
+/* line 3, assets/sass/custom/pages/_about.scss */
 
 .about-us-block {
   padding: 50px 1.5625rem;
 }
 
 @media (min-width: 768px) {
-  /* line 4, assets/sass/custom/pages/_about.scss */
+  /* line 3, assets/sass/custom/pages/_about.scss */
 
   .about-us-block {
     padding-top: 100px;
@@ -1049,7 +1049,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 4, assets/sass/custom/pages/_about.scss */
+  /* line 3, assets/sass/custom/pages/_about.scss */
 
   .about-us-block {
     padding-left: 60px;
@@ -1058,7 +1058,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1921px) {
-  /* line 4, assets/sass/custom/pages/_about.scss */
+  /* line 3, assets/sass/custom/pages/_about.scss */
 
   .about-us-block {
     padding-left: calc((100% - 1800px)/2);
@@ -1067,7 +1067,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 25, assets/sass/custom/pages/_about.scss */
+  /* line 24, assets/sass/custom/pages/_about.scss */
 
   .about-us-block .tm_pb_column {
     -moz-flex: 0 0 100%;
@@ -1076,9 +1076,9 @@ header .site-logo img {
   }
 }
 
-/* line 33, assets/sass/custom/pages/_about.scss */
+/* line 31, assets/sass/custom/pages/_about.scss */
 
-.about-us-title h2 {
+.about-us-block-title h2 {
   color: #cf1d39;
   font-size: 40px;
   font-weight: 700;
@@ -1088,11 +1088,19 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 42, assets/sass/custom/pages/_about.scss */
+/* line 40, assets/sass/custom/pages/_about.scss */
 
-.about-us-title h2:before {
+.about-us-block-title h2 span {
+  clear: both;
+  display: block;
+}
+
+/* line 45, assets/sass/custom/pages/_about.scss */
+
+.about-us-block-title h2:before {
   content: '';
   display: block;
+  float: right;
   height: 5px;
   width: 78px;
   background: #cf1d39;
@@ -1100,44 +1108,44 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 33, assets/sass/custom/pages/_about.scss */
+  /* line 31, assets/sass/custom/pages/_about.scss */
 
-  .about-us-title h2 {
+  .about-us-block-title h2 {
     font-size: 60px;
   }
 
-  /* line 54, assets/sass/custom/pages/_about.scss */
+  /* line 58, assets/sass/custom/pages/_about.scss */
 
-  .about-us-title h2::before {
+  .about-us-block-title h2::before {
     margin-bottom: 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 33, assets/sass/custom/pages/_about.scss */
+  /* line 31, assets/sass/custom/pages/_about.scss */
 
-  .about-us-title h2 {
+  .about-us-block-title h2 {
     font-size: 80px;
   }
 
-  /* line 62, assets/sass/custom/pages/_about.scss */
+  /* line 66, assets/sass/custom/pages/_about.scss */
 
-  .about-us-title h2::before {
+  .about-us-block-title h2::before {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 33, assets/sass/custom/pages/_about.scss */
+  /* line 31, assets/sass/custom/pages/_about.scss */
 
-  .about-us-title h2 {
+  .about-us-block-title h2 {
     margin: 0 0 50px;
   }
 }
 
-/* line 74, assets/sass/custom/pages/_about.scss */
+/* line 78, assets/sass/custom/pages/_about.scss */
 
-.about-us-subtitle h3 {
+.about-us-block-subtitle h3 {
   color: #000000;
   font-size: 25px;
   font-weight: 300;
@@ -1147,38 +1155,217 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 74, assets/sass/custom/pages/_about.scss */
+  /* line 78, assets/sass/custom/pages/_about.scss */
 
-  .about-us-subtitle h3 {
+  .about-us-block-subtitle h3 {
     font-size: 30px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 74, assets/sass/custom/pages/_about.scss */
+  /* line 78, assets/sass/custom/pages/_about.scss */
 
-  .about-us-subtitle h3 {
+  .about-us-block-subtitle h3 {
     font-size: 40px;
   }
 }
 
-/* line 93, assets/sass/custom/pages/_about.scss */
+/* line 97, assets/sass/custom/pages/_about.scss */
 
-.about-us-text p {
+.about-us-block-text p {
   font-size: 16px;
   margin: 0 0 25px;
 }
 
-/* line 97, assets/sass/custom/pages/_about.scss */
+/* line 101, assets/sass/custom/pages/_about.scss */
 
-.about-us-text p:last-child {
+.about-us-block-text p:last-child {
   margin: 0;
 }
 
 @media (min-width: 768px) {
-  /* line 93, assets/sass/custom/pages/_about.scss */
+  /* line 97, assets/sass/custom/pages/_about.scss */
 
-  .about-us-text p {
+  .about-us-block-text p {
     font-size: 18px;
+  }
+}
+
+/* Why us */
+
+/* line 116, assets/sass/custom/pages/_about.scss */
+
+.why-us-block-title {
+  padding: 70px 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 116, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 116, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, assets/sass/custom/pages/_about.scss */
+
+.why-us-block-title h2 {
+  color: #959595;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+/* line 135, assets/sass/custom/pages/_about.scss */
+
+.why-us-block-title h2:before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 78px;
+  background: #cf1d39;
+  margin: 0 auto 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 127, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title h2 {
+    font-size: 60px;
+  }
+
+  /* line 147, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title h2::before {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 127, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title h2 {
+    font-size: 80px;
+  }
+
+  /* line 155, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-title h2::before {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 162, assets/sass/custom/pages/_about.scss */
+
+.why-us-block-list {
+  padding: 0 1.5625rem;
+}
+
+/* line 167, assets/sass/custom/pages/_about.scss */
+
+.why-us-block-list.bottom-list {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  /* line 162, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-list {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  /* line 175, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-list.bottom-list {
+    padding-bottom: 125px;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  /* line 162, assets/sass/custom/pages/_about.scss */
+
+  .why-us-block-list {
+    padding-left: calc((100% - 1740px)/2);
+    padding-right: calc((100% - 1740px)/2);
+  }
+}
+
+/* Contact us */
+
+/* line 190, assets/sass/custom/pages/_about.scss */
+
+.contact-us-block {
+  padding: 75px 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 190, assets/sass/custom/pages/_about.scss */
+
+  .contact-us-block {
+    padding: 150px 0;
+  }
+}
+
+/* line 198, assets/sass/custom/pages/_about.scss */
+
+.contact-us-block-text p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 198, assets/sass/custom/pages/_about.scss */
+
+  .contact-us-block-text p {
+    font-size: 36px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 198, assets/sass/custom/pages/_about.scss */
+
+  .contact-us-block-text p {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+}
+
+/* line 222, assets/sass/custom/pages/_about.scss */
+
+.page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
+  font-size: 16px;
+  white-space: nowrap;
+  padding: 20px 45px !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 222, assets/sass/custom/pages/_about.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
+    padding: 15px 25px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 222, assets/sass/custom/pages/_about.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
+    display: block;
+    margin-top: 30px;
   }
 }
