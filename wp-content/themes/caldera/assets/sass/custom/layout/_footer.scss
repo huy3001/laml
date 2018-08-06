@@ -5,6 +5,17 @@
     @include bp(max-width, $md - 1) {
         margin-top: 19px;
     }
+
+    #menu-footer-menu-custom {
+        @include media-breakpoint-up(lg) {
+            margin-top: 25px;
+        }
+
+        li {
+            font-size: 16px;
+            margin: 0 0 15px;
+        }
+    }
 }
 
 .footer {
@@ -13,6 +24,7 @@
         position: absolute;
         left: 0;
         top: 0;
+        z-index: 1;
         @include transform(translateY(-100%));
 
         img {
@@ -24,5 +36,60 @@
                 height: 19px;
             }
         }
+    }
+
+    &-area-wrap {
+        @include bp(max-width, $lg - 1) {
+            padding: 0;
+        }
+
+        .widget {
+            padding-top: 40px;
+            padding-bottom: 50px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding-top: 75px;
+                padding-bottom: 100px;
+            }
+
+            @include bp(max-width, $lg - 1) {
+                margin-bottom: 0;
+
+                & + .widget {
+                    padding-top: 0;
+                }
+            }
+        }
+
+        .textwidget {
+            max-width: 100%;
+
+            @include media-breakpoint-up(xl) {
+                max-width: 380px;
+            }
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            .info-block {
+                font-size: 16px;
+                font-weight: 700;
+
+                @include media-breakpoint-up(lg) {
+                    &:first-child {
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-container {
+        display: none;
     }
 }

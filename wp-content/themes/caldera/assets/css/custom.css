@@ -435,18 +435,34 @@ header .site-logo img {
   }
 }
 
-/* line 11, assets/sass/custom/layout/_footer.scss */
+@media (min-width: 992px) {
+  /* line 9, assets/sass/custom/layout/_footer.scss */
+
+  .site-footer #menu-footer-menu-custom {
+    margin-top: 25px;
+  }
+}
+
+/* line 15, assets/sass/custom/layout/_footer.scss */
+
+.site-footer #menu-footer-menu-custom li {
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+
+/* line 23, assets/sass/custom/layout/_footer.scss */
 
 .footer-pattern {
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 1;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
 
-/* line 18, assets/sass/custom/layout/_footer.scss */
+/* line 31, assets/sass/custom/layout/_footer.scss */
 
 .footer-pattern img {
   display: block;
@@ -455,11 +471,96 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 18, assets/sass/custom/layout/_footer.scss */
+  /* line 31, assets/sass/custom/layout/_footer.scss */
 
   .footer-pattern img {
     height: 19px;
   }
+}
+
+@media only screen and (max-width: 991px) {
+  /* line 42, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap {
+    padding: 0;
+  }
+}
+
+/* line 47, assets/sass/custom/layout/_footer.scss */
+
+.footer-area-wrap .widget {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+/* line 51, assets/sass/custom/layout/_footer.scss */
+
+.footer-area-wrap .widget:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 47, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap .widget {
+    padding-top: 75px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* line 47, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap .widget {
+    margin-bottom: 0;
+  }
+
+  /* line 63, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap .widget + .widget {
+    padding-top: 0;
+  }
+}
+
+/* line 69, assets/sass/custom/layout/_footer.scss */
+
+.footer-area-wrap .textwidget {
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  /* line 69, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap .textwidget {
+    max-width: 380px;
+  }
+}
+
+/* line 76, assets/sass/custom/layout/_footer.scss */
+
+.footer-area-wrap .textwidget img {
+  margin-bottom: 20px;
+}
+
+/* line 80, assets/sass/custom/layout/_footer.scss */
+
+.footer-area-wrap .textwidget .info-block {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  /* line 85, assets/sass/custom/layout/_footer.scss */
+
+  .footer-area-wrap .textwidget .info-block:first-child {
+    margin-top: 25px;
+  }
+}
+
+/* line 93, assets/sass/custom/layout/_footer.scss */
+
+.footer-container {
+  display: none;
 }
 
 /* line 1, assets/sass/custom/pages/_home.scss */
