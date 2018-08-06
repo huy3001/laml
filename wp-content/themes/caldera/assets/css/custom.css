@@ -16,6 +16,8 @@
 
 /* align seft */
 
+/* placeholder */
+
 @font-face {
   font-family: 'laml';
   src: url("../fonts/laml/laml.eot?3y3usa");
@@ -1440,7 +1442,21 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 37, assets/sass/custom/pages/_contact.scss */
+/* line 34, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-form {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  /* line 34, assets/sass/custom/pages/_contact.scss */
+
+  .contact-page-form {
+    padding-bottom: 170px;
+  }
+}
+
+/* line 43, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style input[type=text],
 .contact-page-form .frm_style_formidable-style.with_frm_style input[type=email],
@@ -1452,8 +1468,65 @@ header .site-logo img {
   padding: 10px 15px;
 }
 
-/* line 47, assets/sass/custom/pages/_contact.scss */
+/* line 87, assets/sass/custom/utilities/_mixins.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=text]::-webkit-input-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=email]::-webkit-input-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=tel]::-webkit-input-placeholder {
+  color: #5b5b5b;
+}
+
+/* line 90, assets/sass/custom/utilities/_mixins.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=text]:-moz-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=email]:-moz-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=tel]:-moz-placeholder {
+  /* Firefox 18- */
+  color: #5b5b5b;
+}
+
+/* line 93, assets/sass/custom/utilities/_mixins.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=text]::-moz-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=email]::-moz-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=tel]::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #5b5b5b;
+}
+
+/* line 96, assets/sass/custom/utilities/_mixins.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=text]:-ms-input-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=email]:-ms-input-placeholder,
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=tel]:-ms-input-placeholder {
+  color: #5b5b5b;
+}
+
+/* line 59, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style select {
   background-position: 97% 50%;
+}
+
+/* line 64, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style .frm_submit button {
+  background: #cf1d39;
+  border: 2px solid #cf1d39;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 72px;
+  width: auto;
+  margin: 0;
+  padding: 20px 45px;
+}
+
+/* line 76, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style .frm_submit button:hover {
+  background: #ffffff;
+  border-color: #cf1d39;
+  color: #cf1d39;
 }

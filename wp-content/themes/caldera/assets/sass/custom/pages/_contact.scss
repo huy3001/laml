@@ -32,6 +32,12 @@
     }
 
     &-form {
+        padding-bottom: 50px;
+
+        @include media-breakpoint-up(xl) {
+            padding-bottom: 170px;
+        }
+
         .frm_style_formidable-style {
             &.with_frm_style {
                 input[type=text],
@@ -44,8 +50,35 @@
                     padding: 10px 15px;
                 }
 
+                input[type=text],
+                input[type=email],
+                input[type=tel] {
+                    @include placeholder-color($color-zambezi);
+                }
+
                 select {
                     background-position: 97% 50%;
+                }
+
+                .frm_submit {
+                    button {
+                        background: $color-red;
+                        border: 2px solid $color-red;
+                        color: $color-white;
+                        font-size: 16px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        height: 72px;
+                        width: auto;
+                        margin: 0;
+                        padding: 20px 45px;
+                        
+                        &:hover {
+                            background: $color-white;
+                            border-color: $color-red;
+                            color: $color-red;
+                        }
+                    }
                 }
             }
         }
