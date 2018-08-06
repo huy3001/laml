@@ -1,4 +1,13 @@
 .contact-page {
+    &-content {
+        @include bp(max-width, $lg - 1) {
+            .tm_pb_column {
+                @include flex(0, 0 , 100%);
+                max-width: 100%;
+            }
+        }
+    }
+
     &-title {
         padding: 50px 0 40px;
 
@@ -8,17 +17,33 @@
 
         h2 {
             color: $color-black;
-            font-size: 50px;
+            font-size: 25px;
             font-weight: 300;
             line-height: 1.24;
             margin: 0;
+
+            @include media-breakpoint-up(md) {
+                font-size: 30px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                font-size: 50px;
+            }
         }
     }
 
     &-info {
         background: $color-red;
-        max-width: 350px;
-        padding: 35px 40px;
+        padding: 15px 20px;
+
+        @include media-breakpoint-up(xl) {
+            max-width: 350px;
+            padding: 35px 40px;
+        }
+
+        @include bp(max-width, $lg - 1) {
+            margin-bottom: 20px;
+        }
 
         p {
             color: $color-white;
