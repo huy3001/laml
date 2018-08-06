@@ -1,0 +1,131 @@
+.product {
+    /* Product category */
+    &-cat {
+        padding-top: 50px;
+
+        @include media-breakpoint-up(xl) {
+            padding-top: 145px;
+        }
+
+        &-name {
+            p {
+                font-size: 30px;
+                line-height: 1.267;
+                margin: 0;
+            }
+        }
+    }
+    
+    &-content {
+        margin-bottom: 50px;
+        padding-top: 50px;
+
+        @include media-breakpoint-up(xl) {
+            margin-bottom: 125px;
+            padding-top: 115px;
+        }
+
+        .tm_pb_button_module_wrapper {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 24px;
+        }
+    }
+
+    &-info {
+        margin-bottom: 60px;
+
+        h2 {
+            color: $color-black;
+            font-size: 70px;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 1;
+            margin: 0 0 40px;
+        }
+
+        h3 {
+            color: $color-black;
+            font-size: 40px;
+            font-weight: 300;
+            letter-spacing: 0;
+            line-height: 1.25;
+            text-transform: none;
+            margin: 0 0 25px;
+        }
+
+        p, ul li {
+            font-size: 16px;
+
+            @include media-breakpoint-up(md) {
+                font-size: 18px;
+            }
+        }
+
+        ul {
+            margin: 0 0 25px;
+        }
+    }
+
+    &-related {
+        margin-bottom: 100px;
+
+        @include media-breakpoint-up(xl) {
+            margin-bottom: 200px;
+        }
+
+        &-title {
+            h4 {
+                color: $color-black;
+                font-size: 30px;
+                font-weight: 300;
+                letter-spacing: 0;
+                line-height: 1;
+                text-transform: none;
+                margin: 25px 0;
+            }
+        }
+
+        .projects-terms-container {
+            .projects-terms-list {
+                @include media-breakpoint-up(xl) {
+                    margin: 0 -30px;
+                }
+            }
+
+            .inner-wrapper {
+                @include media-breakpoint-up(xl) {
+                    margin: 10px 30px !important;
+                }
+            }
+        }
+    }
+}
+
+.page {
+    #tm_builder_outer_content {
+        .slash-image {
+            img {
+                max-width: none;
+            }
+        }
+    }
+
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .product-button {
+                font-size: 16px;
+                padding: 20px 35px !important;
+            }
+
+            .product-tabs {
+                padding-top: 0;
+
+                .tm_pb_all_tabs {
+                    border-top-color: $color-dark-grey;
+                    padding: 45px 0;
+                }
+            }
+        }
+    }
+}

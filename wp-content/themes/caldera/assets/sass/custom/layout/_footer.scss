@@ -1,0 +1,19 @@
+.site-footer {
+    position: relative;
+}
+
+.footer {
+    &-pattern {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        @include transform(translateY(-100%));
+
+        img {
+            display: block;
+            width: auto;
+            max-width: none;
+        }
+    }
+}

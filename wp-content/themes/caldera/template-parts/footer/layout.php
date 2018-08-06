@@ -6,6 +6,10 @@
  */
 ?>
 
+<div class="footer-pattern">
+	<img height="38" width="auto" src="<? echo get_template_directory_uri(); ?>/assets/images/pattern.png" alt="">
+</div>
+
 <div class="footer-area-wrap invert">
 	<div class="container">
 		<?php do_action( 'caldera_render_widget_area', 'footer-area' ); ?>

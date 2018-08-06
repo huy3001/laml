@@ -1,5 +1,19 @@
 body {
+    color: $color-black;
+    
     .site-content_wrap {
         padding-top: 0;
+    }
+}
+
+p {
+    margin: 0 0 25px;
+
+    &:last-child {
+        margin: 0;
+    }
+
+    h3 + & {
+        margin: 0 0 25px;
     }
 }
