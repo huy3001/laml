@@ -219,6 +219,24 @@
 .page {
     &.tm_pb_builder {
         #tm_builder_outer_content {
+            .why-us-block-item {
+                @include media-breakpoint-up(xl) {
+                    padding: 0 40px;
+                }
+
+                .tm_pb_main_blurb_image {
+                    margin-bottom: 15px;
+                }
+
+                h4 {
+                    color: $color-black;
+                    font-size: 28px;
+                    font-weight: 700;
+                    margin: 0 0 40px;
+                    padding: 0;
+                }
+            }
+
             .contact-us-block-button {
                 font-size: 16px;
                 white-space: nowrap;
