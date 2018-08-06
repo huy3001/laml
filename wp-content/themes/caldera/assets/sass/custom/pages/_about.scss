@@ -188,7 +188,12 @@
 /* Contact us */
 .contact-us {
     &-block {
+        margin-bottom: -19px;
         padding: 75px 0;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: -38px;
+        }
 
         @include media-breakpoint-up(xl) {
             padding: 150px 0;

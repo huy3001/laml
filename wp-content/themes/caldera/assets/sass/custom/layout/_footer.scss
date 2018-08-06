@@ -1,5 +1,10 @@
 .site-footer {
+    margin-top: 38px;
     position: relative;
+
+    @include bp(max-width, $md - 1) {
+        margin-top: 19px;
+    }
 }
 
 .footer {
@@ -14,6 +19,10 @@
             display: block;
             width: auto;
             max-width: none;
+
+            @include bp(max-width, $md - 1) {
+                height: 19px;
+            }
         }
     }
 }

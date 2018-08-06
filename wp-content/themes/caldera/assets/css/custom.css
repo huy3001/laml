@@ -423,10 +423,19 @@ header .site-logo img {
 /* line 1, assets/sass/custom/layout/_footer.scss */
 
 .site-footer {
+  margin-top: 38px;
   position: relative;
 }
 
-/* line 6, assets/sass/custom/layout/_footer.scss */
+@media only screen and (max-width: 767px) {
+  /* line 1, assets/sass/custom/layout/_footer.scss */
+
+  .site-footer {
+    margin-top: 19px;
+  }
+}
+
+/* line 11, assets/sass/custom/layout/_footer.scss */
 
 .footer-pattern {
   width: 100%;
@@ -437,12 +446,20 @@ header .site-logo img {
   transform: translateY(-100%);
 }
 
-/* line 13, assets/sass/custom/layout/_footer.scss */
+/* line 18, assets/sass/custom/layout/_footer.scss */
 
 .footer-pattern img {
   display: block;
   width: auto;
   max-width: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 18, assets/sass/custom/layout/_footer.scss */
+
+  .footer-pattern img {
+    height: 19px;
+  }
 }
 
 /* line 1, assets/sass/custom/pages/_home.scss */
@@ -1359,7 +1376,16 @@ header .site-logo img {
 /* line 190, assets/sass/custom/pages/_about.scss */
 
 .contact-us-block {
+  margin-bottom: -19px;
   padding: 75px 0;
+}
+
+@media (min-width: 768px) {
+  /* line 190, assets/sass/custom/pages/_about.scss */
+
+  .contact-us-block {
+    margin-bottom: -38px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1370,7 +1396,7 @@ header .site-logo img {
   }
 }
 
-/* line 198, assets/sass/custom/pages/_about.scss */
+/* line 203, assets/sass/custom/pages/_about.scss */
 
 .contact-us-block-text p {
   color: #ffffff;
@@ -1381,7 +1407,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 198, assets/sass/custom/pages/_about.scss */
+  /* line 203, assets/sass/custom/pages/_about.scss */
 
   .contact-us-block-text p {
     font-size: 36px;
@@ -1390,7 +1416,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 198, assets/sass/custom/pages/_about.scss */
+  /* line 203, assets/sass/custom/pages/_about.scss */
 
   .contact-us-block-text p {
     font-size: 60px;
@@ -1399,20 +1425,20 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 222, assets/sass/custom/pages/_about.scss */
+  /* line 227, assets/sass/custom/pages/_about.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .why-us-block-item {
     padding: 0 40px;
   }
 }
 
-/* line 227, assets/sass/custom/pages/_about.scss */
+/* line 232, assets/sass/custom/pages/_about.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .why-us-block-item .tm_pb_main_blurb_image {
   margin-bottom: 15px;
 }
 
-/* line 231, assets/sass/custom/pages/_about.scss */
+/* line 236, assets/sass/custom/pages/_about.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .why-us-block-item h4 {
   color: #000000;
@@ -1422,7 +1448,7 @@ header .site-logo img {
   padding: 0;
 }
 
-/* line 240, assets/sass/custom/pages/_about.scss */
+/* line 245, assets/sass/custom/pages/_about.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
   font-size: 16px;
@@ -1431,7 +1457,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 240, assets/sass/custom/pages/_about.scss */
+  /* line 245, assets/sass/custom/pages/_about.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
     padding: 15px 25px !important;
@@ -1439,7 +1465,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 240, assets/sass/custom/pages/_about.scss */
+  /* line 245, assets/sass/custom/pages/_about.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .contact-us-block-button {
     display: block;
@@ -1751,4 +1777,47 @@ header .site-logo img {
 .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs {
   border-top-color: #aeaeae;
   padding: 45px 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 135, assets/sass/custom/pages/_product.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5 {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 144, assets/sass/custom/pages/_product.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption {
+    padding: 50px;
+  }
+}
+
+/* line 149, assets/sass/custom/pages/_product.scss */
+
+.page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+  font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+  /* line 149, assets/sass/custom/pages/_product.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+    font-size: 35px;
+    line-height: 1.46;
+    text-align: left;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 160, assets/sass/custom/pages/_product.scss */
+
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
+    margin: 0;
+  }
 }

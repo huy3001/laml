@@ -126,6 +126,46 @@
                     padding: 45px 0;
                 }
             }
+
+            .product-related {
+                .projects-terms-container {
+                    .project-terms {
+                        &-media {
+                            &:hover {
+                                h5 {
+                                    @include media-breakpoint-up(xl) {
+                                        top: 50%;
+                                        transform: translateY(-50%);
+                                    }    
+                                }
+                            }
+                        }
+    
+                        &-caption {
+                            @include media-breakpoint-up(xl) {
+                                padding: 50px;
+                            }
+    
+                            h5 {
+                                font-weight: 300;
+                
+                                @include media-breakpoint-up(xl) {
+                                    font-size: 35px;
+                                    line-height: 1.46;
+                                    text-align: left;
+                                    @include align-self(flex-start);
+                                }
+                            }
+    
+                            .term-permalink {
+                                @include media-breakpoint-up(xl) {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
