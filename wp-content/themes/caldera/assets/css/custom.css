@@ -1393,3 +1393,67 @@ header .site-logo img {
     margin-top: 30px;
   }
 }
+
+/* line 2, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-title {
+  padding: 50px 0 40px;
+}
+
+@media (min-width: 1200px) {
+  /* line 2, assets/sass/custom/pages/_contact.scss */
+
+  .contact-page-title {
+    padding-top: 90px;
+  }
+}
+
+/* line 9, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-title h2 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.24;
+  margin: 0;
+}
+
+/* line 18, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-info {
+  background: #cf1d39;
+  max-width: 350px;
+  padding: 35px 40px;
+}
+
+/* line 23, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-info p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 25px;
+}
+
+/* line 28, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-info p:last-child {
+  margin: 0;
+}
+
+/* line 37, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=text],
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=email],
+.contact-page-form .frm_style_formidable-style.with_frm_style input[type=tel],
+.contact-page-form .frm_style_formidable-style.with_frm_style select,
+.contact-page-form .frm_style_formidable-style.with_frm_style textarea {
+  border-color: #aeaeae;
+  color: #5b5b5b;
+  padding: 10px 15px;
+}
+
+/* line 47, assets/sass/custom/pages/_contact.scss */
+
+.contact-page-form .frm_style_formidable-style.with_frm_style select {
+  background-position: 97% 50%;
+}

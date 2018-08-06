@@ -1,0 +1,53 @@
+.contact-page {
+    &-title {
+        padding: 50px 0 40px;
+
+        @include media-breakpoint-up(xl) {
+            padding-top: 90px;
+        }
+
+        h2 {
+            color: $color-black;
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 1.24;
+            margin: 0;
+        }
+    }
+
+    &-info {
+        background: $color-red;
+        max-width: 350px;
+        padding: 35px 40px;
+
+        p {
+            color: $color-white;
+            font-size: 18px;
+            margin: 0 0 25px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    &-form {
+        .frm_style_formidable-style {
+            &.with_frm_style {
+                input[type=text],
+                input[type=email],
+                input[type=tel],
+                select,
+                textarea  {
+                    border-color: $color-dark-grey;
+                    color: $color-zambezi;
+                    padding: 10px 15px;
+                }
+
+                select {
+                    background-position: 97% 50%;
+                }
+            }
+        }
+    }
+}
