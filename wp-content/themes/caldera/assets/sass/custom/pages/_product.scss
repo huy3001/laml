@@ -8,33 +8,74 @@
             padding-top: 115px;
         }
 
+        @include bp(max-width, $xl - 1) {
+            .tm_pb_column {
+                @include flex(0, 0 , 100%);
+                max-width: 100%;
+            }
+        }
+
         .tm_pb_button_module_wrapper {
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 24px;
+            @include media-breakpoint-up(md) {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 14px;
+                width: auto;
+            }
+
+            @include media-breakpoint-up(xl) {
+                margin-right: 24px;
+            }
+        }
+    }
+
+    &-image {
+        @include bp(max-width, $xl - 1) {
+            margin-bottom: 50px;
         }
     }
 
     &-info {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+
+        @include media-breakpoint-up(xl) {
+            margin-bottom: 60px;
+        }
 
         h2 {
             color: $color-black;
-            font-size: 70px;
+            font-size: 40px;
             font-weight: bold;
             letter-spacing: 0;
             line-height: 1;
-            margin: 0 0 40px;
+            margin: 0 0 30px;
+
+            @include media-breakpoint-up(md) {
+                font-size: 60px;
+                margin: 0 0 40px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                font-size: 70px;
+            }
         }
 
         h3 {
             color: $color-black;
-            font-size: 40px;
+            font-size: 25px;
             font-weight: 300;
             letter-spacing: 0;
             line-height: 1.25;
             text-transform: none;
             margin: 0 0 25px;
+
+            @include media-breakpoint-up(md) {
+                font-size: 30px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                font-size: 40px;
+            }
         }
 
         p, ul li {
@@ -51,7 +92,11 @@
     }
 
     &-related {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 100px;
+        }
 
         @include media-breakpoint-up(xl) {
             margin-bottom: 200px;
@@ -60,17 +105,25 @@
         &-title {
             h4 {
                 color: $color-black;
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 300;
                 letter-spacing: 0;
                 line-height: 1;
                 text-transform: none;
-                margin: 25px 0;
+                margin: 0 0 25px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 30px;
+                }
             }
         }
 
         .projects-terms-container {
             .projects-terms-list {
+                @include media-breakpoint-up(md) {
+                    margin: 0 -10px;
+                }
+
                 @include media-breakpoint-up(xl) {
                     margin: 0 -30px;
                 }
@@ -91,6 +144,14 @@
             .product-button {
                 font-size: 16px;
                 padding: 20px 35px !important;
+
+                @include bp(max-width, $xl - 1) {
+                    padding: 15px 25px !important;
+                }
+
+                @include bp(max-width, $md - 1) {
+                    display: block;
+                }
             }
 
             .product-tabs {
@@ -99,6 +160,16 @@
                 .tm_pb_all_tabs {
                     border-top-color: $color-dark-grey;
                     padding: 45px 0;
+                }
+
+                .tm_pb_tabs_controls {
+                    li {
+                        a {
+                            @include bp(max-width, $xl - 1) {
+                                padding: 10px 20px;
+                            }
+                        }
+                    }
                 }
             }
 

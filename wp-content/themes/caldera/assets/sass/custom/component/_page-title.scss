@@ -6,14 +6,25 @@
         padding-top: 145px;
     }
 
+    @include bp(max-width, $xl - 1) {
+        .tm_pb_column {
+            @include flex(0, 0 , 100%);
+            max-width: 100%;
+        }
+    }
+
     &-name {
         h4 {
             color: $color-black;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 300;
             line-height: 1.267;
             text-transform: none;
             margin: 0;
+
+            @include media-breakpoint-up(md) {
+                font-size: 30px;
+            }
         }
     }
 
@@ -21,6 +32,10 @@
         img {
             .page #tm_builder_outer_content & {
                 max-width: none;
+
+                @include bp(max-width, $xl - 1) {
+                    display: none;
+                }
             }
         }
     }
