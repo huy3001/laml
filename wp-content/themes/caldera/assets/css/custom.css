@@ -120,6 +120,39 @@
   }
 }
 
+/* Page title */
+
+/* line 2, assets/sass/custom/component/_page-title.scss */
+
+.page-title {
+  padding-top: 50px;
+}
+
+@media (min-width: 1200px) {
+  /* line 2, assets/sass/custom/component/_page-title.scss */
+
+  .page-title {
+    padding-top: 145px;
+  }
+}
+
+/* line 10, assets/sass/custom/component/_page-title.scss */
+
+.page-title-name h4 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.267;
+  text-transform: none;
+  margin: 0;
+}
+
+/* line 22, assets/sass/custom/component/_page-title.scss */
+
+.page #tm_builder_outer_content .page-title-image img {
+  max-width: none;
+}
+
 /* line 1, assets/sass/custom/component/_our-mission.scss */
 
 body {
@@ -561,6 +594,20 @@ header .site-logo img {
 
 .footer-container {
   display: none;
+}
+
+/* line 2, assets/sass/custom/pages/_cms.scss */
+
+.cms-page-content {
+  padding: 50px 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 2, assets/sass/custom/pages/_cms.scss */
+
+  .cms-page-content {
+    padding: 100px 0;
+  }
 }
 
 /* line 1, assets/sass/custom/pages/_home.scss */
@@ -1751,35 +1798,7 @@ header .site-logo img {
   color: #cf1d39;
 }
 
-/* line 1, assets/sass/custom/pages/_product.scss */
-
-.product {
-  /* Product category */
-}
-
-/* line 3, assets/sass/custom/pages/_product.scss */
-
-.product-cat {
-  padding-top: 50px;
-}
-
-@media (min-width: 1200px) {
-  /* line 3, assets/sass/custom/pages/_product.scss */
-
-  .product-cat {
-    padding-top: 145px;
-  }
-}
-
-/* line 11, assets/sass/custom/pages/_product.scss */
-
-.product-cat-name p {
-  font-size: 30px;
-  line-height: 1.267;
-  margin: 0;
-}
-
-/* line 19, assets/sass/custom/pages/_product.scss */
+/* line 2, assets/sass/custom/pages/_product.scss */
 
 .product-content {
   margin-bottom: 50px;
@@ -1787,7 +1806,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 19, assets/sass/custom/pages/_product.scss */
+  /* line 2, assets/sass/custom/pages/_product.scss */
 
   .product-content {
     margin-bottom: 125px;
@@ -1795,7 +1814,7 @@ header .site-logo img {
   }
 }
 
-/* line 28, assets/sass/custom/pages/_product.scss */
+/* line 11, assets/sass/custom/pages/_product.scss */
 
 .product-content .tm_pb_button_module_wrapper {
   display: inline-block;
@@ -1803,13 +1822,13 @@ header .site-logo img {
   margin-right: 24px;
 }
 
-/* line 35, assets/sass/custom/pages/_product.scss */
+/* line 18, assets/sass/custom/pages/_product.scss */
 
 .product-info {
   margin-bottom: 60px;
 }
 
-/* line 38, assets/sass/custom/pages/_product.scss */
+/* line 21, assets/sass/custom/pages/_product.scss */
 
 .product-info h2 {
   color: #000000;
@@ -1820,7 +1839,7 @@ header .site-logo img {
   margin: 0 0 40px;
 }
 
-/* line 47, assets/sass/custom/pages/_product.scss */
+/* line 30, assets/sass/custom/pages/_product.scss */
 
 .product-info h3 {
   color: #000000;
@@ -1832,7 +1851,7 @@ header .site-logo img {
   margin: 0 0 25px;
 }
 
-/* line 57, assets/sass/custom/pages/_product.scss */
+/* line 40, assets/sass/custom/pages/_product.scss */
 
 .product-info p,
 .product-info ul li {
@@ -1840,7 +1859,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 57, assets/sass/custom/pages/_product.scss */
+  /* line 40, assets/sass/custom/pages/_product.scss */
 
   .product-info p,
   .product-info ul li {
@@ -1848,27 +1867,27 @@ header .site-logo img {
   }
 }
 
-/* line 65, assets/sass/custom/pages/_product.scss */
+/* line 48, assets/sass/custom/pages/_product.scss */
 
 .product-info ul {
   margin: 0 0 25px;
 }
 
-/* line 70, assets/sass/custom/pages/_product.scss */
+/* line 53, assets/sass/custom/pages/_product.scss */
 
 .product-related {
   margin-bottom: 100px;
 }
 
 @media (min-width: 1200px) {
-  /* line 70, assets/sass/custom/pages/_product.scss */
+  /* line 53, assets/sass/custom/pages/_product.scss */
 
   .product-related {
     margin-bottom: 200px;
   }
 }
 
-/* line 78, assets/sass/custom/pages/_product.scss */
+/* line 61, assets/sass/custom/pages/_product.scss */
 
 .product-related-title h4 {
   color: #000000;
@@ -1881,7 +1900,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 90, assets/sass/custom/pages/_product.scss */
+  /* line 73, assets/sass/custom/pages/_product.scss */
 
   .product-related .projects-terms-container .projects-terms-list {
     margin: 0 -30px;
@@ -1889,33 +1908,27 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 96, assets/sass/custom/pages/_product.scss */
+  /* line 79, assets/sass/custom/pages/_product.scss */
 
   .product-related .projects-terms-container .inner-wrapper {
     margin: 10px 30px !important;
   }
 }
 
-/* line 108, assets/sass/custom/pages/_product.scss */
-
-.page #tm_builder_outer_content .slash-image img {
-  max-width: none;
-}
-
-/* line 116, assets/sass/custom/pages/_product.scss */
+/* line 91, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-button {
   font-size: 16px;
   padding: 20px 35px !important;
 }
 
-/* line 121, assets/sass/custom/pages/_product.scss */
+/* line 96, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-tabs {
   padding-top: 0;
 }
 
-/* line 124, assets/sass/custom/pages/_product.scss */
+/* line 99, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs {
   border-top-color: #aeaeae;
@@ -1923,7 +1936,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 135, assets/sass/custom/pages/_product.scss */
+  /* line 110, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5 {
     top: 50%;
@@ -1933,21 +1946,21 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 144, assets/sass/custom/pages/_product.scss */
+  /* line 119, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption {
     padding: 50px;
   }
 }
 
-/* line 149, assets/sass/custom/pages/_product.scss */
+/* line 124, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
   font-weight: 300;
 }
 
 @media (min-width: 1200px) {
-  /* line 149, assets/sass/custom/pages/_product.scss */
+  /* line 124, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
     font-size: 35px;
@@ -1958,7 +1971,7 @@ header .site-logo img {
 }
 
 @media (min-width: 1200px) {
-  /* line 160, assets/sass/custom/pages/_product.scss */
+  /* line 135, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
     margin: 0;

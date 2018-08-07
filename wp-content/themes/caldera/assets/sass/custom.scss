@@ -17,6 +17,7 @@
 
 // Custom builder //
 @import "custom/component/builder";
+@import "custom/component/page-title";
 @import "custom/component/our-mission";
 
 // Custom layout //
@@ -25,6 +26,7 @@
 @import "custom/layout/footer";
 
 // Custom pages //
+@import "custom/pages/cms";
 @import "custom/pages/home";
 @import "custom/pages/about";
 @import "custom/pages/contact";

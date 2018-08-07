@@ -1,21 +1,4 @@
 .product {
-    /* Product category */
-    &-cat {
-        padding-top: 50px;
-
-        @include media-breakpoint-up(xl) {
-            padding-top: 145px;
-        }
-
-        &-name {
-            p {
-                font-size: 30px;
-                line-height: 1.267;
-                margin: 0;
-            }
-        }
-    }
-    
     &-content {
         margin-bottom: 50px;
         padding-top: 50px;
@@ -103,14 +86,6 @@
 }
 
 .page {
-    #tm_builder_outer_content {
-        .slash-image {
-            img {
-                max-width: none;
-            }
-        }
-    }
-
     &.tm_pb_builder {
         #tm_builder_outer_content {
             .product-button {

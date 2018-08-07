@@ -1,0 +1,9 @@
+.cms-page {
+    &-content {
+        padding: 50px 0;
+        
+        @include media-breakpoint-up(xl) {
+            padding: 100px 0;
+        }
+    }
+}

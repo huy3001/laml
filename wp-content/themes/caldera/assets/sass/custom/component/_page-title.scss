@@ -1,0 +1,27 @@
+/* Page title */
+.page-title {
+    padding-top: 50px;
+
+    @include media-breakpoint-up(xl) {
+        padding-top: 145px;
+    }
+
+    &-name {
+        h4 {
+            color: $color-black;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1.267;
+            text-transform: none;
+            margin: 0;
+        }
+    }
+
+    &-image {
+        img {
+            .page #tm_builder_outer_content & {
+                max-width: none;
+            }
+        }
+    }
+}
