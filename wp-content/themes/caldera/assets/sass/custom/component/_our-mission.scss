@@ -94,6 +94,10 @@ body {
 
                 &:last-child {
                     margin: 0;
+
+                    @include bp(max-width, $md - 1) {
+                        text-align: left !important;
+                    }
                 }
 
                 @include media-breakpoint-up(md) {

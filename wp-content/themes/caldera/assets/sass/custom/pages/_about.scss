@@ -24,6 +24,16 @@
             .tm_pb_column {
                 @include flex(0, 0 , 100%);
                 max-width: 100%;
+
+                .tm_pb_builder #tm_builder_outer_content & {
+                    &:first-child {
+                        order: 2;
+                    }
+
+                    &:last-child {
+                        order: 1;                    
+                    }
+                }
             }
         }
 
@@ -100,6 +110,10 @@
     
                 &:last-child {
                     margin: 0;
+
+                    @include bp(max-width, $md - 1) {
+                        text-align: left !important;
+                    }
                 }
     
                 @include media-breakpoint-up(md) {
@@ -116,7 +130,7 @@
         &-title {
             padding: 70px 0;
 
-            @include bp(max-width, $xl - 1) {
+            @include bp(max-width, $lg - 1) {
                 padding-bottom: 50px;
             }
 
@@ -168,18 +182,61 @@
                 padding-bottom: 50px;
             }
 
-            @include media-breakpoint-up(xl) {
-                padding-left: 90px;
-                padding-right: 90px;
-
+            @include media-breakpoint-up(lg) {
                 &.bottom-list {
                     padding-bottom: 125px;
                 }
             }
 
+            @include media-breakpoint-up(xl) {
+                padding-left: 90px;
+                padding-right: 90px;
+            }
+
             @include bp(min-width, $hd + 1) {
                 @include calc(padding-left, '(100% - #{$why-us-list-width})/2');
                 @include calc(padding-right, '(100% - #{$why-us-list-width})/2');
+            }
+
+            .tm_pb_builder #tm_builder_outer_content & {
+                @include bp(max-width, $lg - 1) {
+                    .tm_pb_column_6,
+                    .tm_pb_column_10 {
+                        border-right: none;
+                    }
+    
+                    .tm_pb_column_7,
+                    .tm_pb_column_8 {
+                        padding-top: 50px;
+                    }
+    
+                    .tm_pb_column_9,
+                    .tm_pb_column_10 {
+                        border-bottom: 1px solid $color-light-grey;
+                        padding-bottom: 50px;
+                    }
+                }
+
+                @include bp(max-width, $md - 1) {
+                    .tm_pb_column_5,
+                    .tm_pb_column_7,
+                    .tm_pb_column_9,
+                    .tm_pb_column_11 {
+                        border-right: none;
+                    }
+
+                    .tm_pb_column_6 {
+                        padding-top: 50px;
+                    }
+
+                    .tm_pb_column_11 {
+                        padding-bottom: 50px;
+                    }
+
+                    .tm_pb_column_12 {
+                        border-bottom: none;
+                    }
+                }
             }
         }
     }
