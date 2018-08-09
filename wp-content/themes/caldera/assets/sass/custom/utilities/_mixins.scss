@@ -67,6 +67,14 @@ $mq-fixed-value: 1024px !default;
 	flex: $fg $fs $fb;
 }
 
+/* flex basis */
+@mixin flex-basis($value: auto) {
+	-webkit-flex-basis: $value;
+	-moz-flex-basis: $value;
+	-ms-flex-preferred-size: $value;
+	flex-basis: $value;
+}
+
 /* align seft */
 @mixin align-self($value: auto) {
 	// No Webkit Box Fallback.

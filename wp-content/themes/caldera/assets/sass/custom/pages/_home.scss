@@ -61,6 +61,15 @@
             .projects-terms-container {
                 &.grid-layout {
                     margin: 0;
+
+                    .projects-terms-list {
+                        .projects-terms-item {
+                            @include media-breakpoint-up(xl) {
+                                @include flex-basis(25% !important);
+                                width: 25% !important;
+                            }
+                        }
+                    }
                 }
         
                 .project-terms {
