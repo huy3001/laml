@@ -2,7 +2,7 @@
     &-content {
         padding: 50px 0;
         
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             padding: 100px 0;
         }
     }

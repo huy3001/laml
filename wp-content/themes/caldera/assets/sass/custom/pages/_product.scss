@@ -3,7 +3,7 @@
         margin-bottom: 50px;
         padding-top: 50px;
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             margin-bottom: 125px;
             padding-top: 115px;
         }
@@ -16,14 +16,14 @@
         }
 
         .tm_pb_button_module_wrapper {
-            @include media-breakpoint-up(md) {
+            @include bp(min-width, $md) {
                 display: inline-block;
                 vertical-align: top;
                 margin-right: 14px;
                 width: auto;
             }
 
-            @include media-breakpoint-up(xl) {
+            @include bp(min-width, $xl) {
                 margin-right: 24px;
             }
         }
@@ -38,7 +38,7 @@
     &-info {
         margin-bottom: 40px;
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             margin-bottom: 60px;
         }
 
@@ -50,12 +50,12 @@
             line-height: 1;
             margin: 0 0 30px;
 
-            @include media-breakpoint-up(md) {
+            @include bp(min-width, $md) {
                 font-size: 60px;
                 margin: 0 0 40px;
             }
 
-            @include media-breakpoint-up(xl) {
+            @include bp(min-width, $vl) {
                 font-size: 70px;
             }
         }
@@ -69,11 +69,11 @@
             text-transform: none;
             margin: 0 0 25px;
 
-            @include media-breakpoint-up(md) {
+            @include bp(min-width, $md) {
                 font-size: 30px;
             }
 
-            @include media-breakpoint-up(xl) {
+            @include bp(min-width, $vl) {
                 font-size: 40px;
             }
         }
@@ -81,7 +81,7 @@
         p, ul li {
             font-size: 16px;
 
-            @include media-breakpoint-up(md) {
+            @include bp(min-width, $vl) {
                 font-size: 18px;
             }
         }
@@ -94,11 +94,11 @@
     &-related {
         margin-bottom: 50px;
 
-        @include media-breakpoint-up(md) {
+        @include bp(min-width, $md) {
             margin-bottom: 100px;
         }
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             margin-bottom: 200px;
         }
 
@@ -112,7 +112,7 @@
                 text-transform: none;
                 margin: 0 0 25px;
 
-                @include media-breakpoint-up(md) {
+                @include bp(min-width, $md) {
                     font-size: 30px;
                 }
             }
@@ -120,17 +120,17 @@
 
         .projects-terms-container {
             .projects-terms-list {
-                @include media-breakpoint-up(md) {
+                @include bp(min-width, $md) {
                     margin: 0 -10px;
                 }
 
-                @include media-breakpoint-up(xl) {
+                @include bp(min-width, $xl) {
                     margin: 0 -30px;
                 }
             }
 
             .inner-wrapper {
-                @include media-breakpoint-up(xl) {
+                @include bp(min-width, $xl) {
                     margin: 10px 30px !important;
                 }
             }
@@ -180,7 +180,7 @@
     
                         .projects-terms-list {
                             .projects-terms-item {
-                                @include media-breakpoint-up(xl) {
+                                @include bp(min-width, $xl) {
                                     @include flex-basis(25% !important);
                                     width: 25% !important;
                                 }
@@ -192,7 +192,7 @@
                         &-media {
                             &:hover {
                                 h5 {
-                                    @include media-breakpoint-up(xl) {
+                                    @include bp(min-width, $xl) {
                                         top: 50%;
                                         transform: translateY(-50%);
                                     }    
@@ -201,14 +201,14 @@
                         }
     
                         &-caption {
-                            @include media-breakpoint-up(xl) {
+                            @include bp(min-width, $xl) {
                                 padding: 50px;
                             }
     
                             h5 {
                                 font-weight: 300;
                 
-                                @include media-breakpoint-up(xl) {
+                                @include bp(min-width, $xl) {
                                     font-size: 35px;
                                     line-height: 1.46;
                                     text-align: left;
@@ -217,7 +217,7 @@
                             }
     
                             .term-permalink {
-                                @include media-breakpoint-up(xl) {
+                                @include bp(min-width, $xl) {
                                     margin: 0;
                                 }
                             }

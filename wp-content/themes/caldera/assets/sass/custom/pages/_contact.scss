@@ -11,7 +11,7 @@
     &-title {
         padding: 50px 0 40px;
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             padding-top: 90px;
         }
 
@@ -22,11 +22,11 @@
             line-height: 1.24;
             margin: 0;
 
-            @include media-breakpoint-up(md) {
+            @include bp(min-width, $md) {
                 font-size: 30px;
             }
 
-            @include media-breakpoint-up(xl) {
+            @include bp(min-width, $xl) {
                 font-size: 50px;
             }
         }
@@ -36,7 +36,7 @@
         background: $color-red;
         padding: 15px 20px;
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             max-width: 350px;
             padding: 35px 40px;
         }
@@ -59,7 +59,7 @@
     &-form {
         padding-bottom: 50px;
 
-        @include media-breakpoint-up(xl) {
+        @include bp(min-width, $xl) {
             padding-bottom: 170px;
         }
 
