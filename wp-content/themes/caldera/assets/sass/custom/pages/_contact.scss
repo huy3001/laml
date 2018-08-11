@@ -36,13 +36,17 @@
         background: $color-red;
         padding: 15px 20px;
 
+        @include bp(min-width, $lg) {
+            margin-bottom: 190px;
+        }
+
         @include bp(min-width, $xl) {
             max-width: 350px;
             padding: 35px 40px;
         }
 
         @include bp(max-width, $lg - 1) {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
         p {

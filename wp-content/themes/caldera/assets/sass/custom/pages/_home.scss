@@ -373,10 +373,14 @@
             }
 
             @include bp(min-width, $xl) {
-                padding: 100px 0 230px;
+                padding: 100px 0;
             }
 
             @include bp(min-width, $vl) {
+                padding: 100px 0 230px;
+            }
+
+            @include bp(min-width, $hd + 1) {
                 padding: 100px 0 460px;
             }
 

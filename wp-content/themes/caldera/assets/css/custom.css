@@ -1187,7 +1187,7 @@ header .site-logo img {
   /* line 368, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
-    padding: 100px 0 230px;
+    padding: 100px 0;
   }
 }
 
@@ -1195,11 +1195,19 @@ header .site-logo img {
   /* line 368, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
+    padding: 100px 0 230px;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  /* line 368, assets/sass/custom/pages/_home.scss */
+
+  .home .find-us-title {
     padding: 100px 0 460px;
   }
 }
 
-/* line 383, assets/sass/custom/pages/_home.scss */
+/* line 387, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2 {
   color: #ffffff;
@@ -1210,7 +1218,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 391, assets/sass/custom/pages/_home.scss */
+/* line 395, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2:before {
   content: '';
@@ -1222,13 +1230,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 383, assets/sass/custom/pages/_home.scss */
+  /* line 387, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 403, assets/sass/custom/pages/_home.scss */
+  /* line 407, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 20px;
@@ -1236,34 +1244,34 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 383, assets/sass/custom/pages/_home.scss */
+  /* line 387, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 411, assets/sass/custom/pages/_home.scss */
+  /* line 415, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 30px;
   }
 }
 
-/* line 420, assets/sass/custom/pages/_home.scss */
+/* line 424, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us {
   padding: 65px 0 55px;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 420, assets/sass/custom/pages/_home.scss */
+  /* line 424, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us {
     padding: 135px 0 125px;
   }
 }
 
-/* line 428, assets/sass/custom/pages/_home.scss */
+/* line 432, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us-text p {
   color: #78bee0;
@@ -1274,7 +1282,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 428, assets/sass/custom/pages/_home.scss */
+  /* line 432, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 36px;
@@ -1283,7 +1291,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 428, assets/sass/custom/pages/_home.scss */
+  /* line 432, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 60px;
@@ -1292,7 +1300,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 428, assets/sass/custom/pages/_home.scss */
+  /* line 432, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 80px;
@@ -1300,7 +1308,7 @@ header .site-logo img {
   }
 }
 
-/* line 455, assets/sass/custom/pages/_home.scss */
+/* line 459, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
   font-size: 16px;
@@ -1309,7 +1317,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 455, assets/sass/custom/pages/_home.scss */
+  /* line 459, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     padding: 15px 25px !important;
@@ -1317,7 +1325,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 455, assets/sass/custom/pages/_home.scss */
+  /* line 459, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     display: block;
@@ -1829,6 +1837,14 @@ header .site-logo img {
   padding: 15px 20px;
 }
 
+@media only screen and (min-width: 992px) {
+  /* line 35, assets/sass/custom/pages/_contact.scss */
+
+  .contact-page-info {
+    margin-bottom: 190px;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   /* line 35, assets/sass/custom/pages/_contact.scss */
 
@@ -1842,11 +1858,11 @@ header .site-logo img {
   /* line 35, assets/sass/custom/pages/_contact.scss */
 
   .contact-page-info {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 
-/* line 48, assets/sass/custom/pages/_contact.scss */
+/* line 52, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-info p {
   color: #ffffff;
@@ -1854,27 +1870,27 @@ header .site-logo img {
   margin: 0 0 25px;
 }
 
-/* line 53, assets/sass/custom/pages/_contact.scss */
+/* line 57, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-info p:last-child {
   margin: 0;
 }
 
-/* line 59, assets/sass/custom/pages/_contact.scss */
+/* line 63, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form {
   padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 59, assets/sass/custom/pages/_contact.scss */
+  /* line 63, assets/sass/custom/pages/_contact.scss */
 
   .contact-page-form {
     padding-bottom: 170px;
   }
 }
 
-/* line 68, assets/sass/custom/pages/_contact.scss */
+/* line 72, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style input[type=text],
 .contact-page-form .frm_style_formidable-style.with_frm_style input[type=email],
@@ -1920,13 +1936,13 @@ header .site-logo img {
   color: #5b5b5b;
 }
 
-/* line 84, assets/sass/custom/pages/_contact.scss */
+/* line 88, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style select {
   background-position: 97% 50%;
 }
 
-/* line 89, assets/sass/custom/pages/_contact.scss */
+/* line 93, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style .frm_submit button {
   background: #cf1d39;
@@ -1941,7 +1957,7 @@ header .site-logo img {
   padding: 20px 45px;
 }
 
-/* line 101, assets/sass/custom/pages/_contact.scss */
+/* line 105, assets/sass/custom/pages/_contact.scss */
 
 .contact-page-form .frm_style_formidable-style.with_frm_style .frm_submit button:hover {
   background: #ffffff;
