@@ -58,6 +58,11 @@
                 margin: 0;
             }
         }
+
+        a {
+            color: $color-white !important;
+            text-decoration: none !important;
+        }
     }
 
     &-form {

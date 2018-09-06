@@ -34,7 +34,7 @@
         }
 
         @include bp(min-width, $xl) {
-            font-size: 85px;
+            // font-size: 85px;
         }
     }
 
@@ -94,8 +94,12 @@
                             font-weight: 300;
             
                             @include bp(min-width, $xl) {
-                                font-size: 35px;
+                                font-size: 25px;
                                 line-height: 1.46;
+                            }
+
+                            @include bp(min-width, $vl) {
+                                font-size: 35px;
                             }
                         }
         

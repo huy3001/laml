@@ -209,10 +209,14 @@
                                 font-weight: 300;
                 
                                 @include bp(min-width, $xl) {
-                                    font-size: 35px;
+                                    font-size: 25px;
                                     line-height: 1.46;
                                     text-align: left;
                                     @include align-self(flex-start);
+                                }
+
+                                @include bp(min-width, $vl) {
+                                    font-size: 35px;
                                 }
                             }
     
