@@ -31,9 +31,19 @@
             width: auto;
             max-width: none;
 
+            @include bp(min-width, $hg) {
+                width: 100%;
+                max-width: 100%;
+            }
+
             @include bp(max-width, $md - 1) {
                 height: 19px;
             }
+        }
+
+        @include bp(min-width, $hg) {
+            max-height: 38px;
+            overflow: hidden;
         }
     }
 

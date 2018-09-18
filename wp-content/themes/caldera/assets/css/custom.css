@@ -114,11 +114,29 @@
   max-width: none;
 }
 
+@media only screen and (min-width: 2560px) {
+  /* line 12, assets/sass/custom/component/_builder.scss */
+
+  .site-main .page .entry-content #tm_builder_outer_content .pattern-image > img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   /* line 12, assets/sass/custom/component/_builder.scss */
 
   .site-main .page .entry-content #tm_builder_outer_content .pattern-image > img {
     height: 19px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  /* line 11, assets/sass/custom/component/_builder.scss */
+
+  .site-main .page .entry-content #tm_builder_outer_content .pattern-image {
+    max-height: 38px;
+    overflow: hidden;
   }
 }
 
@@ -620,6 +638,15 @@ header .site-logo img {
   max-width: none;
 }
 
+@media only screen and (min-width: 2560px) {
+  /* line 29, assets/sass/custom/layout/_footer.scss */
+
+  .footer-pattern img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   /* line 29, assets/sass/custom/layout/_footer.scss */
 
@@ -628,29 +655,38 @@ header .site-logo img {
   }
 }
 
+@media only screen and (min-width: 2560px) {
+  /* line 22, assets/sass/custom/layout/_footer.scss */
+
+  .footer-pattern {
+    max-height: 38px;
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 991px) {
-  /* line 40, assets/sass/custom/layout/_footer.scss */
+  /* line 50, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap {
     padding: 0;
   }
 }
 
-/* line 45, assets/sass/custom/layout/_footer.scss */
+/* line 55, assets/sass/custom/layout/_footer.scss */
 
 .footer-area-wrap .widget {
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
-/* line 49, assets/sass/custom/layout/_footer.scss */
+/* line 59, assets/sass/custom/layout/_footer.scss */
 
 .footer-area-wrap .widget:last-child {
   margin-bottom: 0;
 }
 
 @media (min-width: 1200px) {
-  /* line 45, assets/sass/custom/layout/_footer.scss */
+  /* line 55, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap .widget {
     padding-top: 75px;
@@ -659,40 +695,40 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 991px) {
-  /* line 45, assets/sass/custom/layout/_footer.scss */
+  /* line 55, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap .widget {
     margin-bottom: 0;
   }
 
-  /* line 61, assets/sass/custom/layout/_footer.scss */
+  /* line 71, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap .widget + .widget {
     padding-top: 0;
   }
 }
 
-/* line 67, assets/sass/custom/layout/_footer.scss */
+/* line 77, assets/sass/custom/layout/_footer.scss */
 
 .footer-area-wrap .textwidget {
   max-width: 100%;
 }
 
 @media (min-width: 1200px) {
-  /* line 67, assets/sass/custom/layout/_footer.scss */
+  /* line 77, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap .textwidget {
     max-width: 380px;
   }
 }
 
-/* line 74, assets/sass/custom/layout/_footer.scss */
+/* line 84, assets/sass/custom/layout/_footer.scss */
 
 .footer-area-wrap .textwidget img {
   margin-bottom: 20px;
 }
 
-/* line 78, assets/sass/custom/layout/_footer.scss */
+/* line 88, assets/sass/custom/layout/_footer.scss */
 
 .footer-area-wrap .textwidget .info-block {
   font-size: 16px;
@@ -700,14 +736,14 @@ header .site-logo img {
 }
 
 @media (min-width: 992px) {
-  /* line 83, assets/sass/custom/layout/_footer.scss */
+  /* line 93, assets/sass/custom/layout/_footer.scss */
 
   .footer-area-wrap .textwidget .info-block:first-child {
     margin-top: 25px;
   }
 }
 
-/* line 91, assets/sass/custom/layout/_footer.scss */
+/* line 101, assets/sass/custom/layout/_footer.scss */
 
 .footer-container {
   display: none;
