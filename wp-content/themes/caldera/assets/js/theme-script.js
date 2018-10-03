@@ -630,9 +630,26 @@ if ( document.querySelector('.tm_pb_testimonial') ) {
 
 (function($){
     $(document).ready(function() {
-        $('.link-23').attr('href', 'https://www.loewenberg-aml.com/lm1001/');
-        $('.link-48').attr('href', 'https://www.loewenberg-aml.com/lm3001/');
-        $('.link-49').attr('href', 'https://www.loewenberg-aml.com/lm3002/');
-        $('.link-27').attr('href', 'https://www.loewenberg-aml.com/lm7001/');
+        // $('.link-23').attr('href', 'https://www.loewenberg-aml.com/lm1001/');
+        // $('.link-48').attr('href', 'https://www.loewenberg-aml.com/lm3001/');
+        // $('.link-49').attr('href', 'https://www.loewenberg-aml.com/lm3002/');
+		// $('.link-27').attr('href', 'https://www.loewenberg-aml.com/lm7001/');
+		
+		var siteprotocol = window.location.protocol, 
+			siteUrl = window.location.hostname;
+
+		var	projectItem = $('.projects-terms-item');
+		
+		if(projectItem.length) {
+			projectItem.each(function() {
+				var projectName = $(this).find('.project-terms-caption h5 a').text().toLowerCase(),
+					projectId = projectName.substring(projectName.indexOf('lm'), projectName.length),
+					projectLink = siteprotocol + '//' + siteUrl + '/' + projectId;
+				
+					if(projectName.indexOf(projectId) != -1) {
+						$(this).find('a').attr('href', projectLink);
+					}
+			});
+		}
     })
 }(jQuery));
