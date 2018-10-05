@@ -144,6 +144,12 @@
                 padding-bottom: 100px;
             }
 
+            @include bp(min-width, $hg) {
+                min-height: 40vw;
+                padding-top: 250px;
+                padding-bottom: 250px;
+            }
+
             @include bp(max-width, $xl - 1) {
                 padding-left: 3.125rem;
                 padding-right: 3.125rem;

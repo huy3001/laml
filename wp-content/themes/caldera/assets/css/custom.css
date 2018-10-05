@@ -954,6 +954,16 @@ header .site-logo img {
   }
 }
 
+@media only screen and (min-width: 2560px) {
+  /* line 136, assets/sass/custom/pages/_home.scss */
+
+  .home .about-us-content {
+    min-height: 40vw;
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   /* line 136, assets/sass/custom/pages/_home.scss */
 
@@ -963,7 +973,7 @@ header .site-logo img {
   }
 }
 
-/* line 154, assets/sass/custom/pages/_home.scss */
+/* line 160, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-title h2 {
   color: #000000;
@@ -974,7 +984,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 162, assets/sass/custom/pages/_home.scss */
+/* line 168, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-title h2:before {
   content: '';
@@ -986,13 +996,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 154, assets/sass/custom/pages/_home.scss */
+  /* line 160, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 174, assets/sass/custom/pages/_home.scss */
+  /* line 180, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2::before {
     margin-bottom: 20px;
@@ -1000,7 +1010,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 154, assets/sass/custom/pages/_home.scss */
+  /* line 160, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     margin: 0 0 60px;
@@ -1008,13 +1018,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 154, assets/sass/custom/pages/_home.scss */
+  /* line 160, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 186, assets/sass/custom/pages/_home.scss */
+  /* line 192, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2::before {
     margin-bottom: 30px;
@@ -1022,14 +1032,14 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 154, assets/sass/custom/pages/_home.scss */
+  /* line 160, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-title h2 {
     margin: 0 0 50px;
   }
 }
 
-/* line 198, assets/sass/custom/pages/_home.scss */
+/* line 204, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-subtitle h3 {
   color: #000000;
@@ -1041,7 +1051,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 198, assets/sass/custom/pages/_home.scss */
+  /* line 204, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-subtitle h3 {
     font-size: 30px;
@@ -1049,35 +1059,35 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 198, assets/sass/custom/pages/_home.scss */
+  /* line 204, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-subtitle h3 {
     font-size: 40px;
   }
 }
 
-/* line 217, assets/sass/custom/pages/_home.scss */
+/* line 223, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-text p {
   font-size: 16px;
   margin: 0 0 25px;
 }
 
-/* line 221, assets/sass/custom/pages/_home.scss */
+/* line 227, assets/sass/custom/pages/_home.scss */
 
 .home .about-us-text p:last-child {
   margin: 0;
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 217, assets/sass/custom/pages/_home.scss */
+  /* line 223, assets/sass/custom/pages/_home.scss */
 
   .home .about-us-text p {
     font-size: 18px;
   }
 }
 
-/* line 234, assets/sass/custom/pages/_home.scss */
+/* line 240, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .about-us-button {
   font-size: 16px;
@@ -1086,7 +1096,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 234, assets/sass/custom/pages/_home.scss */
+  /* line 240, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .about-us-button {
     margin-top: 45px;
@@ -1094,20 +1104,20 @@ header .site-logo img {
   }
 }
 
-/* line 248, assets/sass/custom/pages/_home.scss */
+/* line 254, assets/sass/custom/pages/_home.scss */
 
 .home .why-us {
   background: #313131;
 }
 
-/* line 251, assets/sass/custom/pages/_home.scss */
+/* line 257, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title {
   padding: 85px 0 70px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 251, assets/sass/custom/pages/_home.scss */
+  /* line 257, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title {
     padding-bottom: 50px;
@@ -1115,14 +1125,14 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 251, assets/sass/custom/pages/_home.scss */
+  /* line 257, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title {
     padding-top: 50px;
   }
 }
 
-/* line 262, assets/sass/custom/pages/_home.scss */
+/* line 268, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title h2 {
   color: #ffffff;
@@ -1133,7 +1143,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 270, assets/sass/custom/pages/_home.scss */
+/* line 276, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-title h2:before {
   content: '';
@@ -1145,13 +1155,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 262, assets/sass/custom/pages/_home.scss */
+  /* line 268, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 282, assets/sass/custom/pages/_home.scss */
+  /* line 288, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2::before {
     margin-bottom: 20px;
@@ -1159,13 +1169,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 262, assets/sass/custom/pages/_home.scss */
+  /* line 268, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 290, assets/sass/custom/pages/_home.scss */
+  /* line 296, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-title h2::before {
     margin-bottom: 30px;
@@ -1173,14 +1183,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 297, assets/sass/custom/pages/_home.scss */
+  /* line 303, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle {
     padding-top: 20px;
   }
 }
 
-/* line 302, assets/sass/custom/pages/_home.scss */
+/* line 308, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-subtitle h3 {
   display: inline-block;
@@ -1196,7 +1206,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 302, assets/sass/custom/pages/_home.scss */
+  /* line 308, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     font-size: 30px;
@@ -1204,7 +1214,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 302, assets/sass/custom/pages/_home.scss */
+  /* line 308, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     font-size: 40px;
@@ -1212,7 +1222,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 302, assets/sass/custom/pages/_home.scss */
+  /* line 308, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-subtitle h3 {
     display: block;
@@ -1220,21 +1230,21 @@ header .site-logo img {
   }
 }
 
-/* line 329, assets/sass/custom/pages/_home.scss */
+/* line 335, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text {
   max-width: 680px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 329, assets/sass/custom/pages/_home.scss */
+  /* line 335, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-text {
     margin: 0 auto;
   }
 }
 
-/* line 336, assets/sass/custom/pages/_home.scss */
+/* line 342, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text p {
   color: #ffffff;
@@ -1242,35 +1252,35 @@ header .site-logo img {
   margin: 0 0 25px;
 }
 
-/* line 341, assets/sass/custom/pages/_home.scss */
+/* line 347, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-text p:last-child {
   margin: 0;
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 336, assets/sass/custom/pages/_home.scss */
+  /* line 342, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-text p {
     font-size: 18px;
   }
 }
 
-/* line 351, assets/sass/custom/pages/_home.scss */
+/* line 357, assets/sass/custom/pages/_home.scss */
 
 .home .why-us-content {
   padding-bottom: 110px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 351, assets/sass/custom/pages/_home.scss */
+  /* line 357, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content {
     padding-left: 1.5625rem;
     padding-right: 1.5625rem;
   }
 
-  /* line 358, assets/sass/custom/pages/_home.scss */
+  /* line 364, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content .tm_pb_column {
     -moz-flex: 0 0 100%;
@@ -1280,21 +1290,21 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 351, assets/sass/custom/pages/_home.scss */
+  /* line 357, assets/sass/custom/pages/_home.scss */
 
   .home .why-us-content {
     padding-bottom: 50px;
   }
 }
 
-/* line 372, assets/sass/custom/pages/_home.scss */
+/* line 378, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title {
   padding: 50px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 372, assets/sass/custom/pages/_home.scss */
+  /* line 378, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 80px 0;
@@ -1302,7 +1312,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 372, assets/sass/custom/pages/_home.scss */
+  /* line 378, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 100px 0;
@@ -1310,7 +1320,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 372, assets/sass/custom/pages/_home.scss */
+  /* line 378, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 100px 0 230px;
@@ -1318,14 +1328,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1921px) {
-  /* line 372, assets/sass/custom/pages/_home.scss */
+  /* line 378, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title {
     padding: 100px 0 460px;
   }
 }
 
-/* line 391, assets/sass/custom/pages/_home.scss */
+/* line 397, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2 {
   color: #ffffff;
@@ -1336,7 +1346,7 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 399, assets/sass/custom/pages/_home.scss */
+/* line 405, assets/sass/custom/pages/_home.scss */
 
 .home .find-us-title h2:before {
   content: '';
@@ -1348,13 +1358,13 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 391, assets/sass/custom/pages/_home.scss */
+  /* line 397, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 60px;
   }
 
-  /* line 411, assets/sass/custom/pages/_home.scss */
+  /* line 417, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 20px;
@@ -1362,34 +1372,34 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 391, assets/sass/custom/pages/_home.scss */
+  /* line 397, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2 {
     font-size: 80px;
   }
 
-  /* line 419, assets/sass/custom/pages/_home.scss */
+  /* line 425, assets/sass/custom/pages/_home.scss */
 
   .home .find-us-title h2::before {
     margin-bottom: 30px;
   }
 }
 
-/* line 428, assets/sass/custom/pages/_home.scss */
+/* line 434, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us {
   padding: 65px 0 55px;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 428, assets/sass/custom/pages/_home.scss */
+  /* line 434, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us {
     padding: 135px 0 125px;
   }
 }
 
-/* line 436, assets/sass/custom/pages/_home.scss */
+/* line 442, assets/sass/custom/pages/_home.scss */
 
 .home .contact-us-text p {
   color: #78bee0;
@@ -1400,7 +1410,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 436, assets/sass/custom/pages/_home.scss */
+  /* line 442, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 36px;
@@ -1409,7 +1419,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 436, assets/sass/custom/pages/_home.scss */
+  /* line 442, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 60px;
@@ -1418,7 +1428,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 436, assets/sass/custom/pages/_home.scss */
+  /* line 442, assets/sass/custom/pages/_home.scss */
 
   .home .contact-us-text p {
     font-size: 80px;
@@ -1426,7 +1436,7 @@ header .site-logo img {
   }
 }
 
-/* line 463, assets/sass/custom/pages/_home.scss */
+/* line 469, assets/sass/custom/pages/_home.scss */
 
 .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
   font-size: 16px;
@@ -1435,7 +1445,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 463, assets/sass/custom/pages/_home.scss */
+  /* line 469, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     padding: 15px 25px !important;
@@ -1443,7 +1453,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 463, assets/sass/custom/pages/_home.scss */
+  /* line 469, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .contact-us-button {
     display: block;
