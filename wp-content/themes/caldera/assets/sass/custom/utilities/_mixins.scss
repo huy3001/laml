@@ -114,3 +114,11 @@ $mq-fixed-value: 1024px !default;
     -ms-transform: $transforms;
     transform: $transforms;
 }
+
+/* transition */
+@mixin transition($transition: all 0.3s ease) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}

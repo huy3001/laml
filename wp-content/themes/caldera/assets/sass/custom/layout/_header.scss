@@ -9,6 +9,73 @@ header {
                 }
             }
 
+            .header_caption {
+                @include bp(max-width, $md - 1) {
+                    min-height: 0;
+                    position: absolute !important;    
+                    top: 7px !important;
+                    left: auto;
+                    right: 5%;
+                    width: auto;
+        
+                    .main-navigation {
+                        float: right;    
+                        width: 35px;
+                        text-align: center;
+        
+                        .menu {
+                            background: rgba(255, 255, 255, 0.5);
+                            display: block;
+                            max-height: 100vh;
+                            height: 100%;
+                            width: 75%;
+                            margin: 0;
+                            padding: 0;
+                            position: fixed;
+                            left: 0;
+                            top: 0;
+                            @include transform(translateX(-100%));
+                            @include transition();
+        
+                            &.active {
+                                @include transform(translateX(0));
+                            }
+        
+                            li {
+                                background: rgba(255, 255, 255, 0.5);
+                                
+                                a {
+                                    color: $color-red;
+                                    padding: 9px 5%;
+                                }
+                            }
+
+                            > .menu-item {
+                                > a {
+                                    color: $color-red;
+                                    padding: 7px 5%;
+                                    text-transform: none;
+                                }
+
+                                .sub-menu-toggle {
+                                    background: rgba(255, 255, 255, 0.5);
+                                    height: 40px;
+                                    width: 40px;
+
+                                    &:before {
+                                        color: $color-red;
+                                    }
+                                }
+                                
+                                .sub-menu {
+                                    background: rgba(255, 255, 255, 0.5);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             .site-branding {
                 @include media-breakpoint-up(md) {
                     padding: 0 0 45px;
@@ -35,10 +102,6 @@ header {
 
     .header_caption {
         padding: 0;
-
-        @include bp(max-width, $xl) {
-            display: none;
-        }
     }
 
     .site-branding {

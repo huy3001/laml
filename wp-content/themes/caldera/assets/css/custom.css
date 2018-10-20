@@ -22,6 +22,8 @@
 
 /* transform */
 
+/* transition */
+
 @font-face {
   font-family: 'laml';
   src: url("../fonts/laml/laml.eot?3y3usa");
@@ -505,8 +507,95 @@ header.site-header.centered .header-container {
   }
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* line 12, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption {
+    min-height: 0;
+    position: absolute !important;
+    top: 7px !important;
+    left: auto;
+    right: 5%;
+    width: auto;
+  }
+
+  /* line 21, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation {
+    float: right;
+    width: 35px;
+    text-align: center;
+  }
+
+  /* line 26, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu {
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+    max-height: 100vh;
+    height: 100%;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+
+  /* line 40, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu.active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 44, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu li {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  /* line 47, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu li a {
+    color: #cf1d39;
+    padding: 9px 5%;
+  }
+
+  /* line 54, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu > .menu-item > a {
+    color: #cf1d39;
+    padding: 7px 5%;
+    text-transform: none;
+  }
+
+  /* line 60, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu-toggle {
+    background: rgba(255, 255, 255, 0.5);
+    height: 40px;
+    width: 40px;
+  }
+
+  /* line 65, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu-toggle:before {
+    color: #cf1d39;
+  }
+
+  /* line 70, assets/sass/custom/layout/_header.scss */
+
+  header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 79, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .site-branding {
     padding: 0 0 45px;
@@ -514,7 +603,7 @@ header.site-header.centered .header-container {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 12, assets/sass/custom/layout/_header.scss */
+  /* line 79, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .site-branding {
     text-align: left;
@@ -522,29 +611,21 @@ header.site-header.centered .header-container {
 }
 
 @media (min-width: 768px) {
-  /* line 25, assets/sass/custom/layout/_header.scss */
+  /* line 92, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .main-navigation > .menu > .menu-item > a {
     margin: 20px 28px;
   }
 }
 
-/* line 36, assets/sass/custom/layout/_header.scss */
+/* line 103, assets/sass/custom/layout/_header.scss */
 
 header .header_caption {
   padding: 0;
 }
 
-@media only screen and (max-width: 1200px) {
-  /* line 36, assets/sass/custom/layout/_header.scss */
-
-  header .header_caption {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 767px) {
-  /* line 44, assets/sass/custom/layout/_header.scss */
+  /* line 107, assets/sass/custom/layout/_header.scss */
 
   header .site-branding {
     align-self: auto;
@@ -552,14 +633,14 @@ header .header_caption {
   }
 }
 
-/* line 52, assets/sass/custom/layout/_header.scss */
+/* line 115, assets/sass/custom/layout/_header.scss */
 
 header .site-logo img {
   display: block;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 51, assets/sass/custom/layout/_header.scss */
+  /* line 114, assets/sass/custom/layout/_header.scss */
 
   header .site-logo {
     max-width: 160px;
@@ -567,14 +648,14 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 63, assets/sass/custom/layout/_header.scss */
+  /* line 126, assets/sass/custom/layout/_header.scss */
 
   header .main-navigation .menu > li {
     font-size: 18px;
     letter-spacing: 0;
   }
 
-  /* line 68, assets/sass/custom/layout/_header.scss */
+  /* line 131, assets/sass/custom/layout/_header.scss */
 
   header .main-navigation .menu > li:after {
     bottom: 6px;
@@ -582,7 +663,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 77, assets/sass/custom/layout/_header.scss */
+  /* line 140, assets/sass/custom/layout/_header.scss */
 
   .header-container {
     min-height: 330px;
