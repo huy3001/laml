@@ -1,0 +1,28 @@
+.single {
+    .site-content_wrap {
+        &.container {
+            padding-top: 0;
+        }
+    }
+}
+
+.cherry-projects-single {
+    .featured-image {
+        display: none;
+    }
+
+    .cherry-projects-single-post {
+        .cherry-projects-single__container {
+            .cherry-projects-single__content {
+                max-width: 100%;
+                padding-top: 0;
+
+                .product-info {
+                    h3 {
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+    }
+}

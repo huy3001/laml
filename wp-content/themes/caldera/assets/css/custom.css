@@ -49,55 +49,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 30, assets/sass/custom/vendor/_icon-style.scss */
+/* line 31, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-engage:before {
   content: "";
 }
 
-/* line 35, assets/sass/custom/vendor/_icon-style.scss */
+/* line 37, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-lion:before {
   content: "";
 }
 
-/* line 40, assets/sass/custom/vendor/_icon-style.scss */
+/* line 43, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-modesty:before {
   content: "";
 }
 
-/* line 45, assets/sass/custom/vendor/_icon-style.scss */
+/* line 49, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-partner:before {
   content: "";
 }
 
-/* line 50, assets/sass/custom/vendor/_icon-style.scss */
+/* line 55, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-reliable:before {
   content: "";
 }
 
-/* line 55, assets/sass/custom/vendor/_icon-style.scss */
+/* line 61, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-respect:before {
   content: "";
 }
 
-/* line 60, assets/sass/custom/vendor/_icon-style.scss */
+/* line 67, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-safety:before {
   content: "";
 }
 
-/* line 65, assets/sass/custom/vendor/_icon-style.scss */
+/* line 73, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-sustain:before {
   content: "";
 }
 
-/* line 70, assets/sass/custom/vendor/_icon-style.scss */
+/* line 79, assets/sass/custom/vendor/_icon-style.scss */
 
 .icon-trust:before {
   content: "";
@@ -189,14 +189,16 @@
 
 /* line 33, assets/sass/custom/component/_page-title.scss */
 
-.page #tm_builder_outer_content .page-title-image img {
+.page #tm_builder_outer_content .page-title-image img,
+.single #tm_builder_outer_content .page-title-image img {
   max-width: none;
 }
 
 @media only screen and (max-width: 1199px) {
   /* line 33, assets/sass/custom/component/_page-title.scss */
 
-  .page #tm_builder_outer_content .page-title-image img {
+  .page #tm_builder_outer_content .page-title-image img,
+  .single #tm_builder_outer_content .page-title-image img {
     display: none;
   }
 }
@@ -454,6 +456,12 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
   body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-mission-button {
     padding: 15px 23px !important;
   }
+}
+
+/* line 2, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs__title {
+  display: none;
 }
 
 /* line 1, assets/sass/custom/layout/_general.scss */
@@ -2317,69 +2325,78 @@ header .site-logo img {
   }
 }
 
-/* line 144, assets/sass/custom/pages/_product.scss */
+/* line 145, assets/sass/custom/pages/_product.scss */
 
-.page.tm_pb_builder #tm_builder_outer_content .product-button {
+.page.tm_pb_builder #tm_builder_outer_content .product-button,
+.single.tm_pb_builder #tm_builder_outer_content .product-button {
   font-size: 16px;
   padding: 20px 35px !important;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 144, assets/sass/custom/pages/_product.scss */
+  /* line 145, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-button {
+  .page.tm_pb_builder #tm_builder_outer_content .product-button,
+  .single.tm_pb_builder #tm_builder_outer_content .product-button {
     padding: 15px 25px !important;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 144, assets/sass/custom/pages/_product.scss */
+  /* line 145, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-button {
+  .page.tm_pb_builder #tm_builder_outer_content .product-button,
+  .single.tm_pb_builder #tm_builder_outer_content .product-button {
     display: block;
   }
 }
 
-/* line 157, assets/sass/custom/pages/_product.scss */
+/* line 158, assets/sass/custom/pages/_product.scss */
 
-.page.tm_pb_builder #tm_builder_outer_content .product-tabs {
+.page.tm_pb_builder #tm_builder_outer_content .product-tabs,
+.single.tm_pb_builder #tm_builder_outer_content .product-tabs {
   padding-top: 0;
 }
 
-/* line 160, assets/sass/custom/pages/_product.scss */
+/* line 161, assets/sass/custom/pages/_product.scss */
 
-.page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs {
+.page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs,
+.single.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs {
   border-top-color: #aeaeae;
   padding: 45px 0;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 167, assets/sass/custom/pages/_product.scss */
+  /* line 168, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_tabs_controls li a {
+  .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_tabs_controls li a,
+  .single.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_tabs_controls li a {
     padding: 10px 20px;
   }
 }
 
-/* line 178, assets/sass/custom/pages/_product.scss */
+/* line 179, assets/sass/custom/pages/_product.scss */
 
-.page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout {
+.page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout,
+.single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout {
   margin: 0;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 182, assets/sass/custom/pages/_product.scss */
+  /* line 183, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout .projects-terms-list .projects-terms-item {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout .projects-terms-list .projects-terms-item,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout .projects-terms-list .projects-terms-item {
     flex-basis: 25% !important;
     width: 25% !important;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 194, assets/sass/custom/pages/_product.scss */
+  /* line 195, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5 {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5 {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -2387,23 +2404,26 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 203, assets/sass/custom/pages/_product.scss */
+  /* line 204, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption {
     padding: 50px;
   }
 }
 
-/* line 208, assets/sass/custom/pages/_product.scss */
+/* line 209, assets/sass/custom/pages/_product.scss */
 
-.page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+.page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
+.single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
   font-weight: 300;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 208, assets/sass/custom/pages/_product.scss */
+  /* line 209, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
     font-size: 25px;
     line-height: 1.46;
     text-align: left;
@@ -2412,17 +2432,44 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 208, assets/sass/custom/pages/_product.scss */
+  /* line 209, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
     font-size: 35px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 223, assets/sass/custom/pages/_product.scss */
+  /* line 224, assets/sass/custom/pages/_product.scss */
 
-  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
+  .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink,
+  .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
     margin: 0;
   }
+}
+
+/* line 3, assets/sass/custom/pages/_project-single.scss */
+
+.single .site-content_wrap.container {
+  padding-top: 0;
+}
+
+/* line 10, assets/sass/custom/pages/_project-single.scss */
+
+.cherry-projects-single .featured-image {
+  display: none;
+}
+
+/* line 16, assets/sass/custom/pages/_project-single.scss */
+
+.cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content {
+  max-width: 100%;
+  padding-top: 0;
+}
+
+/* line 21, assets/sass/custom/pages/_project-single.scss */
+
+.cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content .product-info h3 {
+  color: #000000;
 }
