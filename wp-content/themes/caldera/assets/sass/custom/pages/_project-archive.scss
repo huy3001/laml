@@ -1,3 +1,18 @@
 .post-type-archive-projects {
-    
+    .project-terms-caption,
+    .projects-filters {
+        display: none;
+    }
+
+    .cherry-projects-wrapper {
+        padding: 50px 0;
+
+        @include bp(min-width, $xl) {
+            padding: 115px 0 125px;
+        }
+    }
+
+    .cherry-projects-ajax-loader {
+        background: none;
+    }
 }

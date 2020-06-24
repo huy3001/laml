@@ -522,6 +522,21 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
   width: 7px;
 }
 
+@media only screen and (max-width: 1199px) {
+  /* line 44, assets/sass/custom/component/_breadcrumb.scss */
+
+  .breadcrumbs .breadcrumbs__pattern {
+    display: none;
+  }
+}
+
+/* line 49, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__pattern img {
+  display: block;
+  max-width: none;
+}
+
 /* line 1, assets/sass/custom/layout/_general.scss */
 
 body {
@@ -2505,6 +2520,33 @@ header .site-logo img {
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
     margin: 0;
   }
+}
+
+/* line 2, assets/sass/custom/pages/_project-archive.scss */
+
+.post-type-archive-projects .project-terms-caption,
+.post-type-archive-projects .projects-filters {
+  display: none;
+}
+
+/* line 7, assets/sass/custom/pages/_project-archive.scss */
+
+.post-type-archive-projects .cherry-projects-wrapper {
+  padding: 50px 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 7, assets/sass/custom/pages/_project-archive.scss */
+
+  .post-type-archive-projects .cherry-projects-wrapper {
+    padding: 115px 0 125px;
+  }
+}
+
+/* line 15, assets/sass/custom/pages/_project-archive.scss */
+
+.post-type-archive-projects .cherry-projects-ajax-loader {
+  background: none;
 }
 
 /* line 3, assets/sass/custom/pages/_project-single.scss */
