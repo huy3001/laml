@@ -460,8 +460,66 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
 
 /* line 2, assets/sass/custom/component/_breadcrumb.scss */
 
-.breadcrumbs__title {
+.breadcrumbs {
   display: none;
+}
+
+/* line 5, assets/sass/custom/component/_breadcrumb.scss */
+
+.post-type-archive-projects .breadcrumbs {
+  display: block;
+  margin: 50px 0 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 5, assets/sass/custom/component/_breadcrumb.scss */
+
+  .post-type-archive-projects .breadcrumbs {
+    margin: 145px 0 0;
+  }
+}
+
+/* line 15, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__title {
+  display: none;
+}
+
+/* line 19, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__item {
+  color: #000000;
+  font-size: 25px;
+  line-height: 1.267;
+}
+
+@media (min-width: 768px) {
+  /* line 19, assets/sass/custom/component/_breadcrumb.scss */
+
+  .breadcrumbs .breadcrumbs__item {
+    font-size: 30px;
+  }
+}
+
+/* line 28, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__item-link {
+  color: #000000;
+}
+
+/* line 31, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__item-link:hover {
+  color: #cf1d39;
+}
+
+/* line 36, assets/sass/custom/component/_breadcrumb.scss */
+
+.breadcrumbs .breadcrumbs__item-sep {
+  background: url("../images/arrow.png") no-repeat center transparent;
+  margin: 0 10px;
+  text-indent: -9999px;
+  width: 7px;
 }
 
 /* line 1, assets/sass/custom/layout/_general.scss */
@@ -2455,21 +2513,27 @@ header .site-logo img {
   padding-top: 0;
 }
 
-/* line 10, assets/sass/custom/pages/_project-single.scss */
+/* line 19, assets/sass/custom/pages/_project-single.scss */
 
-.cherry-projects-single .featured-image {
-  display: none;
-}
-
-/* line 16, assets/sass/custom/pages/_project-single.scss */
-
-.cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content {
+.single .cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content {
   max-width: 100%;
-  padding-top: 0;
+  padding: 0;
 }
 
-/* line 21, assets/sass/custom/pages/_project-single.scss */
+/* line 24, assets/sass/custom/pages/_project-single.scss */
 
-.cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content .product-info h3 {
+.single .cherry-projects-single .cherry-projects-single-post .cherry-projects-single__container .cherry-projects-single__content .product-info h3 {
   color: #000000;
+}
+
+/* line 31, assets/sass/custom/pages/_project-single.scss */
+
+.single .cherry-projects-single .cherry-projects-single-post .featured-image {
+  margin-bottom: 0;
+}
+
+/* line 34, assets/sass/custom/pages/_project-single.scss */
+
+.single .cherry-projects-single .cherry-projects-single-post .featured-image .cover {
+  display: none;
 }

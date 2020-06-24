@@ -1,5 +1,44 @@
+
 .breadcrumbs {
-    &__title {
-        display: none;
+    display: none;
+
+    .post-type-archive-projects & {
+        display: block;
+        margin: 50px 0 0;
+
+        @include media-breakpoint-up(xl) {
+            margin: 145px 0 0;
+        }
+    }
+
+    .breadcrumbs {
+        &__title {
+            display: none;
+        }
+    
+        &__item {
+            color: $color-black;
+            font-size: 25px;
+            line-height: 1.267;
+
+            @include media-breakpoint-up(md) {
+                font-size: 30px;
+            }
+    
+            &-link {
+                color: $color-black;
+    
+                &:hover {
+                    color: $color-red;
+                }
+            }
+
+            &-sep {
+                background: url(../images/arrow.png) no-repeat center transparent;
+                margin: 0 10px;
+                text-indent: -9999px;
+                width: 7px;
+            }
+        }
     }
 }
