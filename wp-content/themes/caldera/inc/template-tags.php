@@ -353,7 +353,8 @@ function caldera_site_breadcrumbs() {
 	$breadcrumbs_front_visibillity = get_theme_mod( 'breadcrumbs_front_visibillity', caldera_theme()->customizer->get_default( 'breadcrumbs_front_visibillity' ) );
 
 	$breadcrumbs_settings = apply_filters( 'caldera_breadcrumbs_settings', array(
-		'wrapper_format'    => '<div class="container"><div class="breadcrumbs__title">%1$s</div><div class="breadcrumbs__items">%2$s</div><div class="clear"></div></div>',
+		'wrapper_format'    => '<div class="container"><div class="row"><div class="col-xs-12"><div class="breadcrumbs__title">%1$s</div></div><div class="col-xs-12 col-xl-4"><div class="breadcrumbs__items">%2$s</div></div><div class="col-xs-12 col-xl-8"><div class="breadcrumbs__pattern"><img src="' . trailingslashit( CALDERA_THEME_URI ) . 'assets/images/slash.png' . '" alt></div></div><div class="clear"></div>
+		</div></div>',
 		'page_title_format' => '<h5 class="page-title">%s</h5>',
 		'show_title'        => $breadcrumbs_page_title,
 		'path_type'         => $breadcrumbs_path_type,

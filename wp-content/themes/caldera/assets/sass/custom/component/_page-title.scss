@@ -30,7 +30,8 @@
 
     &-image {
         img {
-            .page #tm_builder_outer_content & {
+            .page #tm_builder_outer_content &,
+            .single #tm_builder_outer_content & {
                 max-width: none;
 
                 @include bp(max-width, $xl - 1) {

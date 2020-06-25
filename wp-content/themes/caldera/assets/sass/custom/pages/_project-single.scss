@@ -1,0 +1,40 @@
+.single {
+    .site-content_wrap {
+        &.container {
+            padding-top: 0;
+        }
+    }
+
+    .cherry-projects-single {
+        .cherry-projects-single-post {
+            // .page-title {
+            //     padding-top: 0;
+
+            //     @include media-breakpoint-up(xl) {
+            //         margin-top: -38px;
+            //     }
+            // }
+
+            .cherry-projects-single__container {
+                .cherry-projects-single__content {
+                    max-width: 100%;
+                    padding: 0;
+    
+                    .product-info {
+                        h3 {
+                            color: $color-black;
+                        }
+                    }
+                }
+            }
+
+            .featured-image {
+                margin-bottom: 0;
+
+                .cover {
+                    display: none;
+                }
+            }
+        }
+    }
+}

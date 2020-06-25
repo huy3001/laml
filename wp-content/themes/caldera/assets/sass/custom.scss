@@ -15,11 +15,12 @@
 @import "grid/variables";
 @import "grid/breakpoints";
 
-// Custom builder //
+// Custom component //
 @import "custom/component/builder";
 @import "custom/component/page-title";
 @import "custom/component/form-style";
 @import "custom/component/our-mission";
+@import "custom/component/breadcrumb";
 
 // Custom layout //
 @import "custom/layout/general";
@@ -32,3 +33,5 @@
 @import "custom/pages/about";
 @import "custom/pages/contact";
 @import "custom/pages/product";
+@import "custom/pages/project-archive";
+@import "custom/pages/project-single";
