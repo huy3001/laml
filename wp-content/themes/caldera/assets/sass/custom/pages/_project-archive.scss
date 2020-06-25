@@ -1,18 +1,115 @@
-.post-type-archive-projects {
+.archive {
     .project-terms-caption,
     .projects-filters {
         display: none;
     }
 
     .cherry-projects-wrapper {
-        padding: 50px 0;
+        margin: 0 -25px;
+        padding: 25px 0;
 
         @include bp(min-width, $xl) {
-            padding: 115px 0 125px;
+            padding: 90px 0 100px;
+        }
+
+        .projects-list {
+            .permalink {
+                height: 29px;
+                width: 29px;
+            }
         }
     }
 
     .cherry-projects-ajax-loader {
         background: none;
+
+        .cherry-spinner {
+            display: none;
+        }
+    }
+
+    .projects-item-instance {
+        .inner-wrapper {
+            margin: 25px !important;
+        }
+
+        .project-media {
+            box-shadow: 1px 1px 25px $color-black-15;
+            @include transition;
+
+            &:hover {
+                box-shadow: 1px 1px 25px $color-black-5;
+            }
+        }
+
+        .hover-content {
+            background: $bg-gainsboro;
+            justify-content: space-between;
+            padding: 20px 25px;
+            position: static;
+
+            h3 {
+                color: $color-black;
+                font-size: 24px !important;
+                font-weight: bold;
+                margin: 0;
+
+                a {
+                    color: $color-black !important;
+                }
+            }
+
+            &:hover {
+                h3 {
+                    color: $color-white;
+
+                    a {
+                        color: $color-white !important;
+                    }
+                }
+
+                .simple-icon {
+                    border-color: $color-white !important;
+                    color: $color-white;
+                }
+            }
+        }
+
+        .simple-icon {
+            border-color: $bg-red !important;
+            border-radius: 0;
+            color: $color-black;
+            margin: 0;
+
+            span {
+                &:before {
+                    @include transition(none !important);
+                }
+            }
+
+            &:hover {
+                span {
+                    &:before {
+                        color: inherit !important;
+                    }
+                }
+            } 
+        }
+
+        &.simple-scale-hover {
+            .hover-content {
+                background: $bg-gainsboro;
+                opacity: 1;
+
+                &:hover {
+                    background: $bg-red;
+                }
+
+                > * {
+                    @include transform(scale(1));
+                    @include transition;
+                }
+            }
+        }
     }
 }

@@ -466,7 +466,7 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
 
 /* line 5, assets/sass/custom/component/_breadcrumb.scss */
 
-.post-type-archive-projects .breadcrumbs {
+.archive .breadcrumbs {
   display: block;
   margin: 50px 0 0;
 }
@@ -474,7 +474,7 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
 @media (min-width: 1200px) {
   /* line 5, assets/sass/custom/component/_breadcrumb.scss */
 
-  .post-type-archive-projects .breadcrumbs {
+  .archive .breadcrumbs {
     margin: 145px 0 0;
   }
 }
@@ -623,7 +623,7 @@ header.site-header.centered .header-container {
     top: 0;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-out;
   }
 
   /* line 40, assets/sass/custom/layout/_header.scss */
@@ -2524,29 +2524,147 @@ header .site-logo img {
 
 /* line 2, assets/sass/custom/pages/_project-archive.scss */
 
-.post-type-archive-projects .project-terms-caption,
-.post-type-archive-projects .projects-filters {
+.archive .project-terms-caption,
+.archive .projects-filters {
   display: none;
 }
 
 /* line 7, assets/sass/custom/pages/_project-archive.scss */
 
-.post-type-archive-projects .cherry-projects-wrapper {
-  padding: 50px 0;
+.archive .cherry-projects-wrapper {
+  margin: 0 -25px;
+  padding: 25px 0;
 }
 
 @media only screen and (min-width: 1200px) {
   /* line 7, assets/sass/custom/pages/_project-archive.scss */
 
-  .post-type-archive-projects .cherry-projects-wrapper {
-    padding: 115px 0 125px;
+  .archive .cherry-projects-wrapper {
+    padding: 90px 0 100px;
   }
 }
 
-/* line 15, assets/sass/custom/pages/_project-archive.scss */
+/* line 16, assets/sass/custom/pages/_project-archive.scss */
 
-.post-type-archive-projects .cherry-projects-ajax-loader {
+.archive .cherry-projects-wrapper .projects-list .permalink {
+  height: 29px;
+  width: 29px;
+}
+
+/* line 23, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .cherry-projects-ajax-loader {
   background: none;
+}
+
+/* line 26, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .cherry-projects-ajax-loader .cherry-spinner {
+  display: none;
+}
+
+/* line 32, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .inner-wrapper {
+  margin: 25px !important;
+}
+
+/* line 36, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media {
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-out;
+}
+
+/* line 40, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media:hover {
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* line 45, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content {
+  background: #dbdbdb;
+  justify-content: space-between;
+  padding: 20px 25px;
+  position: static;
+}
+
+/* line 51, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content h3 {
+  color: #000000;
+  font-size: 24px !important;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 57, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content h3 a {
+  color: #000000 !important;
+}
+
+/* line 63, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content:hover h3 {
+  color: #ffffff;
+}
+
+/* line 66, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content:hover h3 a {
+  color: #ffffff !important;
+}
+
+/* line 71, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .hover-content:hover .simple-icon {
+  border-color: #ffffff !important;
+  color: #ffffff;
+}
+
+/* line 78, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .simple-icon {
+  border-color: #ce1d39 !important;
+  border-radius: 0;
+  color: #000000;
+  margin: 0;
+}
+
+/* line 85, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .simple-icon span:before {
+  transition: none !important;
+}
+
+/* line 92, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .simple-icon:hover span:before {
+  color: inherit !important;
+}
+
+/* line 100, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance.simple-scale-hover .hover-content {
+  background: #dbdbdb;
+  opacity: 1;
+}
+
+/* line 104, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance.simple-scale-hover .hover-content:hover {
+  background: #ce1d39;
+}
+
+/* line 108, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance.simple-scale-hover .hover-content > * {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.3s ease-out;
 }
 
 /* line 3, assets/sass/custom/pages/_project-single.scss */

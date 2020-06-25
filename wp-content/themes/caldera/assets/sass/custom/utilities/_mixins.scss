@@ -116,7 +116,7 @@ $mq-fixed-value: 1024px !default;
 }
 
 /* transition */
-@mixin transition($transition: all 0.3s ease) {
+@mixin transition($transition: all .3s ease-out) {
     -webkit-transition: $transition;
     -moz-transition: $transition;
     -o-transition: $transition;
