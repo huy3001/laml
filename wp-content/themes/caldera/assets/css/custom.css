@@ -1030,8 +1030,8 @@ header .site-logo img {
   /* line 79, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-media:hover .term-permalink.simple-icon {
-    -webkit-transform: translateY(calc(50% + 30px));
-    transform: translateY(calc(50% + 30px));
+    -webkit-transform: translateY(calc(50% + 10px));
+    transform: translateY(calc(50% + 10px));
   }
 }
 
@@ -1070,7 +1070,7 @@ header .site-logo img {
   /* line 106, assets/sass/custom/pages/_home.scss */
 
   .home.tm_pb_builder #tm_builder_outer_content .projects-terms-container .project-terms-caption .term-permalink {
-    margin: 0 0 30px 25px;
+    margin: 0 0 10px 25px;
   }
 }
 
@@ -2497,6 +2497,7 @@ header .site-logo img {
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
+    flex: 0 1 90%;
     font-size: 25px;
     line-height: 1.46;
     text-align: left;
@@ -2514,7 +2515,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 224, assets/sass/custom/pages/_product.scss */
+  /* line 225, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
@@ -2696,4 +2697,81 @@ header .site-logo img {
 
 .single .cherry-projects-single .cherry-projects-single-post .featured-image .cover {
   display: none;
+}
+
+/* line 42, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-filters {
+  display: none;
+}
+
+/* line 47, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .cherry-projects-wrapper .projects-list {
+  margin: 0 -25px;
+}
+
+/* line 50, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .cherry-projects-wrapper .projects-list .projects-item {
+  padding: 25px;
+}
+
+/* line 55, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .cherry-projects-wrapper .projects-list .featured-image .cover {
+  background: #171d22;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: .71;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 67, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .cherry-projects-wrapper .projects-list .permalink {
+  border-radius: 0;
+  height: 29px;
+  width: 29px;
+  margin-left: 20px;
+}
+
+/* line 78, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-item-instance .hover-content > * {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0;
+  -webkit-transform: none;
+  transform: none;
+}
+
+/* line 88, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-item-instance.simple-scale-hover .hover-content {
+  background: none;
+  opacity: 1;
+}
+
+/* line 92, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-item-instance.simple-scale-hover .hover-content:hover {
+  background: rgba(120, 190, 223, 0.9);
+}
+
+/* line 96, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-item-instance.simple-scale-hover .hover-content > * {
+  transition: all .3s ease-out;
+}
+
+/* line 99, assets/sass/custom/pages/_project-single.scss */
+
+.single .related-projects .projects-item-instance.simple-scale-hover .hover-content > *:nth-child(1),
+.single .related-projects .projects-item-instance.simple-scale-hover .hover-content > *:nth-child(2) {
+  transition-delay: 0s;
 }

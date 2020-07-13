@@ -78,7 +78,7 @@
                             .term-permalink {
                                 &.simple-icon {
                                     @include bp(min-width, $xl) {
-                                        transform: translateY(calc(50% + 30px));
+                                        transform: translateY(calc(50% + 10px));
                                     }
                                 }
                             }
@@ -105,7 +105,7 @@
         
                         .term-permalink {
                             @include bp(min-width, $xl) {
-                                margin: 0 0 30px 25px;
+                                margin: 0 0 10px 25px;
                             }
                         }
                     }
