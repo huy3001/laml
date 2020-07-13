@@ -37,4 +37,72 @@
             }
         }
     }
+
+    .related-projects {
+        .projects-filters {
+            display: none;
+        }
+
+        .cherry-projects-wrapper {
+            .projects-list {
+                margin: 0 -25px;
+
+                .projects-item {
+                    padding: 25px;
+                }
+
+                .featured-image {
+                    .cover {
+                        background: $color-black-pearl;
+                        display: block;
+                        height: 100%;
+                        left: 0;
+                        opacity: .71;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                    }
+                }
+
+                .permalink {
+                    border-radius: 0;
+                    height: 29px;
+                    width: 29px;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .projects-item-instance {
+            .hover-content {
+                > * {
+                    font-size: 26px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    margin: 0;
+                    transform: none;
+                }
+            }
+
+            &.simple-scale-hover {
+                .hover-content {
+                    background: none;
+                    opacity: 1;
+
+                    &:hover {
+                        background: rgba(120,190,223,0.9);
+                    }
+
+                    > * {
+                        transition: all .3s ease-out;
+
+                        &:nth-child(1),
+                        &:nth-child(2) {
+                            transition-delay: 0s;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
