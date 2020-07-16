@@ -39,6 +39,30 @@
 
             &:hover {
                 box-shadow: 1px 1px 25px $color-black-5;
+
+                .hover-content {
+                    background: $bg-red;
+
+                    h3 {
+                        color: $color-white;
+    
+                        a {
+                            color: $color-white !important;
+                        }
+                    }
+    
+                    .simple-icon {
+                        border-color: $color-white !important;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+
+        .featured-image {
+            .wp-image {
+                cursor: auto;
+                pointer-events: none;
             }
         }
 
@@ -56,21 +80,6 @@
 
                 a {
                     color: $color-black !important;
-                }
-            }
-
-            &:hover {
-                h3 {
-                    color: $color-white;
-
-                    a {
-                        color: $color-white !important;
-                    }
-                }
-
-                .simple-icon {
-                    border-color: $color-white !important;
-                    color: $color-white;
                 }
             }
         }
