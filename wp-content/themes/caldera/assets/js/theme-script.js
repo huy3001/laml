@@ -651,5 +651,21 @@ if ( document.querySelector('.tm_pb_testimonial') ) {
 					}
 			});
 		}
+
+		// Custom breadcrumbs text
+		if($('.breadcrumbs').length) {
+			var itemLink = $('.breadcrumbs__item-link:not(.is-home)'),
+				itemLinkText = itemLink.text(),
+				itemTarget = $('.breadcrumbs__item-target'),
+				itemTargetText = itemTarget.text();
+
+			if(itemLinkText == 'Projects') {
+				itemLink.text('Products');
+			}
+
+			if(itemTargetText == 'Projects') {
+				itemTarget.text('All Products');
+			}
+		}
     })
 }(jQuery));

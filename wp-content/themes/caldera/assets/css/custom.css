@@ -503,17 +503,24 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
 
 /* line 28, assets/sass/custom/component/_breadcrumb.scss */
 
+.breadcrumbs .breadcrumbs__item:nth-child(1),
+.breadcrumbs .breadcrumbs__item:nth-child(2) {
+  display: none;
+}
+
+/* line 33, assets/sass/custom/component/_breadcrumb.scss */
+
 .breadcrumbs .breadcrumbs__item-link {
   color: #000000;
 }
 
-/* line 31, assets/sass/custom/component/_breadcrumb.scss */
+/* line 36, assets/sass/custom/component/_breadcrumb.scss */
 
 .breadcrumbs .breadcrumbs__item-link:hover {
   color: #cf1d39;
 }
 
-/* line 36, assets/sass/custom/component/_breadcrumb.scss */
+/* line 41, assets/sass/custom/component/_breadcrumb.scss */
 
 .breadcrumbs .breadcrumbs__item-sep {
   background: url("../images/arrow.png") no-repeat center transparent;
@@ -523,14 +530,14 @@ body.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .our-miss
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 44, assets/sass/custom/component/_breadcrumb.scss */
+  /* line 49, assets/sass/custom/component/_breadcrumb.scss */
 
   .breadcrumbs .breadcrumbs__pattern {
     display: none;
   }
 }
 
-/* line 49, assets/sass/custom/component/_breadcrumb.scss */
+/* line 54, assets/sass/custom/component/_breadcrumb.scss */
 
 .breadcrumbs .breadcrumbs__pattern img {
   display: block;
@@ -2583,7 +2590,39 @@ header .site-logo img {
   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
 }
 
-/* line 45, assets/sass/custom/pages/_project-archive.scss */
+/* line 43, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media:hover .hover-content {
+  background: #ce1d39;
+}
+
+/* line 46, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media:hover .hover-content h3 {
+  color: #ffffff;
+}
+
+/* line 49, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media:hover .hover-content h3 a {
+  color: #ffffff !important;
+}
+
+/* line 54, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .project-media:hover .hover-content .simple-icon {
+  border-color: #ffffff !important;
+  color: #ffffff;
+}
+
+/* line 63, assets/sass/custom/pages/_project-archive.scss */
+
+.archive .projects-item-instance .featured-image .wp-image {
+  cursor: auto;
+  pointer-events: none;
+}
+
+/* line 69, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content {
   background: #dbdbdb;
@@ -2592,7 +2631,7 @@ header .site-logo img {
   position: static;
 }
 
-/* line 51, assets/sass/custom/pages/_project-archive.scss */
+/* line 75, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 {
   color: #000000;
@@ -2601,32 +2640,13 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 57, assets/sass/custom/pages/_project-archive.scss */
+/* line 81, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 a {
   color: #000000 !important;
 }
 
-/* line 63, assets/sass/custom/pages/_project-archive.scss */
-
-.archive .projects-item-instance .hover-content:hover h3 {
-  color: #ffffff;
-}
-
-/* line 66, assets/sass/custom/pages/_project-archive.scss */
-
-.archive .projects-item-instance .hover-content:hover h3 a {
-  color: #ffffff !important;
-}
-
-/* line 71, assets/sass/custom/pages/_project-archive.scss */
-
-.archive .projects-item-instance .hover-content:hover .simple-icon {
-  border-color: #ffffff !important;
-  color: #ffffff;
-}
-
-/* line 78, assets/sass/custom/pages/_project-archive.scss */
+/* line 87, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon {
   border-color: #ce1d39 !important;
@@ -2635,32 +2655,32 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 85, assets/sass/custom/pages/_project-archive.scss */
+/* line 94, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon span:before {
   transition: none !important;
 }
 
-/* line 92, assets/sass/custom/pages/_project-archive.scss */
+/* line 101, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon:hover span:before {
   color: inherit !important;
 }
 
-/* line 100, assets/sass/custom/pages/_project-archive.scss */
+/* line 109, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content {
   background: #dbdbdb;
   opacity: 1;
 }
 
-/* line 104, assets/sass/custom/pages/_project-archive.scss */
+/* line 113, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content:hover {
   background: #ce1d39;
 }
 
-/* line 108, assets/sass/custom/pages/_project-archive.scss */
+/* line 117, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content > * {
   -webkit-transform: scale(1);

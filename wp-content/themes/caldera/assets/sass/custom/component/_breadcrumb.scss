@@ -24,6 +24,11 @@
             @include media-breakpoint-up(md) {
                 font-size: 30px;
             }
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                display: none;
+            }
     
             &-link {
                 color: $color-black;
