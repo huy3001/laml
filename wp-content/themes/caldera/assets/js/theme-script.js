@@ -661,6 +661,7 @@ if ( document.querySelector('.tm_pb_testimonial') ) {
 
 			if(itemLinkText == 'Projects') {
 				itemLink.text('Products');
+				itemLink.attr('title', 'Products');
 			}
 
 			if(itemTargetText == 'Projects') {
