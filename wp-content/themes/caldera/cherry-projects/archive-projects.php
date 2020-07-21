@@ -48,13 +48,36 @@ if ( ! did_action( 'get_header' ) ) {
 		$filter_type = 'tag';
 	}
 
-	$attr = array(
-		'filter-visible' => $filter_visible,
-		'single-term'    => ! empty( $wp_query->query_vars['term'] ) ? $wp_query->query_vars['term'] : '',
-		'filter-type'    => $filter_type,
-	);
+	// Render single term
+	if ( $wp_query->query_vars['term'] ) {
+		$attr = array(
+			'filter-visible' => $filter_visible,
+			'single-term'    => ! empty( $wp_query->query_vars['term'] ) ? $wp_query->query_vars['term'] : '',
+			'filter-type'    => $filter_type,
+		);
+	
+		cherry_projects()->projects_data->render_projects( $attr );
+	}
+	// Render multiple terms
+	else {
+		$terms = get_terms( 'projects_category' );
+		$index = 0;
+		foreach ( $terms as $term ) {
+			$term_name =  $term->name;
+			$term_slug =  $term->slug;
+			$attr[$index] = array(
+				'single-term'    => $term_slug
+			);
 
-	cherry_projects()->projects_data->render_projects( $attr );
+			echo '<div class="projects-category"><h4 class="projects-category__title">'. $term_name .'</h4>';
+
+			cherry_projects()->projects_data->render_projects( $attr[$index] );
+
+			echo '</div>';
+			
+			$index++;
+		}
+	}
 
 	do_action( 'cherry_projects_after_main_content' );
 

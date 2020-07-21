@@ -4,6 +4,26 @@
         display: none;
     }
 
+    .projects-category {
+        &__title {
+            color: $color-black;
+            font-size: 25px;
+            margin: 50px 0 0;
+
+            @include bp(min-width, $md) {
+                font-size: 30px;
+            }
+
+            @include bp(min-width, $xl) {
+                margin: 90px 0 0;
+            }
+
+            & + .cherry-projects-wrapper {
+                padding: 25px 0;
+            }
+        }
+    }
+
     .cherry-projects-wrapper {
         margin: 0 -25px;
         padding: 25px 0;
