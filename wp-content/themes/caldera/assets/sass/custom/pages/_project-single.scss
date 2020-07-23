@@ -105,4 +105,27 @@
             }
         }
     }
+
+    &.tm_pb_builder {
+        #tm_builder_outer_content {
+            .tm_pb_slide {
+                padding: 0;
+            }
+
+            .tm_pb_slide_image {
+                margin: 0;
+                width: 100%;
+
+                img {
+                    max-height: none !important;
+                }
+            }
+
+            .tm_pb_slide_with_image {
+                .tm_pb_slide_description {
+                    float: none;
+                }
+            }
+        }
+    }
 }
