@@ -40,7 +40,8 @@ endwhile;
 		}
 
 		$attr = array(
-			'single-term'    => $single_term
+			'loading-animation' => 'none',
+			'single-term'       => $single_term
 		);
 
 		cherry_projects()->projects_data->render_projects( $attr );
