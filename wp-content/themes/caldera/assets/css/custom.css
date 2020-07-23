@@ -2826,26 +2826,32 @@ header .site-logo img {
   transition-delay: 0s;
 }
 
-/* line 111, assets/sass/custom/pages/_project-single.scss */
+/* line 113, assets/sass/custom/pages/_project-single.scss */
+
+.single.tm_pb_builder #tm_builder_outer_content .tm_pb_column_1_3 .tm_pb_slider .tm_pb_container {
+  min-height: 340px !important;
+}
+
+/* line 119, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide {
   padding: 0;
 }
 
-/* line 115, assets/sass/custom/pages/_project-single.scss */
+/* line 123, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image {
   margin: 0;
   width: 100%;
 }
 
-/* line 119, assets/sass/custom/pages/_project-single.scss */
+/* line 127, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image img {
   max-height: none !important;
 }
 
-/* line 125, assets/sass/custom/pages/_project-single.scss */
+/* line 133, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_with_image .tm_pb_slide_description {
   float: none;

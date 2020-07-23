@@ -108,6 +108,14 @@
 
     &.tm_pb_builder {
         #tm_builder_outer_content {
+            .tm_pb_column_1_3 {
+                .tm_pb_slider {
+                    .tm_pb_container {
+                        min-height: 340px !important;
+                    }
+                }
+            }
+
             .tm_pb_slide {
                 padding: 0;
             }
