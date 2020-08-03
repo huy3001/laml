@@ -118,6 +118,26 @@
 
             .tm_pb_slide {
                 padding: 0;
+
+                &:first-child {
+                    .tm_pb_slide_image {
+                        img {
+                            &.active {
+                                animation-name: slideLeft;
+                                animation-duration: .3s;
+                                animation-delay: 0s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tm-pb-active-slide {
+                .tm_pb_slide_image {
+                    animation-name: slideLeft;
+                    animation-duration: .3s;
+                    animation-delay: 0s;
+                }
             }
 
             .tm_pb_slide_image {
