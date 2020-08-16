@@ -741,7 +741,7 @@ class Custom_Cherry_Projects_Registration {
 		$category_taxonomy_args = array(
 			'labels'		=> $category_taxonomy_labels,
 			'hierarchical'	=> true,
-			'rewrite'		=> true,
+			'rewrite'		=> array( 'slug' => 'products_category', ), // Permalinks format,
 			'query_var'		=> true
 		);
 		register_taxonomy( CHERRY_PROJECTS_NAME . '_category', CHERRY_PROJECTS_NAME, $category_taxonomy_args );
