@@ -126,6 +126,7 @@
                                 animation-name: slideLeft;
                                 animation-duration: .3s;
                                 animation-delay: 0s;
+                                animation: none;
                             }
                         }
                     }
@@ -137,6 +138,7 @@
                     animation-name: slideLeft;
                     animation-duration: .3s;
                     animation-delay: 0s;
+                    animation: none;
                 }
             }
 
@@ -152,6 +154,38 @@
             .tm_pb_slide_with_image {
                 .tm_pb_slide_description {
                     float: none;
+                }
+            }
+
+            .tm_pb_animation_left {
+                &.tm-animated {
+                    animation: none;
+                }
+            }
+
+            .tm-pb-arrow-prev,
+            .tm-pb-arrow-next {
+                background: none;
+                border: 2px solid $color-red;
+                border-radius: 0;
+                height: 29px;
+                width: 29px;
+                font-size: 0;
+                margin-top: -15px;
+
+                &::before {
+                    font-size: 25px;
+                    transition: all 0.2s ease-in-out;
+                }
+
+                &:hover {
+                    background: none;
+                    border-color: $color-night;
+                    color: $color-night;
+
+                    &::before {
+                        color: $color-night;
+                    }
                 }
             }
         }
