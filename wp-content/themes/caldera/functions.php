@@ -661,16 +661,16 @@ class Custom_Cherry_Projects_Registration {
 	public static function register() {
 
 		$labels = array(
-			'name'               => __( 'Projects', 'cherry-projects' ),
-			'singular_name'      => __( 'Projects list', 'cherry-projects' ),
-			'add_new'            => __( 'Add Project', 'cherry-projects' ),
-			'add_new_item'       => __( 'Add Project Item', 'cherry-projects' ),
-			'edit_item'          => __( 'Edit Project Item', 'cherry-projects' ),
-			'new_item'           => __( 'New Project Item', 'cherry-projects' ),
-			'view_item'          => __( 'View Project Item', 'cherry-projects' ),
-			'search_items'       => __( 'Search Project Items', 'cherry-projects' ),
-			'not_found'          => __( 'No Project Items found', 'cherry-projects' ),
-			'not_found_in_trash' => __( 'No Project Items found in trash', 'cherry-projects' ),
+			'name'               => __( 'Products', 'cherry-projects' ),
+			'singular_name'      => __( 'Products List', 'cherry-projects' ),
+			'add_new'            => __( 'Add Product', 'cherry-projects' ),
+			'add_new_item'       => __( 'Add Product Item', 'cherry-projects' ),
+			'edit_item'          => __( 'Edit Product Item', 'cherry-projects' ),
+			'new_item'           => __( 'New Product Item', 'cherry-projects' ),
+			'view_item'          => __( 'View Product Item', 'cherry-projects' ),
+			'search_items'       => __( 'Search Product Items', 'cherry-projects' ),
+			'not_found'          => __( 'No Product Items found', 'cherry-projects' ),
+			'not_found_in_trash' => __( 'No Product Items found in trash', 'cherry-projects' ),
 		);
 
 		$supports = array(
@@ -733,7 +733,7 @@ class Custom_Cherry_Projects_Registration {
 	public static function register_taxonomy() {
 		//Register the category taxonomy
 		$category_taxonomy_labels = array(
-			'name'          => __( 'Projects Categories', 'cherry-projects' ),
+			'name'          => __( 'Products Categories', 'cherry-projects' ),
 			'label'         => __( 'Categories', 'cherry-projects' ),
 			'singular_name' => __( 'Category', 'cherry-projects' ),
 			'menu_name'     => __( 'Categories', 'cherry-projects' ),
@@ -741,13 +741,13 @@ class Custom_Cherry_Projects_Registration {
 		$category_taxonomy_args = array(
 			'labels'		=> $category_taxonomy_labels,
 			'hierarchical'	=> true,
-			'rewrite'		=> array( 'slug' => 'products_category', ), // Permalinks format,
+			'rewrite'		=> array( 'slug' => 'products-category', ), // Permalinks format,
 			'query_var'		=> true
 		);
 		register_taxonomy( CHERRY_PROJECTS_NAME . '_category', CHERRY_PROJECTS_NAME, $category_taxonomy_args );
 		//Register the tag taxonomy
 		$tag_taxonomy_labels = array(
-			'name'          => __( 'Projects Tags', 'cherry-projects' ),
+			'name'          => __( 'Products Tags', 'cherry-projects' ),
 			'label'         => __( 'Tags', 'cherry-projects' ),
 			'singular_name' => __( 'Tag', 'cherry-projects' ),
 			'menu_name'     => __( 'Tags', 'cherry-projects' ),

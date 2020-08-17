@@ -1,0 +1,21 @@
+.main-navigation {
+    ul {
+        ul {
+            a {
+                @include bp(min-width, $md) {
+                    color: $color-black !important;
+                }
+            }
+        }
+    }
+
+    .sub-menu {
+        > li {
+            > a {
+                &:hover {
+                    color: $color-red !important;
+                }
+            }
+        }
+    }
+}
