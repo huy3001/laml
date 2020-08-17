@@ -116,6 +116,18 @@
                 }
             }
 
+            .tm_pb_slider {
+                &:hover {
+                    .tm-pb-arrow-prev {
+                        left: 10px !important;
+                    }
+
+                    .tm-pb-arrow-next {
+                        right: 10px !important;
+                    }
+                }
+            }
+
             .tm_pb_slide {
                 padding: 0;
 
@@ -123,9 +135,6 @@
                     .tm_pb_slide_image {
                         img {
                             &.active {
-                                animation-name: slideLeft;
-                                animation-duration: .3s;
-                                animation-delay: 0s;
                                 animation: none;
                             }
                         }
@@ -135,9 +144,6 @@
 
             .tm-pb-active-slide {
                 .tm_pb_slide_image {
-                    animation-name: slideLeft;
-                    animation-duration: .3s;
-                    animation-delay: 0s;
                     animation: none;
                 }
             }
