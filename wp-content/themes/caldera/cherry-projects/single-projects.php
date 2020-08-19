@@ -41,8 +41,7 @@ endwhile;
 
 		$attr = array(
 			'loading-animation'            => 'none',
-			'single-term'                  => $single_term,
-			'orderby-filter-default-value' => 'name'
+			'single-term'                  => $single_term
 		);
 
 		cherry_projects()->projects_data->render_projects( $attr );

@@ -54,8 +54,7 @@ if ( ! did_action( 'get_header' ) ) {
 			'filter-visible'               => $filter_visible,
 			'single-term'                  => ! empty( $wp_query->query_vars['term'] ) ? $wp_query->query_vars['term'] : '',
 			'filter-type'                  => $filter_type,
-			'loading-animation'            => 'none',
-			'orderby-filter-default-value' => 'name'
+			'loading-animation'            => 'none'
 		);
 	
 		cherry_projects()->projects_data->render_projects( $attr );
@@ -69,8 +68,7 @@ if ( ! did_action( 'get_header' ) ) {
 			$term_slug =  $term->slug;
 			$attr[$index] = array(
 				'loading-animation'            => 'none',
-				'single-term'                  => $term_slug,
-				'orderby-filter-default-value' => 'name'
+				'single-term'                  => $term_slug
 			);
 
 			echo '<div class="projects-category"><h4 class="projects-category__title">'. $term_name .'</h4>';
