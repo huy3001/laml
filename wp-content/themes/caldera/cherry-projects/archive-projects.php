@@ -26,6 +26,10 @@ if ( ! did_action( 'get_header' ) ) {
 
 ?>
 
+<div class="projects-category-picture">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/all-products.jpg" alt="All products">
+</div>
+
 <div class="project-terms-caption">
 	<h3><?php echo $wp_query->queried_object->name; ?></h3>
 	<p><?php echo $wp_query->queried_object->description; ?></p>
