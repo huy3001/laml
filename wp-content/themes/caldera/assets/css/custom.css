@@ -918,15 +918,21 @@ header .site-logo img {
   display: none;
 }
 
+/* line 5, assets/sass/custom/layout/_navigation.scss */
+
+.main-navigation.isStuck .menu > li > a {
+  color: #000000;
+}
+
 @media only screen and (min-width: 768px) {
-  /* line 4, assets/sass/custom/layout/_navigation.scss */
+  /* line 14, assets/sass/custom/layout/_navigation.scss */
 
   .main-navigation ul ul a {
     color: #000000 !important;
   }
 }
 
-/* line 15, assets/sass/custom/layout/_navigation.scss */
+/* line 25, assets/sass/custom/layout/_navigation.scss */
 
 .main-navigation .sub-menu > li > a:hover {
   color: #cf1d39 !important;
@@ -2861,54 +2867,54 @@ header .site-logo img {
 /* line 131, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide {
+  opacity: 1 !important;
   padding: 0;
 }
 
-/* line 137, assets/sass/custom/pages/_project-single.scss */
+/* line 138, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide:first-child .tm_pb_slide_image img.active {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 146, assets/sass/custom/pages/_project-single.scss */
+/* line 147, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-active-slide .tm_pb_slide_image {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 151, assets/sass/custom/pages/_project-single.scss */
+/* line 152, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image {
   margin: 0;
   width: 100%;
 }
 
-/* line 155, assets/sass/custom/pages/_project-single.scss */
+/* line 156, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image img {
   max-height: none !important;
 }
 
-/* line 161, assets/sass/custom/pages/_project-single.scss */
+/* line 162, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_with_image .tm_pb_slide_description {
   float: none;
 }
 
-/* line 167, assets/sass/custom/pages/_project-single.scss */
+/* line 168, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_animation_left.tm-animated {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 172, assets/sass/custom/pages/_project-single.scss */
+/* line 173, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next {
-  background: none;
   border: 2px solid #cf1d39;
   border-radius: 0;
   height: 29px;
@@ -2929,12 +2935,11 @@ header .site-logo img {
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover {
-  background: none;
   border-color: #313131;
   color: #313131;
 }
 
-/* line 192, assets/sass/custom/pages/_project-single.scss */
+/* line 191, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover::before,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover::before {

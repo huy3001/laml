@@ -1,4 +1,14 @@
 .main-navigation {
+    &.isStuck {
+        .menu {
+            > li {
+                > a {
+                    color: $color-black;
+                }
+            }
+        }
+    }
+
     ul {
         ul {
             a {

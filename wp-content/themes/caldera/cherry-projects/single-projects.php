@@ -40,8 +40,11 @@ endwhile;
 		}
 
 		$attr = array(
+			'filter-visible'               => true,
 			'loading-animation'            => 'none',
-			'single-term'                  => $single_term
+			'single-term'                  => $single_term,
+			'order-filter-default-value'   => 'asc',
+			'orderby-filter-default-value' => 'name'
 		);
 
 		cherry_projects()->projects_data->render_projects( $attr );
