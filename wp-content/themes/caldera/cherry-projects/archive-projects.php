@@ -35,11 +35,11 @@ if ( ! did_action( 'get_header' ) ) {
 	$default_options = cherry_projects()->projects_data->default_options;
 
 	if ( is_tax() ) {
-		$filter_visible = false;
+		$filter_visible = true;
 	} elseif ( filter_var( $default_options['filter-visible'], FILTER_VALIDATE_BOOLEAN ) ) {
 		$filter_visible = true;
 	} else {
-		$filter_visible = false;
+		$filter_visible = true;
 	}
 
 	if ( 'projects_category' === $wp_query->query_vars['taxonomy'] ) {
@@ -54,7 +54,9 @@ if ( ! did_action( 'get_header' ) ) {
 			'filter-visible'               => $filter_visible,
 			'single-term'                  => ! empty( $wp_query->query_vars['term'] ) ? $wp_query->query_vars['term'] : '',
 			'filter-type'                  => $filter_type,
-			'loading-animation'            => 'none'
+			'loading-animation'            => 'none',
+			'order-filter-default-value'   => 'asc',
+			'orderby-filter-default-value' => 'name'
 		);
 	
 		cherry_projects()->projects_data->render_projects( $attr );
@@ -67,8 +69,11 @@ if ( ! did_action( 'get_header' ) ) {
 			$term_name =  $term->name;
 			$term_slug =  $term->slug;
 			$attr[$index] = array(
+				'filter-visible'               => $filter_visible,
 				'loading-animation'            => 'none',
-				'single-term'                  => $term_slug
+				'single-term'                  => $term_slug,
+				'order-filter-default-value'   => 'asc',
+				'orderby-filter-default-value' => 'name'
 			);
 
 			echo '<div class="projects-category"><h4 class="projects-category__title">'. $term_name .'</h4>';
