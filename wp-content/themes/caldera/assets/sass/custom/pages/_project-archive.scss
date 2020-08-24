@@ -87,6 +87,9 @@
         .featured-image {
             .wp-image {
                 cursor: auto;
+                display: block;
+                height: 300px;
+                overflow: hidden;
                 pointer-events: none;
             }
         }

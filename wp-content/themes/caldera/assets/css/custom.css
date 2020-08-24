@@ -2700,10 +2700,13 @@ header .site-logo img {
 
 .archive .projects-item-instance .featured-image .wp-image {
   cursor: auto;
+  display: block;
+  height: 300px;
+  overflow: hidden;
   pointer-events: none;
 }
 
-/* line 94, assets/sass/custom/pages/_project-archive.scss */
+/* line 97, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content {
   background: #dbdbdb;
@@ -2712,7 +2715,7 @@ header .site-logo img {
   position: static;
 }
 
-/* line 100, assets/sass/custom/pages/_project-archive.scss */
+/* line 103, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 {
   color: #000000;
@@ -2721,13 +2724,13 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 106, assets/sass/custom/pages/_project-archive.scss */
+/* line 109, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 a {
   color: #000000 !important;
 }
 
-/* line 112, assets/sass/custom/pages/_project-archive.scss */
+/* line 115, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon {
   border-color: #ce1d39 !important;
@@ -2736,32 +2739,32 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 119, assets/sass/custom/pages/_project-archive.scss */
+/* line 122, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon span:before {
   transition: none !important;
 }
 
-/* line 126, assets/sass/custom/pages/_project-archive.scss */
+/* line 129, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon:hover span:before {
   color: inherit !important;
 }
 
-/* line 134, assets/sass/custom/pages/_project-archive.scss */
+/* line 137, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content {
   background: #dbdbdb;
   opacity: 1;
 }
 
-/* line 138, assets/sass/custom/pages/_project-archive.scss */
+/* line 141, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content:hover {
   background: #ce1d39;
 }
 
-/* line 142, assets/sass/custom/pages/_project-archive.scss */
+/* line 145, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content > * {
   -webkit-transform: scale(1);
