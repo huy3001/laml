@@ -62,6 +62,16 @@
                         top: 0;
                         width: 100%;
                     }
+
+                    .wp-image {
+                        display: block;
+                        height: 200px;
+                        overflow: hidden;
+
+                        @include bp(min-width, $xl) {
+                            height: 300px;
+                        }
+                    }
                 }
 
                 .permalink {
