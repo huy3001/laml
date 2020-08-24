@@ -88,9 +88,13 @@
             .wp-image {
                 cursor: auto;
                 display: block;
-                height: 300px;
+                height: 200px;
                 overflow: hidden;
                 pointer-events: none;
+
+                @include bp(min-width, $xl) {
+                    height: 300px;
+                }
             }
         }
 
