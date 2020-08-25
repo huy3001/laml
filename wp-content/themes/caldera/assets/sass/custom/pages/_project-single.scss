@@ -65,11 +65,16 @@
 
                     .wp-image {
                         display: block;
-                        height: 200px;
                         overflow: hidden;
+                        padding-top: 100%;
+                        position: relative;
 
-                        @include bp(min-width, $xl) {
-                            height: 300px;
+                        img {
+                            left: 0;
+                            height: 100%;
+                            object-fit: contain;
+                            position: absolute;
+                            top: 0;
                         }
                     }
                 }

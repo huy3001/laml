@@ -1,25 +1,31 @@
 .main-navigation {
     &.stuckMenu {
         .sub-menu {
-            background: $color-white-9;
-    
-            li {
-                border-color: $color-black-3;
+            @include bp(min-width, $md) {
+                background: $color-white-9;
+                box-shadow: 0 0 5px $color-black-3;
+
+                li {
+                    border-color: $color-black-3;
+                }
             }
         }
     }
 
     &.isStuck {
         .menu {
-            background: $color-white-9;
+            @include bp(min-width, $md) {
+                background: $color-white-9;
+                box-shadow: 0 1px 5px $color-black-3;
 
-            > li {
-                &::after {
-                    color: $color-black;
-                }
-
-                > a {
-                    color: $color-black;
+                > li {
+                    &::after {
+                        color: $color-black;
+                    }
+    
+                    > a {
+                        color: $color-black;
+                    }
                 }
             }
         }
