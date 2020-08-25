@@ -918,45 +918,51 @@ header .site-logo img {
   display: none;
 }
 
-/* line 3, assets/sass/custom/layout/_navigation.scss */
+@media only screen and (min-width: 768px) {
+  /* line 3, assets/sass/custom/layout/_navigation.scss */
 
-.main-navigation.stuckMenu .sub-menu {
-  background: rgba(255, 255, 255, 0.9);
-}
+  .main-navigation.stuckMenu .sub-menu {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
 
-/* line 6, assets/sass/custom/layout/_navigation.scss */
+  /* line 8, assets/sass/custom/layout/_navigation.scss */
 
-.main-navigation.stuckMenu .sub-menu li {
-  border-color: rgba(0, 0, 0, 0.3);
-}
-
-/* line 13, assets/sass/custom/layout/_navigation.scss */
-
-.main-navigation.isStuck .menu {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* line 17, assets/sass/custom/layout/_navigation.scss */
-
-.main-navigation.isStuck .menu > li::after {
-  color: #000000;
-}
-
-/* line 21, assets/sass/custom/layout/_navigation.scss */
-
-.main-navigation.isStuck .menu > li > a {
-  color: #000000;
+  .main-navigation.stuckMenu .sub-menu li {
+    border-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 30, assets/sass/custom/layout/_navigation.scss */
+  /* line 16, assets/sass/custom/layout/_navigation.scss */
+
+  .main-navigation.isStuck .menu {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* line 22, assets/sass/custom/layout/_navigation.scss */
+
+  .main-navigation.isStuck .menu > li::after {
+    color: #000000;
+  }
+
+  /* line 26, assets/sass/custom/layout/_navigation.scss */
+
+  .main-navigation.isStuck .menu > li > a {
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 36, assets/sass/custom/layout/_navigation.scss */
 
   .main-navigation ul ul a {
     color: #000000 !important;
   }
 }
 
-/* line 41, assets/sass/custom/layout/_navigation.scss */
+/* line 47, assets/sass/custom/layout/_navigation.scss */
 
 .main-navigation .sub-menu > li > a:hover {
   color: #cf1d39 !important;
@@ -2283,29 +2289,27 @@ header .site-logo img {
   }
 }
 
-@media only screen and (max-width: 1199px) {
-  /* line 32, assets/sass/custom/pages/_product.scss */
+/* line 32, assets/sass/custom/pages/_product.scss */
 
-  .product-image {
-    margin-bottom: 50px;
-  }
+.product-image {
+  margin-bottom: 50px;
 }
 
-/* line 38, assets/sass/custom/pages/_product.scss */
+/* line 36, assets/sass/custom/pages/_product.scss */
 
 .product-info {
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 38, assets/sass/custom/pages/_product.scss */
+  /* line 36, assets/sass/custom/pages/_product.scss */
 
   .product-info {
     margin-bottom: 60px;
   }
 }
 
-/* line 45, assets/sass/custom/pages/_product.scss */
+/* line 43, assets/sass/custom/pages/_product.scss */
 
 .product-info h2 {
   color: #000000;
@@ -2317,7 +2321,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 45, assets/sass/custom/pages/_product.scss */
+  /* line 43, assets/sass/custom/pages/_product.scss */
 
   .product-info h2 {
     font-size: 60px;
@@ -2326,14 +2330,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 45, assets/sass/custom/pages/_product.scss */
+  /* line 43, assets/sass/custom/pages/_product.scss */
 
   .product-info h2 {
     font-size: 70px;
   }
 }
 
-/* line 63, assets/sass/custom/pages/_product.scss */
+/* line 61, assets/sass/custom/pages/_product.scss */
 
 .product-info h3 {
   color: #000000;
@@ -2346,7 +2350,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 63, assets/sass/custom/pages/_product.scss */
+  /* line 61, assets/sass/custom/pages/_product.scss */
 
   .product-info h3 {
     font-size: 30px;
@@ -2354,14 +2358,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 63, assets/sass/custom/pages/_product.scss */
+  /* line 61, assets/sass/custom/pages/_product.scss */
 
   .product-info h3 {
     font-size: 40px;
   }
 }
 
-/* line 81, assets/sass/custom/pages/_product.scss */
+/* line 79, assets/sass/custom/pages/_product.scss */
 
 .product-info p,
 .product-info ul li {
@@ -2369,7 +2373,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 81, assets/sass/custom/pages/_product.scss */
+  /* line 79, assets/sass/custom/pages/_product.scss */
 
   .product-info p,
   .product-info ul li {
@@ -2377,20 +2381,20 @@ header .site-logo img {
   }
 }
 
-/* line 89, assets/sass/custom/pages/_product.scss */
+/* line 87, assets/sass/custom/pages/_product.scss */
 
 .product-info ul {
   margin: 0 0 25px;
 }
 
-/* line 94, assets/sass/custom/pages/_product.scss */
+/* line 92, assets/sass/custom/pages/_product.scss */
 
 .product-related {
   margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 94, assets/sass/custom/pages/_product.scss */
+  /* line 92, assets/sass/custom/pages/_product.scss */
 
   .product-related {
     margin-bottom: 100px;
@@ -2398,14 +2402,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 94, assets/sass/custom/pages/_product.scss */
+  /* line 92, assets/sass/custom/pages/_product.scss */
 
   .product-related {
     margin-bottom: 200px;
   }
 }
 
-/* line 106, assets/sass/custom/pages/_product.scss */
+/* line 104, assets/sass/custom/pages/_product.scss */
 
 .product-related-title h4 {
   color: #000000;
@@ -2418,7 +2422,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 106, assets/sass/custom/pages/_product.scss */
+  /* line 104, assets/sass/custom/pages/_product.scss */
 
   .product-related-title h4 {
     font-size: 30px;
@@ -2426,7 +2430,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 122, assets/sass/custom/pages/_product.scss */
+  /* line 120, assets/sass/custom/pages/_product.scss */
 
   .product-related .projects-terms-container .projects-terms-list {
     margin: 0 -10px;
@@ -2434,7 +2438,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 122, assets/sass/custom/pages/_product.scss */
+  /* line 120, assets/sass/custom/pages/_product.scss */
 
   .product-related .projects-terms-container .projects-terms-list {
     margin: 0 -30px;
@@ -2442,14 +2446,14 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 132, assets/sass/custom/pages/_product.scss */
+  /* line 130, assets/sass/custom/pages/_product.scss */
 
   .product-related .projects-terms-container .inner-wrapper {
     margin: 10px 30px !important;
   }
 }
 
-/* line 145, assets/sass/custom/pages/_product.scss */
+/* line 143, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-button,
 .single.tm_pb_builder #tm_builder_outer_content .product-button {
@@ -2458,7 +2462,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 145, assets/sass/custom/pages/_product.scss */
+  /* line 143, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-button,
   .single.tm_pb_builder #tm_builder_outer_content .product-button {
@@ -2467,7 +2471,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 145, assets/sass/custom/pages/_product.scss */
+  /* line 143, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-button,
   .single.tm_pb_builder #tm_builder_outer_content .product-button {
@@ -2475,14 +2479,14 @@ header .site-logo img {
   }
 }
 
-/* line 158, assets/sass/custom/pages/_product.scss */
+/* line 156, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-tabs,
 .single.tm_pb_builder #tm_builder_outer_content .product-tabs {
   padding-top: 0;
 }
 
-/* line 161, assets/sass/custom/pages/_product.scss */
+/* line 159, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs,
 .single.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_all_tabs {
@@ -2491,7 +2495,7 @@ header .site-logo img {
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 168, assets/sass/custom/pages/_product.scss */
+  /* line 166, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_tabs_controls li a,
   .single.tm_pb_builder #tm_builder_outer_content .product-tabs .tm_pb_tabs_controls li a {
@@ -2499,7 +2503,7 @@ header .site-logo img {
   }
 }
 
-/* line 179, assets/sass/custom/pages/_product.scss */
+/* line 177, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout,
 .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout {
@@ -2507,7 +2511,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 183, assets/sass/custom/pages/_product.scss */
+  /* line 181, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout .projects-terms-list .projects-terms-item,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container.grid-layout .projects-terms-list .projects-terms-item {
@@ -2517,7 +2521,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 195, assets/sass/custom/pages/_product.scss */
+  /* line 193, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-media:hover h5 {
@@ -2528,7 +2532,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 204, assets/sass/custom/pages/_product.scss */
+  /* line 202, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption {
@@ -2536,7 +2540,7 @@ header .site-logo img {
   }
 }
 
-/* line 209, assets/sass/custom/pages/_product.scss */
+/* line 207, assets/sass/custom/pages/_product.scss */
 
 .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
 .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
@@ -2544,7 +2548,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 209, assets/sass/custom/pages/_product.scss */
+  /* line 207, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
@@ -2557,7 +2561,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* line 209, assets/sass/custom/pages/_product.scss */
+  /* line 207, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption h5 {
@@ -2566,7 +2570,7 @@ header .site-logo img {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* line 225, assets/sass/custom/pages/_product.scss */
+  /* line 223, assets/sass/custom/pages/_product.scss */
 
   .page.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink,
   .single.tm_pb_builder #tm_builder_outer_content .product-related .projects-terms-container .project-terms-caption .term-permalink {
@@ -2701,20 +2705,24 @@ header .site-logo img {
 .archive .projects-item-instance .featured-image .wp-image {
   cursor: auto;
   display: block;
-  height: 200px;
   overflow: hidden;
+  padding-top: 100%;
   pointer-events: none;
+  position: relative;
 }
 
-@media only screen and (min-width: 1200px) {
-  /* line 88, assets/sass/custom/pages/_project-archive.scss */
+/* line 96, assets/sass/custom/pages/_project-archive.scss */
 
-  .archive .projects-item-instance .featured-image .wp-image {
-    height: 300px;
-  }
+.archive .projects-item-instance .featured-image .wp-image img {
+  left: 0;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
 }
 
-/* line 101, assets/sass/custom/pages/_project-archive.scss */
+/* line 106, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content {
   background: #dbdbdb;
@@ -2723,7 +2731,7 @@ header .site-logo img {
   position: static;
 }
 
-/* line 107, assets/sass/custom/pages/_project-archive.scss */
+/* line 112, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 {
   color: #000000;
@@ -2732,13 +2740,13 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 113, assets/sass/custom/pages/_project-archive.scss */
+/* line 118, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .hover-content h3 a {
   color: #000000 !important;
 }
 
-/* line 119, assets/sass/custom/pages/_project-archive.scss */
+/* line 124, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon {
   border-color: #ce1d39 !important;
@@ -2747,32 +2755,32 @@ header .site-logo img {
   margin: 0;
 }
 
-/* line 126, assets/sass/custom/pages/_project-archive.scss */
+/* line 131, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon span:before {
   transition: none !important;
 }
 
-/* line 133, assets/sass/custom/pages/_project-archive.scss */
+/* line 138, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance .simple-icon:hover span:before {
   color: inherit !important;
 }
 
-/* line 141, assets/sass/custom/pages/_project-archive.scss */
+/* line 146, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content {
   background: #dbdbdb;
   opacity: 1;
 }
 
-/* line 145, assets/sass/custom/pages/_project-archive.scss */
+/* line 150, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content:hover {
   background: #ce1d39;
 }
 
-/* line 149, assets/sass/custom/pages/_project-archive.scss */
+/* line 154, assets/sass/custom/pages/_project-archive.scss */
 
 .archive .projects-item-instance.simple-scale-hover .hover-content > * {
   -webkit-transform: scale(1);
@@ -2846,19 +2854,23 @@ header .site-logo img {
 
 .single .related-projects .cherry-projects-wrapper .projects-list .featured-image .wp-image {
   display: block;
-  height: 200px;
   overflow: hidden;
+  padding-top: 100%;
+  position: relative;
 }
 
-@media only screen and (min-width: 1200px) {
-  /* line 66, assets/sass/custom/pages/_project-single.scss */
+/* line 72, assets/sass/custom/pages/_project-single.scss */
 
-  .single .related-projects .cherry-projects-wrapper .projects-list .featured-image .wp-image {
-    height: 300px;
-  }
+.single .related-projects .cherry-projects-wrapper .projects-list .featured-image .wp-image img {
+  left: 0;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
 }
 
-/* line 77, assets/sass/custom/pages/_project-single.scss */
+/* line 82, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .cherry-projects-wrapper .projects-list .permalink {
   border-radius: 0;
@@ -2867,7 +2879,7 @@ header .site-logo img {
   margin-left: 20px;
 }
 
-/* line 88, assets/sass/custom/pages/_project-single.scss */
+/* line 93, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .projects-item-instance .hover-content > * {
   font-size: 26px;
@@ -2878,98 +2890,98 @@ header .site-logo img {
   transform: none;
 }
 
-/* line 98, assets/sass/custom/pages/_project-single.scss */
+/* line 103, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .projects-item-instance.simple-scale-hover .hover-content {
   background: none;
   opacity: 1;
 }
 
-/* line 102, assets/sass/custom/pages/_project-single.scss */
+/* line 107, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .projects-item-instance.simple-scale-hover .hover-content:hover {
   background: rgba(120, 190, 223, 0.9);
 }
 
-/* line 106, assets/sass/custom/pages/_project-single.scss */
+/* line 111, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .projects-item-instance.simple-scale-hover .hover-content > * {
   transition: all .3s ease-out;
 }
 
-/* line 109, assets/sass/custom/pages/_project-single.scss */
+/* line 114, assets/sass/custom/pages/_project-single.scss */
 
 .single .related-projects .projects-item-instance.simple-scale-hover .hover-content > *:nth-child(1),
 .single .related-projects .projects-item-instance.simple-scale-hover .hover-content > *:nth-child(2) {
   transition-delay: 0s;
 }
 
-/* line 123, assets/sass/custom/pages/_project-single.scss */
+/* line 128, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_column_1_3 .tm_pb_slider .tm_pb_container {
   min-height: 340px !important;
 }
 
-/* line 131, assets/sass/custom/pages/_project-single.scss */
+/* line 136, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slider:hover .tm-pb-arrow-prev {
   left: 10px !important;
 }
 
-/* line 135, assets/sass/custom/pages/_project-single.scss */
+/* line 140, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slider:hover .tm-pb-arrow-next {
   right: 10px !important;
 }
 
-/* line 141, assets/sass/custom/pages/_project-single.scss */
+/* line 146, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide {
   opacity: 1 !important;
   padding: 0;
 }
 
-/* line 148, assets/sass/custom/pages/_project-single.scss */
+/* line 153, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide:first-child .tm_pb_slide_image img.active {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 157, assets/sass/custom/pages/_project-single.scss */
+/* line 162, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-active-slide .tm_pb_slide_image {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 162, assets/sass/custom/pages/_project-single.scss */
+/* line 167, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image {
   margin: 0;
   width: 100%;
 }
 
-/* line 166, assets/sass/custom/pages/_project-single.scss */
+/* line 171, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image img {
   max-height: none !important;
 }
 
-/* line 172, assets/sass/custom/pages/_project-single.scss */
+/* line 177, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_with_image .tm_pb_slide_description {
   float: none;
 }
 
-/* line 178, assets/sass/custom/pages/_project-single.scss */
+/* line 183, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_animation_left.tm-animated {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 183, assets/sass/custom/pages/_project-single.scss */
+/* line 188, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next {
@@ -2981,7 +2993,7 @@ header .site-logo img {
   margin-top: -15px;
 }
 
-/* line 192, assets/sass/custom/pages/_project-single.scss */
+/* line 197, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev::before,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next::before {
@@ -2989,7 +3001,7 @@ header .site-logo img {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 197, assets/sass/custom/pages/_project-single.scss */
+/* line 202, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover {
@@ -2997,7 +3009,7 @@ header .site-logo img {
   color: #313131;
 }
 
-/* line 201, assets/sass/custom/pages/_project-single.scss */
+/* line 206, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover::before,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover::before {

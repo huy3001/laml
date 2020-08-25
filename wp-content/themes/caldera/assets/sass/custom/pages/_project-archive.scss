@@ -88,12 +88,17 @@
             .wp-image {
                 cursor: auto;
                 display: block;
-                height: 200px;
                 overflow: hidden;
+                padding-top: 100%;
                 pointer-events: none;
+                position: relative;
 
-                @include bp(min-width, $xl) {
-                    height: 300px;
+                img {
+                    left: 0;
+                    height: 100%;
+                    object-fit: contain;
+                    position: absolute;
+                    top: 0;
                 }
             }
         }
