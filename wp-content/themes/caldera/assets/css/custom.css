@@ -968,6 +968,12 @@ header .site-logo img {
   color: #cf1d39 !important;
 }
 
+/* line 56, assets/sass/custom/layout/_navigation.scss */
+
+#responsive-menu-pro-container #responsive-menu-pro-wrapper {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 /* line 2, assets/sass/custom/pages/_cms.scss */
 
 .cms-page-content {
