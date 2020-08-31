@@ -25,6 +25,7 @@ header {
         
                         .menu {
                             background: rgba(255, 255, 255, 0.5);
+                            box-shadow: 1px 1px 5px $color-black-3;
                             display: block;
                             max-height: 100vh;
                             height: 100%;
@@ -45,14 +46,14 @@ header {
                                 background: rgba(255, 255, 255, 0.5);
                                 
                                 a {
-                                    color: $color-red;
+                                    color: $color-black;
                                     padding: 9px 5%;
                                 }
                             }
 
                             > .menu-item {
                                 > a {
-                                    color: $color-red;
+                                    color: $color-black;
                                     padding: 7px 5%;
                                     text-transform: none;
                                 }
@@ -63,7 +64,7 @@ header {
                                     width: 40px;
 
                                     &:before {
-                                        color: $color-red;
+                                        color: $color-black;
                                     }
                                 }
                                 
