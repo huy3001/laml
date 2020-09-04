@@ -618,7 +618,7 @@ header.site-header.centered .header-container {
   /* line 26, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     display: block;
     max-height: 100vh;
@@ -641,20 +641,14 @@ header.site-header.centered .header-container {
     transform: translateX(0);
   }
 
-  /* line 45, assets/sass/custom/layout/_header.scss */
-
-  header.site-header.centered .header_caption .main-navigation .menu li {
-    background: rgba(255, 255, 255, 0.5);
-  }
-
-  /* line 48, assets/sass/custom/layout/_header.scss */
+  /* line 46, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu li a {
     color: #000000;
     padding: 9px 5%;
   }
 
-  /* line 55, assets/sass/custom/layout/_header.scss */
+  /* line 53, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu > .menu-item > a {
     color: #000000;
@@ -662,29 +656,28 @@ header.site-header.centered .header-container {
     text-transform: none;
   }
 
-  /* line 61, assets/sass/custom/layout/_header.scss */
+  /* line 59, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu-toggle {
-    background: rgba(255, 255, 255, 0.5);
     height: 40px;
     width: 40px;
   }
 
-  /* line 66, assets/sass/custom/layout/_header.scss */
+  /* line 63, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu-toggle:before {
     color: #000000;
   }
 
-  /* line 71, assets/sass/custom/layout/_header.scss */
+  /* line 68, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .header_caption .main-navigation .menu > .menu-item .sub-menu {
-    background: rgba(255, 255, 255, 0.5);
+    background: transparent;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 80, assets/sass/custom/layout/_header.scss */
+  /* line 77, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .site-branding {
     padding: 0 0 45px;
@@ -692,7 +685,7 @@ header.site-header.centered .header-container {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 80, assets/sass/custom/layout/_header.scss */
+  /* line 77, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .site-branding {
     text-align: left;
@@ -700,21 +693,21 @@ header.site-header.centered .header-container {
 }
 
 @media (min-width: 768px) {
-  /* line 93, assets/sass/custom/layout/_header.scss */
+  /* line 90, assets/sass/custom/layout/_header.scss */
 
   header.site-header.centered .main-navigation > .menu > .menu-item > a {
     margin: 20px 28px;
   }
 }
 
-/* line 104, assets/sass/custom/layout/_header.scss */
+/* line 101, assets/sass/custom/layout/_header.scss */
 
 header .header_caption {
   padding: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 108, assets/sass/custom/layout/_header.scss */
+  /* line 105, assets/sass/custom/layout/_header.scss */
 
   header .site-branding {
     align-self: auto;
@@ -722,14 +715,14 @@ header .header_caption {
   }
 }
 
-/* line 116, assets/sass/custom/layout/_header.scss */
+/* line 113, assets/sass/custom/layout/_header.scss */
 
 header .site-logo img {
   display: block;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 115, assets/sass/custom/layout/_header.scss */
+  /* line 112, assets/sass/custom/layout/_header.scss */
 
   header .site-logo {
     max-width: 160px;
@@ -737,14 +730,14 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 127, assets/sass/custom/layout/_header.scss */
+  /* line 124, assets/sass/custom/layout/_header.scss */
 
   header .main-navigation .menu > li {
     font-size: 18px;
     letter-spacing: 0;
   }
 
-  /* line 132, assets/sass/custom/layout/_header.scss */
+  /* line 129, assets/sass/custom/layout/_header.scss */
 
   header .main-navigation .menu > li:after {
     bottom: 6px;
@@ -752,7 +745,7 @@ header .site-logo img {
 }
 
 @media (min-width: 768px) {
-  /* line 141, assets/sass/custom/layout/_header.scss */
+  /* line 138, assets/sass/custom/layout/_header.scss */
 
   .header-container {
     min-height: 330px;
