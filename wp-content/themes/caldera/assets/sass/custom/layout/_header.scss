@@ -24,7 +24,7 @@ header {
                         text-align: center;
         
                         .menu {
-                            background: rgba(255, 255, 255, 0.5);
+                            background: $color-white-9;
                             box-shadow: 1px 1px 5px $color-black-3;
                             display: block;
                             max-height: 100vh;
@@ -43,8 +43,6 @@ header {
                             }
         
                             li {
-                                background: rgba(255, 255, 255, 0.5);
-                                
                                 a {
                                     color: $color-black;
                                     padding: 9px 5%;
@@ -59,7 +57,6 @@ header {
                                 }
 
                                 .sub-menu-toggle {
-                                    background: rgba(255, 255, 255, 0.5);
                                     height: 40px;
                                     width: 40px;
 
@@ -69,7 +66,7 @@ header {
                                 }
                                 
                                 .sub-menu {
-                                    background: rgba(255, 255, 255, 0.5);
+                                    background: transparent;
                                 }
                             }
                         }
