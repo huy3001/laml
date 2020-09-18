@@ -668,5 +668,12 @@ if ( document.querySelector('.tm_pb_testimonial') ) {
 				itemTarget.text('All Products');
 			}
 		}
+
+		// Fix preview product page
+		var previewUrl = window.location.href;
+		if(previewUrl.includes('post_format')) {
+			var newPreviewUrl = previewUrl.replace('&post_format=standard', '');
+			window.location = newPreviewUrl;
+		}
     })
 }(jQuery));
