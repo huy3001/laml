@@ -146,6 +146,8 @@
             }
 
             .tm_pb_slide {
+                border: 1px solid $color-light-grey;
+                box-shadow: none;
                 opacity: 1 !important;
                 padding: 0;
 
@@ -199,25 +201,24 @@
 
             .tm-pb-arrow-prev,
             .tm-pb-arrow-next {
-                border: 2px solid $color-red;
+                background: none;
+                border: 2px solid $color-night;
                 border-radius: 0;
+                color: $color-night;
                 height: 29px;
                 width: 29px;
                 font-size: 0;
                 margin-top: -15px;
 
                 &::before {
+                    color: $color-night;
                     font-size: 25px;
                     transition: all 0.2s ease-in-out;
                 }
 
                 &:hover {
-                    border-color: $color-night;
-                    color: $color-night;
-
-                    &::before {
-                        color: $color-night;
-                    }
+                    background: none;
+                    opacity: .5;
                 }
             }
         }

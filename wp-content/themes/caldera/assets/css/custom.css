@@ -2933,25 +2933,27 @@ header .site-logo img {
 /* line 148, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide {
+  border: 1px solid #cec4c5;
+  box-shadow: none;
   opacity: 1 !important;
   padding: 0;
 }
 
-/* line 155, assets/sass/custom/pages/_project-single.scss */
+/* line 157, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide:first-child .tm_pb_slide_image img.active {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 164, assets/sass/custom/pages/_project-single.scss */
+/* line 166, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-active-slide .tm_pb_slide_image {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 169, assets/sass/custom/pages/_project-single.scss */
+/* line 171, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image {
   padding-top: 100%;
@@ -2961,7 +2963,7 @@ header .site-logo img {
   width: 100%;
 }
 
-/* line 176, assets/sass/custom/pages/_project-single.scss */
+/* line 178, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_image img {
   height: 100%;
@@ -2974,51 +2976,47 @@ header .site-logo img {
   width: 100%;
 }
 
-/* line 188, assets/sass/custom/pages/_project-single.scss */
+/* line 190, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_slide_with_image .tm_pb_slide_description {
   display: none;
   float: none;
 }
 
-/* line 195, assets/sass/custom/pages/_project-single.scss */
+/* line 197, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm_pb_animation_left.tm-animated {
   -webkit-animation: none;
   animation: none;
 }
 
-/* line 200, assets/sass/custom/pages/_project-single.scss */
+/* line 202, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next {
-  border: 2px solid #cf1d39;
+  background: none;
+  border: 2px solid #313131;
   border-radius: 0;
+  color: #313131;
   height: 29px;
   width: 29px;
   font-size: 0;
   margin-top: -15px;
 }
 
-/* line 209, assets/sass/custom/pages/_project-single.scss */
+/* line 213, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev::before,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next::before {
+  color: #313131;
   font-size: 25px;
   transition: all 0.2s ease-in-out;
 }
 
-/* line 214, assets/sass/custom/pages/_project-single.scss */
+/* line 219, assets/sass/custom/pages/_project-single.scss */
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover {
-  border-color: #313131;
-  color: #313131;
-}
-
-/* line 218, assets/sass/custom/pages/_project-single.scss */
-
-.single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover::before,
-.single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover::before {
-  color: #313131;
+  background: none;
+  opacity: .5;
 }
