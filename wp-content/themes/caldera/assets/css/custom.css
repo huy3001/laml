@@ -2994,7 +2994,7 @@ header .site-logo img {
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next {
-  background: none;
+  background: rgba(255, 255, 255, 0.9);
   border: 2px solid #313131;
   border-radius: 0;
   color: #313131;
@@ -3017,6 +3017,14 @@ header .site-logo img {
 
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover,
 .single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover {
-  background: none;
-  opacity: .5;
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(49, 49, 49, 0.5);
+  color: rgba(49, 49, 49, 0.5);
+}
+
+/* line 224, assets/sass/custom/pages/_project-single.scss */
+
+.single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-prev:hover::before,
+.single.tm_pb_builder #tm_builder_outer_content .tm-pb-arrow-next:hover::before {
+  color: rgba(49, 49, 49, 0.5);
 }

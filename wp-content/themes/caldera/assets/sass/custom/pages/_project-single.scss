@@ -201,7 +201,7 @@
 
             .tm-pb-arrow-prev,
             .tm-pb-arrow-next {
-                background: none;
+                background: $color-white-9;
                 border: 2px solid $color-night;
                 border-radius: 0;
                 color: $color-night;
@@ -217,8 +217,13 @@
                 }
 
                 &:hover {
-                    background: none;
-                    opacity: .5;
+                    background: $color-white-9;
+                    border-color: $color-night-5;
+                    color: $color-night-5;
+
+                    &::before {
+                        color: $color-night-5;
+                    }
                 }
             }
         }
